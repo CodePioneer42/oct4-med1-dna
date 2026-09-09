@@ -1,0 +1,63 @@
+{
+  "exclusion_audit": {
+    "assembled_exclusions": 172810,
+    "custom_nonbonded_force_exclusions": [
+      172810,
+      172810
+    ],
+    "med1_exclusions_per_chain": {
+      "after_filter_refresh": 3651,
+      "after_split": 3651,
+      "before_filter_refresh": 6387,
+      "cuts_after_residue": [],
+      "exclusions_removed_by_split": 0,
+      "fragments": 1,
+      "interactions_removed_by_split": {
+        "native_pairs": 0,
+        "protein_angles": 0,
+        "protein_bonds": 0,
+        "protein_dihedrals": 0
+      },
+      "stale_removed": 2736
+    },
+    "med1_physical_chains": 30,
+    "med1_sequence_equivalents": 30,
+    "particles": 72630
+  },
+  "mdtraj_version": "1.11.1",
+  "numpy_version": "2.4.6",
+  "openabc_version": "1.0.7",
+  "openmm_version": "8.3.1.dev-6e13f13",
+  "pandas_version": "2.3.3",
+  "platform": "CUDA",
+  "precision": "mixed",
+  "run_parameters": {
+    "friction_per_ps": 0.01,
+    "max_temperature_k": 1000.0,
+    "output_interval": 100000,
+    "portable_state_interval": 1000000,
+    "safety_interval": 100000,
+    "target_simulation_time_ns": 5000.0,
+    "timestep_fs": 10.0,
+    "total_steps": 500000000
+  },
+  "start_pdb_sha256": "9baa63aa8a46b9755e5e75b09a1de5a05cf829f79f3a00d39b9ad55bd9a63e39",
+  "system_xml_sha256": "a5ae902bddc16abb7e03991c87355888664e12c7042734f14189c3c89058f978",
+  "task": {
+    "box_nm": 94.768887,
+    "coord_seed": 2026080306,
+    "med1_fragments": 1,
+    "n_dna": 0,
+    "n_med1": 30,
+    "n_oct4": 70,
+    "output_interval": 100000,
+    "parent_task": "",
+    "replicate": "work-1",
+    "seed": 2026081206,
+    "series_tags": "composition_core",
+    "system": "M30O70",
+    "task_id": "work-1/M30O70",
+    "tier": "core",
+    "total_steps": 500000000
+  }
+}

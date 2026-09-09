@@ -1,0 +1,57 @@
+{
+  "exclusion_audit": {
+    "assembled_exclusions": 115400,
+    "custom_nonbonded_force_exclusions": [
+      115400,
+      115400
+    ],
+    "med1_exclusions_per_chain": {
+      "after_filter_refresh": 3651,
+      "after_split": 3404,
+      "before_filter_refresh": 6387,
+      "cuts_after_residue": [
+        354,
+        807,
+        1171
+      ],
+      "exclusions_removed_by_split": 247,
+      "fragments": 4,
+      "interactions_removed_by_split": {
+        "native_pairs": 244,
+        "protein_angles": 0,
+        "protein_bonds": 3,
+        "protein_dihedrals": 0
+      },
+      "stale_removed": 2736
+    },
+    "med1_physical_chains": 40,
+    "med1_sequence_equivalents": 10,
+    "particles": 48210
+  },
+  "mdtraj_version": "1.11.1",
+  "numpy_version": "2.4.6",
+  "openabc_version": "1.0.7",
+  "openmm_version": "8.3.1.dev-6e13f13",
+  "pandas_version": "2.3.3",
+  "platform": "CUDA",
+  "precision": "mixed",
+  "start_pdb_sha256": "a114cc4d073caa2dc7a0364f3dbe0a70f4589799173a15f0f0557be1ce9a200b",
+  "system_xml_sha256": "5a624ba76fa0b289b2d00ca167be66f4879682a0e6e2d3a239f36f1640b6361d",
+  "task": {
+    "box_nm": 82.668389,
+    "coord_seed": 2026080303,
+    "med1_fragments": 4,
+    "n_dna": 0,
+    "n_med1": 10,
+    "n_oct4": 90,
+    "output_interval": 100000,
+    "parent_task": "work-1/M10O90",
+    "replicate": "work-1",
+    "seed": 2026081203,
+    "series_tags": "chain_length",
+    "system": "M10O90-S4",
+    "task_id": "work-1/M10O90-S4",
+    "tier": "core",
+    "total_steps": 500000000
+  }
+}

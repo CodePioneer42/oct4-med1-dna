@@ -1,0 +1,4 @@
+# Preserve original fixed-column structure files and upstream source bytes.
+simulation/inputs/*.pdb -text -diff
+simulation/OpenABC/** -text
+

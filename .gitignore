@@ -1,0 +1,25 @@
+# Raw trajectories, generated simulation outputs, and local environments
+*.dcd
+*.xtc
+*.trr
+*.nc
+*.chk
+*.cpt
+*.log
+*.out
+*.pyc
+__pycache__/
+.venv/
+.env
+.env.*
+generated/
+data/dna_only/
+analysis/outputs/cache/
+analysis/outputs/reports/
+simulation/tasks/**/start.pdb
+simulation/tasks/**/final.pdb
+simulation/tasks/**/system.xml
+simulation/tasks/**/restart_state.xml
+simulation/tasks/**/DONE
+.DS_Store
+

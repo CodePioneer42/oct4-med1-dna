@@ -1,0 +1,17 @@
+name: oct4-med1-dna
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - openmm=8.3.1
+  - mdanalysis=2.10.0
+  - mdtraj=1.11.1
+  - numpy=2.4.6
+  - pandas=2.3.3
+  - scipy=1.17.1
+  - matplotlib=3.10.9
+  - pip
+# OpenABC 1.0.7 is loaded from simulation/OpenABC, not the globally installed
+# package. Production recorded OpenMM 8.3.1.dev-6e13f13: see the runtime table.
+# This environment specification is a reconstruction, not a solved lockfile.
+

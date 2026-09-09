@@ -1,0 +1,52 @@
+task_id	system	replicate	tier	series_tags	n_med1	n_oct4	n_dna	med1_fragments	box_nm	coord_seed	seed	total_steps	output_interval	parent_task	coordinate_source
+work/M0O100	M0O100	work	core	composition_core,dna_addition	0	100	0	1	75.000000	2026080201	2026081101	500000000	100000		random_insertion
+work/M5O95	M5O95	work	core	composition_core	5	95	0	1	79.020236	2026080202	2026081102	500000000	100000		random_insertion
+work/M10O90	M10O90	work	core	composition_core,dna_addition,chain_length	10	90	0	1	82.668389	2026080203	2026081103	500000000	100000		random_insertion
+work/M15O85	M15O85	work	core	composition_core	15	85	0	1	86.020182	2026080204	2026081104	500000000	100000		random_insertion
+work/M20O80	M20O80	work	core	composition_core,dna_addition	20	80	0	1	89.129336	2026080205	2026081105	500000000	100000		random_insertion
+work/M30O70	M30O70	work	core	composition_core	30	70	0	1	94.768887	2026080206	2026081106	500000000	100000		random_insertion
+work/M0O100D1	M0O100D1	work	core	dna_addition	0	100	1	1	75.000000	2026130201	2026081101	500000000	100000	work/M0O100	added_DNA_to:work/M0O100
+work/M10O90D1	M10O90D1	work	core	dna_addition,chain_length	10	90	1	1	82.668389	2026130203	2026081103	500000000	100000	work/M10O90	added_DNA_to:work/M10O90
+work/M20O80D1	M20O80D1	work	core	dna_addition	20	80	1	1	89.129336	2026130205	2026081105	500000000	100000	work/M20O80	added_DNA_to:work/M20O80
+work/M50O0	M50O0	work	core	pure_med1,dna_addition	50	0	0	1	75.000000	2026080207	2026081107	500000000	100000		random_insertion
+work/M50O0D1	M50O0D1	work	core	dna_addition,pure_med1	50	0	1	1	75.000000	2026130207	2026081107	500000000	100000	work/M50O0	added_DNA_to:work/M50O0
+work/M10O90-S2	M10O90-S2	work	core	chain_length	10	90	0	2	82.668389	2026080203	2026081103	500000000	100000	work/M10O90	exact_copy_of:work/M10O90
+work/M10O90D1-S2	M10O90D1-S2	work	core	chain_length	10	90	1	2	82.668389	2026130203	2026081103	500000000	100000	work/M10O90D1	exact_copy_of:work/M10O90D1
+work/M10O90-S4	M10O90-S4	work	core	chain_length	10	90	0	4	82.668389	2026080203	2026081103	500000000	100000	work/M10O90	exact_copy_of:work/M10O90
+work/M10O90D1-S4	M10O90D1-S4	work	core	chain_length	10	90	1	4	82.668389	2026130203	2026081103	500000000	100000	work/M10O90D1	exact_copy_of:work/M10O90D1
+work-1/M0O100	M0O100	work-1	core	composition_core,dna_addition	0	100	0	1	75.000000	2026080301	2026081201	500000000	100000		random_insertion
+work-1/M5O95	M5O95	work-1	core	composition_core	5	95	0	1	79.020236	2026080302	2026081202	500000000	100000		random_insertion
+work-1/M10O90	M10O90	work-1	core	composition_core,dna_addition,chain_length	10	90	0	1	82.668389	2026080303	2026081203	500000000	100000		random_insertion
+work-1/M15O85	M15O85	work-1	core	composition_core	15	85	0	1	86.020182	2026080304	2026081204	500000000	100000		random_insertion
+work-1/M20O80	M20O80	work-1	core	composition_core,dna_addition	20	80	0	1	89.129336	2026080305	2026081205	500000000	100000		random_insertion
+work-1/M30O70	M30O70	work-1	core	composition_core	30	70	0	1	94.768887	2026080306	2026081206	500000000	100000		random_insertion
+work-1/M0O100D1	M0O100D1	work-1	core	dna_addition	0	100	1	1	75.000000	2026130301	2026081201	500000000	100000	work-1/M0O100	added_DNA_to:work-1/M0O100
+work-1/M10O90D1	M10O90D1	work-1	core	dna_addition,chain_length	10	90	1	1	82.668389	2026130303	2026081203	500000000	100000	work-1/M10O90	added_DNA_to:work-1/M10O90
+work-1/M20O80D1	M20O80D1	work-1	core	dna_addition	20	80	1	1	89.129336	2026130305	2026081205	500000000	100000	work-1/M20O80	added_DNA_to:work-1/M20O80
+work-1/M50O0	M50O0	work-1	core	pure_med1,dna_addition	50	0	0	1	75.000000	2026080307	2026081207	500000000	100000		random_insertion
+work-1/M50O0D1	M50O0D1	work-1	core	dna_addition,pure_med1	50	0	1	1	75.000000	2026130307	2026081207	500000000	100000	work-1/M50O0	added_DNA_to:work-1/M50O0
+work-1/M10O90-S2	M10O90-S2	work-1	core	chain_length	10	90	0	2	82.668389	2026080303	2026081203	500000000	100000	work-1/M10O90	exact_copy_of:work-1/M10O90
+work-1/M10O90D1-S2	M10O90D1-S2	work-1	core	chain_length	10	90	1	2	82.668389	2026130303	2026081203	500000000	100000	work-1/M10O90D1	exact_copy_of:work-1/M10O90D1
+work-1/M10O90-S4	M10O90-S4	work-1	core	chain_length	10	90	0	4	82.668389	2026080303	2026081203	500000000	100000	work-1/M10O90	exact_copy_of:work-1/M10O90
+work-1/M10O90D1-S4	M10O90D1-S4	work-1	core	chain_length	10	90	1	4	82.668389	2026130303	2026081203	500000000	100000	work-1/M10O90D1	exact_copy_of:work-1/M10O90D1
+work-2/M0O100	M0O100	work-2	core	composition_core,dna_addition	0	100	0	1	75.000000	2026080401	2026081301	500000000	100000		random_insertion
+work-2/M5O95	M5O95	work-2	core	composition_core	5	95	0	1	79.020236	2026080402	2026081302	500000000	100000		random_insertion
+work-2/M10O90	M10O90	work-2	core	composition_core,dna_addition,chain_length	10	90	0	1	82.668389	2026080403	2026081303	500000000	100000		random_insertion
+work-2/M15O85	M15O85	work-2	core	composition_core	15	85	0	1	86.020182	2026080404	2026081304	500000000	100000		random_insertion
+work-2/M20O80	M20O80	work-2	core	composition_core,dna_addition	20	80	0	1	89.129336	2026080405	2026081305	500000000	100000		random_insertion
+work-2/M30O70	M30O70	work-2	core	composition_core	30	70	0	1	94.768887	2026080406	2026081306	500000000	100000		random_insertion
+work-2/M0O100D1	M0O100D1	work-2	core	dna_addition	0	100	1	1	75.000000	2026130401	2026081301	500000000	100000	work-2/M0O100	added_DNA_to:work-2/M0O100
+work-2/M10O90D1	M10O90D1	work-2	core	dna_addition,chain_length	10	90	1	1	82.668389	2026130403	2026081303	500000000	100000	work-2/M10O90	added_DNA_to:work-2/M10O90
+work-2/M20O80D1	M20O80D1	work-2	core	dna_addition	20	80	1	1	89.129336	2026130405	2026081305	500000000	100000	work-2/M20O80	added_DNA_to:work-2/M20O80
+work-2/M50O0	M50O0	work-2	core	pure_med1,dna_addition	50	0	0	1	75.000000	2026080407	2026081307	500000000	100000		random_insertion
+work-2/M50O0D1	M50O0D1	work-2	core	dna_addition,pure_med1	50	0	1	1	75.000000	2026130407	2026081307	500000000	100000	work-2/M50O0	added_DNA_to:work-2/M50O0
+work-2/M10O90-S2	M10O90-S2	work-2	core	chain_length	10	90	0	2	82.668389	2026080403	2026081303	500000000	100000	work-2/M10O90	exact_copy_of:work-2/M10O90
+work-2/M10O90D1-S2	M10O90D1-S2	work-2	core	chain_length	10	90	1	2	82.668389	2026130403	2026081303	500000000	100000	work-2/M10O90D1	exact_copy_of:work-2/M10O90D1
+work-2/M10O90-S4	M10O90-S4	work-2	core	chain_length	10	90	0	4	82.668389	2026080403	2026081303	500000000	100000	work-2/M10O90	exact_copy_of:work-2/M10O90
+work-2/M10O90D1-S4	M10O90D1-S4	work-2	core	chain_length	10	90	1	4	82.668389	2026130403	2026081303	500000000	100000	work-2/M10O90D1	exact_copy_of:work-2/M10O90D1
+work/M25O75	M25O75	work	optional	composition_optional	25	75	0	1	92.035503	2026080208	2026081108	500000000	100000		random_insertion
+work/M50O50	M50O50	work	optional	composition_optional	50	50	0	1	104.381999	2026080209	2026081109	500000000	100000		random_insertion
+work-1/M25O75	M25O75	work-1	optional	composition_optional	25	75	0	1	92.035503	2026080308	2026081208	500000000	100000		random_insertion
+work-1/M50O50	M50O50	work-1	optional	composition_optional	50	50	0	1	104.381999	2026080309	2026081209	500000000	100000		random_insertion
+work-2/M25O75	M25O75	work-2	optional	composition_optional	25	75	0	1	92.035503	2026080408	2026081308	500000000	100000		random_insertion
+work-2/M50O50	M50O50	work-2	optional	composition_optional	50	50	0	1	104.381999	2026080409	2026081309	500000000	100000		random_insertion

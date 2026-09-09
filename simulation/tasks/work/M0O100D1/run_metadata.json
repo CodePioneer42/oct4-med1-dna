@@ -1,0 +1,39 @@
+{
+  "exclusion_audit": {
+    "assembled_exclusions": 91194,
+    "custom_nonbonded_force_exclusions": [
+      91194,
+      91194
+    ],
+    "med1_exclusions_per_chain": null,
+    "med1_physical_chains": 0,
+    "med1_sequence_equivalents": 0,
+    "particles": 36400
+  },
+  "mdtraj_version": "1.11.1",
+  "numpy_version": "2.4.6",
+  "openabc_version": "1.0.7",
+  "openmm_version": "8.3.1.dev-6e13f13",
+  "pandas_version": "2.3.3",
+  "platform": "CUDA",
+  "precision": "mixed",
+  "start_pdb_sha256": "287df1d1d6cf13cbe701abc0945d7c26964a0b7888338bdd4ec39e19bbbb971a",
+  "system_xml_sha256": "7d1ea0221b7f4318e903c164d44e0d552669109bb5f9a400722eeb92af7b60b1",
+  "task": {
+    "box_nm": 75.0,
+    "coord_seed": 2026130201,
+    "med1_fragments": 1,
+    "n_dna": 1,
+    "n_med1": 0,
+    "n_oct4": 100,
+    "output_interval": 100000,
+    "parent_task": "work/M0O100",
+    "replicate": "work",
+    "seed": 2026081101,
+    "series_tags": "dna_addition",
+    "system": "M0O100D1",
+    "task_id": "work/M0O100D1",
+    "tier": "core",
+    "total_steps": 500000000
+  }
+}

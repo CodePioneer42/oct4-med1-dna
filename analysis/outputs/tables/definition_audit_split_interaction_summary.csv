@@ -1,0 +1,9 @@
+variant,interaction_type,removed_count
+Split-2,protein_bonds,1
+Split-2,protein_angles,0
+Split-2,protein_dihedrals,0
+Split-2,native_pairs,0
+Split-4,protein_bonds,3
+Split-4,protein_angles,0
+Split-4,protein_dihedrals,0
+Split-4,native_pairs,244
