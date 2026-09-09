@@ -3,6 +3,8 @@
 Code accompanying **MED1 chain continuity supports an extended DNA-linked
 protein layer** (Jiahu Tang and Xiakun Chu).
 
+Public code repository: https://github.com/CodePioneer42/oct4-med1-dna
+
 This release separates the corrected coarse-grained simulation workflow from
 historical analysis and manuscript drafting files. It contains the current
 Fig. 1–4 and Supporting Fig. S1–S8 rendering code, the small derived tables
@@ -126,4 +128,3 @@ redistribution license selected yet; **do not assume that OpenABC's license
 applies to the entire repository**. Its vendored source retains
 [the upstream MIT license](simulation/OpenABC/LICENSE). See
 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
-

@@ -13,6 +13,7 @@ Date: 2026-09-09. No new production MD simulation was started.
 | Comparison to current archived PNG figures | All 12 regenerated images have identical dimensions and identical decoded pixels |
 | Missing-trajectory guard | Full rendering stops with an explicit archive-required message when raw inputs are absent |
 | Table-only rendering without any trajectory path | S2, S3, S5, and S6 generated successfully |
+| Dense-Rg helper extraction | All 18 current-condition trajectory means match the previously derived summaries exactly |
 
 The plotting test used the existing local trajectories only as read-only
 inputs, with new figures written to `generated/`. Original figures and
