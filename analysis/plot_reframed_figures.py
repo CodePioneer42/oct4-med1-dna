@@ -14,11 +14,9 @@ from matplotlib.font_manager import FontProperties
 from matplotlib.colors import to_rgba
 from matplotlib.lines import Line2D
 from matplotlib.legend import Legend
-from matplotlib.offsetbox import AnnotationBbox, DrawingArea
-from matplotlib.patches import FancyBboxPatch, Patch, PathPatch
+from matplotlib.patches import FancyBboxPatch, Patch
 from matplotlib.text import Text
-from matplotlib.textpath import TextPath
-from matplotlib.transforms import Affine2D, Bbox
+from matplotlib.transforms import Bbox
 from scipy.spatial import cKDTree
 
 import run_balanced_analysis as base
@@ -1557,58 +1555,13 @@ def plot_figure3(tables: dict[str, pd.DataFrame], out: Path) -> pd.DataFrame:
 
 
 def draw_split2_med1_inset(ax: plt.Axes) -> None:
-    """Show the Split-2 MED1 sequence and a vector scissors at its cut site."""
-    ax.set_xlim(0, 1)
-    ax.set_ylim(0, 1)
-    ax.set_facecolor("white")
-    ax.set_xticks([])
-    ax.set_yticks([])
-    for spine in ax.spines.values():
-        spine.set_color("#B8BEC7")
-        spine.set_linewidth(0.55)
+    """Reuse the TOC Split-2 MED1 schematic with readable residue ranges."""
+    # Import at drawing time: the TOC also uses the main-figure snapshot helpers.
+    from plot_academic_toc import sequence_bar
 
-    ax.text(
-        0.035,
-        0.76,
-        "Split-2",
-        ha="left",
-        va="center",
-        fontsize=7.0,
-        fontweight="bold",
-        color="#333333",
-    )
-    colors = MED1_REGION_COLORS
-    left, right = 0.035, 0.965
-    split_x = left + (right - left) * 807 / base.MED1_LENGTH
-    gap = 0.018
-    y = 0.38
-    ax.plot([left, split_x - gap], [y, y], color="#B8BEC7", lw=4.2, solid_capstyle="butt", zorder=1)
-    ax.plot([split_x + gap, right], [y, y], color="#B8BEC7", lw=4.2, solid_capstyle="butt", zorder=1)
-    scissors = TextPath((0, 0), "✂", size=12, prop=FontProperties(family="DejaVu Sans"))
-    scissors = Affine2D().rotate_deg(-90).transform_path(scissors)
-    bounds = scissors.get_extents()
-    scissors = Affine2D().translate(-bounds.x0, -bounds.y0).transform_path(scissors)
-    drawing = DrawingArea(bounds.width, bounds.height)
-    drawing.add_artist(PathPatch(scissors, facecolor="#222222", edgecolor="none"))
-    icon = AnnotationBbox(drawing, (split_x, y + 0.08), xycoords="data",
-                         xybox=(0, 1), boxcoords="offset points",
-                         box_alignment=(0.5, 0), frameon=False, pad=0, zorder=4)
-    icon.set_gid("split-scissors")
-    ax.add_artist(icon)
-    for (start, stop), color in zip(legacy.MED1_NATIVE_REGIONS, colors):
-        x_start = left + (right - left) * (start - 1) / (base.MED1_LENGTH - 1)
-        x_stop = left + (right - left) * (stop - 1) / (base.MED1_LENGTH - 1)
-        ax.add_patch(
-            plt.Rectangle(
-                (x_start, y - 0.08),
-                max(x_stop - x_start, 0.008),
-                0.16,
-                facecolor=color,
-                edgecolor="black",
-                linewidth=0.35,
-                zorder=2,
-            )
-        )
+    sequence_bar(ax, "MED1", split=True, label_size=7.4)
+    ax.text(base.MED1_LENGTH / 2, 1.02, "Split-2 MED1", ha="center", va="bottom",
+            fontsize=7.4, fontweight="bold", color="#333333")
 
 
 def plot_split_radial_profiles(ax: plt.Axes, histogram: pd.DataFrame) -> None:
@@ -1729,7 +1682,7 @@ def plot_split_neighbor_counts(
         handlelength=1.2,
         handletextpad=0.35,
     )
-    inset = ax.inset_axes([0.37, 0.70, 0.60, 0.25], zorder=8)
+    inset = ax.inset_axes([0.36, 0.69, 0.61, 0.22], zorder=8)
     draw_split2_med1_inset(inset)
     draw_panel_label(ax, "A", x=-0.17)
 

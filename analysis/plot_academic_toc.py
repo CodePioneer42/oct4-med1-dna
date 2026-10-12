@@ -10,7 +10,7 @@ import plot_reframed_figures as mainfig
 from publication_style import COLORS, MED1_REGIONS, OCT4_REGIONS, DNA_SNAPSHOT_COLOR
 
 
-def sequence_bar(ax, protein, split=False):
+def sequence_bar(ax, protein, split=False, *, label_size=5.5):
     length = 1581 if protein == "MED1" else 360
     regions = mainfig.legacy.MED1_NATIVE_REGIONS if protein == "MED1" else mainfig.legacy.OCT4_NATIVE_REGIONS
     colors = MED1_REGIONS if protein == "MED1" else OCT4_REGIONS
@@ -22,9 +22,9 @@ def sequence_bar(ax, protein, split=False):
     if split:
         ax.add_patch(Rectangle((788, .32), 38, .38, facecolor="white", edgecolor="none", zorder=4))
         ax.annotate("", (807, .67), (807, .82), arrowprops={"arrowstyle": "-|>", "lw": .6, "mutation_scale": 5, "shrinkA": 0, "shrinkB": 0, "color": COLORS["MED1"]})
-        ax.text(length / 2, .16, "1–807 + 808–1581", ha="center", va="top", fontsize=5.5)
+        ax.text(length / 2, .16, "1–807 + 808–1581", ha="center", va="top", fontsize=label_size)
     else:
-        ax.text(length / 2, .16, "1–" + str(length) + " aa", ha="center", va="top", fontsize=5.5)
+        ax.text(length / 2, .16, "1–" + str(length) + " aa", ha="center", va="top", fontsize=label_size)
 
 
 def plot_toc(tables, out):
