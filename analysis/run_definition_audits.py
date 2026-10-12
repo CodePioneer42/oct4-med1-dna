@@ -1,20 +1,15 @@
 #!/usr/bin/env python3
-"""Audit membership, graph-mask, and split-topology effects.
+"""Audit membership definitions and covalent graph masks.
 
-This analysis is deliberately separate from the publication cache.  It tests
-whether Full/Split radial trends survive fixed membership definitions, applies
-all three covalent block masks to every coordinate ensemble, and records every
-interaction/exclusion removed by the MED1 split construction.
+Test whether Full/Split radial trends survive fixed membership definitions
+and apply all three covalent block masks to every coordinate ensemble.
 """
 
 from __future__ import annotations
 
 import argparse
-import copy
 import json
 from pathlib import Path
-import sys
-import tempfile
 import warnings
 
 import MDAnalysis as mda
@@ -26,7 +21,7 @@ import run_balanced_analysis as base
 import run_mechanism_extensions as mechanism
 
 
-AUDIT_VERSION = "membership-mask-exclusion-audit-v1"
+AUDIT_VERSION = "membership-mask-exclusion-audit-v2-unified-1000frames"
 CHAIN_SYSTEMS = [
     "M10O90",
     "M10O90-S2",
@@ -355,7 +350,7 @@ def analyze_task(
     maps = mechanism.fixed_resolution_maps(task, molecules)
     rows: list[dict[str, object]] = []
 
-    start_universe = mda.Universe(str(task.path / "start.pdb"))
+    start_universe = mda.Universe(str(task.path / "start.pdb"), topology_format="PDB")
     initial = {
         "system": task.system,
         "replicate": task.replicate,
@@ -374,7 +369,7 @@ def analyze_task(
     rows.append(initial)
 
     universe = mda.Universe(
-        str(task.path / "start.pdb"), str(task.path / "output.dcd")
+        str(task.path / "start.pdb"), str(task.path / "output.dcd"), topology_format="PDB", format="DCD"
     )
     for frame in range(base.PRODUCTION_START, base.PRODUCTION_END + 1, base.STRIDE):
         universe.trajectory[frame - 1]
@@ -548,160 +543,16 @@ def summarize(framewise: pd.DataFrame) -> dict[str, pd.DataFrame]:
     }
 
 
-def retained_region_label(residue_one_based: int) -> str:
-    for label, start, stop in [
-        ("M1", 77, 232),
-        ("M2", 252, 274),
-        ("M3", 287, 349),
-        ("M4", 361, 518),
-    ]:
-        if start <= residue_one_based <= stop:
-            return label
-    return "unrestrained"
 
 
-def interaction_endpoints(table: pd.DataFrame) -> list[str]:
-    return [
-        column
-        for column in ("a1", "a2", "a3", "a4")
-        if column in table.columns
-    ]
 
 
-def exclusion_sources(parser: object) -> dict[tuple[int, int], set[str]]:
-    sources: dict[tuple[int, int], set[str]] = {}
-    endpoint_columns = {
-        "protein_bonds": ("a1", "a2"),
-        "protein_angles": ("a1", "a3"),
-        "protein_dihedrals": ("a1", "a4"),
-        "native_pairs": ("a1", "a2"),
-    }
-    for interaction_type, columns in endpoint_columns.items():
-        table = getattr(parser, interaction_type)
-        for row in table.itertuples(index=False):
-            pair = tuple(sorted((int(getattr(row, columns[0])), int(getattr(row, columns[1])))))
-            sources.setdefault(pair, set()).add(interaction_type)
-    return sources
 
 
-def audit_split_topology(package_root: Path) -> dict[str, pd.DataFrame]:
-    sys.path.insert(0, str(package_root))
-    from common import run_sim
-
-    with tempfile.TemporaryDirectory(prefix="med1_definition_audit_") as scratch:
-        full_parser, full_audit = run_sim.build_med1_parser(Path(scratch), 1)
-    source_map = exclusion_sources(full_parser)
-    full_exclusions = {
-        tuple(sorted((int(row.a1), int(row.a2))))
-        for row in full_parser.exclusions.itertuples(index=False)
-    }
-    detail_rows: list[dict[str, object]] = []
-    exclusion_rows: list[dict[str, object]] = []
-    summary_rows: list[dict[str, object]] = []
-
-    for fragments, variant in [(2, "Split-2"), (4, "Split-4")]:
-        cuts = tuple(run_sim.MED1_SPLIT_CUTS_AFTER_RESIDUE[fragments])
-        parser = copy.deepcopy(full_parser)
-        removed_counts = run_sim.split_med1_topology(parser, cuts)
-        for interaction_type in (
-            "protein_bonds",
-            "protein_angles",
-            "protein_dihedrals",
-            "native_pairs",
-        ):
-            full_table = getattr(full_parser, interaction_type)
-            columns = interaction_endpoints(full_table)
-            count = 0
-            for row_number, row in enumerate(full_table.itertuples(index=False)):
-                atoms = [int(getattr(row, column)) for column in columns]
-                fragment_ids = [sum(atom >= cut for cut in cuts) for atom in atoms]
-                if len(set(fragment_ids)) == 1:
-                    continue
-                count += 1
-                residues = [atom + 1 for atom in atoms]
-                crossed = [
-                    cut
-                    for cut in cuts
-                    if min(atoms) < cut <= max(atoms)
-                ]
-                detail = {
-                    "variant": variant,
-                    "interaction_type": interaction_type,
-                    "source_row": row_number,
-                    "crossed_cuts_after_residue": ";".join(map(str, crossed)),
-                    "minimum_residue": min(residues),
-                    "maximum_residue": max(residues),
-                    "span_residues": max(residues) - min(residues),
-                }
-                for index, residue in enumerate(residues, start=1):
-                    detail[f"residue_{index}"] = residue
-                    detail[f"region_{index}"] = retained_region_label(residue)
-                detail_rows.append(detail)
-            if count != removed_counts[interaction_type]:
-                raise RuntimeError(
-                    f"{variant}/{interaction_type}: enumerated {count}, "
-                    f"builder removed {removed_counts[interaction_type]}"
-                )
-            summary_rows.append(
-                {
-                    "variant": variant,
-                    "interaction_type": interaction_type,
-                    "removed_count": count,
-                }
-            )
-
-        split_exclusions = {
-            tuple(sorted((int(row.a1), int(row.a2))))
-            for row in parser.exclusions.itertuples(index=False)
-        }
-        for first, second in sorted(full_exclusions - split_exclusions):
-            crossed = [cut for cut in cuts if first < cut <= second]
-            exclusion_rows.append(
-                {
-                    "variant": variant,
-                    "residue_1": first + 1,
-                    "residue_2": second + 1,
-                    "region_1": retained_region_label(first + 1),
-                    "region_2": retained_region_label(second + 1),
-                    "crossed_cuts_after_residue": ";".join(map(str, crossed)),
-                    "source_interaction_types": ";".join(
-                        sorted(source_map.get((first, second), {"unknown"}))
-                    ),
-                }
-            )
-        expected = full_audit["after_split"] - len(full_exclusions - split_exclusions)
-        if len(split_exclusions) != expected:
-            raise RuntimeError(
-                f"{variant}: exclusion reconstruction mismatch "
-                f"{len(split_exclusions)} != {expected}"
-            )
-
-    detail = pd.DataFrame(detail_rows)
-    exclusions = pd.DataFrame(exclusion_rows)
-    summary = pd.DataFrame(summary_rows)
-    cut_summary = (
-        detail.groupby(
-            ["variant", "interaction_type", "crossed_cuts_after_residue"],
-            observed=True,
-            dropna=False,
-        )
-        .size()
-        .rename("removed_count")
-        .reset_index()
-    )
-    native_detail = detail[detail["interaction_type"] == "native_pairs"].copy()
-    return {
-        "split_interaction_summary": summary,
-        "split_interaction_cut_summary": cut_summary,
-        "split_interaction_removed_detail": detail,
-        "split_native_pair_removed_detail": native_detail,
-        "split_exclusion_removed_detail": exclusions,
-    }
 
 
 def validate(
     summaries: dict[str, pd.DataFrame],
-    exclusion_tables: dict[str, pd.DataFrame],
 ) -> pd.DataFrame:
     rows: list[dict[str, object]] = []
 
@@ -717,10 +568,10 @@ def validate(
         .size()
     )
     record(
-        "each trajectory contributes 40 production frames",
+        f"each trajectory contributes {base.N_SAMPLED_FRAMES} production frames",
         sorted(production_counts.unique().tolist()),
-        "[40]",
-        set(production_counts) == {40},
+        str([base.N_SAMPLED_FRAMES]),
+        set(production_counts) == {base.N_SAMPLED_FRAMES},
     )
     additivity = summaries["mask_decomposition_repeat"]["additivity_error"].abs().max()
     record(
@@ -747,25 +598,6 @@ def validate(
         "<=1e-10 nm",
         bool(initial_fixed_range <= 1e-10),
     )
-    cut_summary = exclusion_tables["split_interaction_cut_summary"]
-    split4_native = int(
-        cut_summary[
-            (cut_summary["variant"] == "Split-4")
-            & (cut_summary["interaction_type"] == "native_pairs")
-        ]["removed_count"].sum()
-    )
-    split2_native = int(
-        cut_summary[
-            (cut_summary["variant"] == "Split-2")
-            & (cut_summary["interaction_type"] == "native_pairs")
-        ]["removed_count"].sum()
-    )
-    record(
-        "native-pair removal matches task metadata",
-        {"Split-2": split2_native, "Split-4": split4_native},
-        "{'Split-2': 0, 'Split-4': 244}",
-        split2_native == 0 and split4_native == 244,
-    )
     table = pd.DataFrame(rows)
     if not table["passed"].all():
         raise RuntimeError("Definition audit validation failed:\n" + table.to_string(index=False))
@@ -773,7 +605,7 @@ def validate(
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--package-root", type=Path, default=base.PACKAGE_ROOT)
     parser.add_argument("--data-root", type=Path, default=base.DEFAULT_DATA_ROOT)
     parser.add_argument("--output", type=Path, default=base.DEFAULT_OUTPUT)
@@ -804,10 +636,10 @@ def main() -> None:
         else:
             frames.append(analyze_task(task, cache_dir, recompute=args.recompute))
     framewise = pd.concat(frames, ignore_index=True)
+    base.validate_sampling(framewise.query("frame_scope == 'production'"))
     summaries = summarize(framewise)
-    exclusion_tables = audit_split_topology(args.package_root.resolve())
-    validation = validate(summaries, exclusion_tables)
-    for name, table in {**summaries, **exclusion_tables}.items():
+    validation = validate(summaries)
+    for name, table in summaries.items():
         table.to_csv(tables_dir / f"definition_audit_{name}.csv", index=False)
     validation.to_csv(tables_dir / "definition_audit_validation.csv", index=False)
     print(

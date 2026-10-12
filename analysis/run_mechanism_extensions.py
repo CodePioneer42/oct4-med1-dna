@@ -22,7 +22,7 @@ from scipy.spatial import cKDTree
 import run_balanced_analysis as base
 
 
-EXTENSION_VERSION = "fixed-parent-block-dna-component-v5"
+EXTENSION_VERSION = "fixed-parent-block-dna-component-v6-unified-1000frames"
 MED1_BLOCK_CUTS_ZERO_BASED = np.asarray([354, 807, 1171], dtype=np.int32)
 DISTANCE_TYPES = ["all", "OCT4", "MED1"]
 DISTANCE_SCOPES = [
@@ -268,6 +268,8 @@ def analyze_extension_task(
     universe = mda.Universe(
         str(task.path / "start.pdb"),
         str(task.path / "output.dcd"),
+        topology_format="PDB",
+        format="DCD",
     )
     frames = list(
         range(base.PRODUCTION_START, base.PRODUCTION_END + 1, base.STRIDE)
@@ -882,10 +884,10 @@ def validate_extension(
 
     task_counts = framewise.groupby(["system", "replicate"], observed=True).size()
     record(
-        "all mechanism tasks have 40 sampled frames",
+        f"all mechanism tasks have {base.N_SAMPLED_FRAMES} sampled frames",
         f"min={int(task_counts.min())}, max={int(task_counts.max())}",
-        "40",
-        bool((task_counts == 40).all()),
+        str(base.N_SAMPLED_FRAMES),
+        bool((task_counts == base.N_SAMPLED_FRAMES).all()),
     )
     chain = framewise[framewise["system"].isin(CHAIN_CONTROL_SYSTEMS)]
     record(
@@ -978,10 +980,10 @@ def validate_extension(
         np.isclose(additivity_error, 0.0),
     )
     record(
-        "every radial trajectory has 40 valid DNA-linked frames",
+        f"every radial trajectory has {base.N_SAMPLED_FRAMES} valid DNA-linked frames",
         sorted(set(radial_valid_frames)),
-        "[40]",
-        bool(radial_valid_frames) and set(radial_valid_frames) == {40},
+        str([base.N_SAMPLED_FRAMES]),
+        bool(radial_valid_frames) and set(radial_valid_frames) == {base.N_SAMPLED_FRAMES},
     )
     histogram_repeat = summaries["radial_histogram_repeat"]
     final_bins = histogram_repeat[np.isinf(histogram_repeat["bin_end_nm"])]
@@ -1138,7 +1140,7 @@ def validate_extension(
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--package-root", type=Path, default=base.PACKAGE_ROOT)
     parser.add_argument("--data-root", type=Path, default=base.DEFAULT_DATA_ROOT)
     parser.add_argument("--output", type=Path, default=base.DEFAULT_OUTPUT)
@@ -1176,6 +1178,7 @@ def main() -> None:
         return
 
     framewise, arrays_by_task = load_cached_tasks(manifest, cache_dir)
+    base.validate_sampling(framewise)
     summaries = summarize_extension(framewise, arrays_by_task)
     validation = validate_extension(
         framewise,
