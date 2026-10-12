@@ -14,9 +14,11 @@ from matplotlib.font_manager import FontProperties
 from matplotlib.colors import to_rgba
 from matplotlib.lines import Line2D
 from matplotlib.legend import Legend
-from matplotlib.patches import FancyBboxPatch, Patch
+from matplotlib.offsetbox import AnnotationBbox, DrawingArea
+from matplotlib.patches import FancyBboxPatch, Patch, PathPatch
 from matplotlib.text import Text
-from matplotlib.transforms import Bbox
+from matplotlib.textpath import TextPath
+from matplotlib.transforms import Affine2D, Bbox
 from scipy.spatial import cKDTree
 
 import run_balanced_analysis as base
@@ -631,12 +633,13 @@ def draw_sequence_region_map(
     region_colors: list[str],
     residue_ticks: list[int],
     tick_alignments: dict[int, str] | None = None,
+    region_labels: list[str] | None = None,
 ) -> None:
     """Draw a thin sequence bar with residue boundary ticks on one baseline."""
     # Layout reference: Boija et al., Cell (2018), Figure 4A.
     # https://doi.org/10.1016/j.cell.2018.10.042
     left, right = 0.045, 0.965
-    bottom, height = 0.46, 0.18
+    bottom, height = 0.57, 0.16
     span = right - left
     ax.add_patch(
         plt.Rectangle(
@@ -707,6 +710,22 @@ def draw_sequence_region_map(
             va="top",
             fontsize=7.0,
         )
+    if region_labels:
+        ax.legend(
+            handles=[Patch(facecolor=color, edgecolor="black", linewidth=0.45, label=label)
+                     for color, label in zip(region_colors, region_labels)],
+            loc="upper left",
+            bbox_to_anchor=(left, 0.33),
+            ncols=1 if len(region_labels) == 2 else len(region_labels),
+            fontsize=LEGEND_SIZE,
+            frameon=False,
+            borderaxespad=0,
+            handlelength=0.9,
+            handleheight=0.6,
+            handletextpad=0.45,
+            labelspacing=0.2,
+            columnspacing=0.8,
+        )
     ax.set_axis_off()
 
 
@@ -747,6 +766,7 @@ def draw_original_object_panels(fig: plt.Figure, spec) -> tuple[float, list[plt.
         oct4_colors,
         [1, 136, 217, 234, 286, 360],
         tick_alignments={217: "right", 234: "left", 286: "left"},
+        region_labels=["POU-specific", "POU-homeodomain"],
     )
     draw_sequence_region_map(
         sequence_axes[1],
@@ -757,6 +777,7 @@ def draw_original_object_panels(fig: plt.Figure, spec) -> tuple[float, list[plt.
         med1_colors,
         [1, 77, 518, 1581],
         tick_alignments={1: "right", 77: "left"},
+        region_labels=["M1", "M2", "M3", "M4"],
     )
     draw_input_conformations(
         conformation_ax,
@@ -1536,7 +1557,7 @@ def plot_figure3(tables: dict[str, pd.DataFrame], out: Path) -> pd.DataFrame:
 
 
 def draw_split2_med1_inset(ax: plt.Axes) -> None:
-    """Show the Split-2 MED1 sequence schematic without residue annotations."""
+    """Show the Split-2 MED1 sequence and a vector scissors at its cut site."""
     ax.set_xlim(0, 1)
     ax.set_ylim(0, 1)
     ax.set_facecolor("white")
@@ -1563,6 +1584,17 @@ def draw_split2_med1_inset(ax: plt.Axes) -> None:
     y = 0.38
     ax.plot([left, split_x - gap], [y, y], color="#B8BEC7", lw=4.2, solid_capstyle="butt", zorder=1)
     ax.plot([split_x + gap, right], [y, y], color="#B8BEC7", lw=4.2, solid_capstyle="butt", zorder=1)
+    scissors = TextPath((0, 0), "✂", size=12, prop=FontProperties(family="DejaVu Sans"))
+    scissors = Affine2D().rotate_deg(-90).transform_path(scissors)
+    bounds = scissors.get_extents()
+    scissors = Affine2D().translate(-bounds.x0, -bounds.y0).transform_path(scissors)
+    drawing = DrawingArea(bounds.width, bounds.height)
+    drawing.add_artist(PathPatch(scissors, facecolor="#222222", edgecolor="none"))
+    icon = AnnotationBbox(drawing, (split_x, y + 0.08), xycoords="data",
+                         xybox=(0, 1), boxcoords="offset points",
+                         box_alignment=(0.5, 0), frameon=False, pad=0, zorder=4)
+    icon.set_gid("split-scissors")
+    ax.add_artist(icon)
     for (start, stop), color in zip(legacy.MED1_NATIVE_REGIONS, colors):
         x_start = left + (right - left) * (start - 1) / (base.MED1_LENGTH - 1)
         x_stop = left + (right - left) * (stop - 1) / (base.MED1_LENGTH - 1)
