@@ -22,3 +22,22 @@ TICK_LABEL_SIZE = 8.5
 LEGEND_SIZE = 8.4
 PANEL_LABEL_SIZE = 11.0
 D90_CONTOUR = "#222222"
+
+# S1/S2/S3/S8 in the final FIG-10-10 export predate the main-figure
+# typography update. Preserve their original embedded Arial typography.
+FIG1010_ORIGINAL_SI_STYLE = {
+    "font.family": "Arial",
+    "axes.labelsize": 8.5,
+    "xtick.labelsize": 7.5,
+    "ytick.labelsize": 7.5,
+    "legend.fontsize": 7.2,
+    "axes.linewidth": 1.05,
+    "xtick.major.width": 1.0,
+    "ytick.major.width": 1.0,
+    "lines.markeredgewidth": 0.8,
+    "lines.markeredgecolor": "black",
+    "mathtext.rm": "Arial",
+    "mathtext.it": "Arial:italic",
+    "mathtext.bf": "Arial:bold",
+    "mathtext.cal": "Arial",
+}

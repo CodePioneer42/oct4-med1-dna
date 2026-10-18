@@ -371,8 +371,10 @@ def analyze_task(
     universe = mda.Universe(
         str(task.path / "start.pdb"), str(task.path / "output.dcd"), topology_format="PDB", format="DCD"
     )
-    for frame in range(base.PRODUCTION_START, base.PRODUCTION_END + 1, base.STRIDE):
-        universe.trajectory[frame - 1]
+    frames = list(range(base.PRODUCTION_START, base.PRODUCTION_END + 1, base.STRIDE))
+    stored_frames = base.trajectory_frame_indices(task.path, len(universe.trajectory), frames)
+    for frame, stored_frame in zip(frames, stored_frames):
+        universe.trajectory[stored_frame]
         row = {
             "system": task.system,
             "replicate": task.replicate,

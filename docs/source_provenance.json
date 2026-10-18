@@ -1,0 +1,2095 @@
+[
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/common/run_sim.py",
+    "path": "simulation/common/run_sim.py",
+    "source_sha256": "8338d005ac00cea3b7dbb3e6a630f7919aca7bf50ffc80062c2a362c93ac10f3",
+    "sha256": "8338d005ac00cea3b7dbb3e6a630f7919aca7bf50ffc80062c2a362c93ac10f3",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/common/task_run.sh",
+    "path": "simulation/common/task_run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/scripts/check_environment.py",
+    "path": "simulation/scripts/check_environment.py",
+    "source_sha256": "4e78353d72908397e632a6cc4dd60a7a6c713076a8eed063fdc4ee786e179fc5",
+    "sha256": "4e78353d72908397e632a6cc4dd60a7a6c713076a8eed063fdc4ee786e179fc5",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/scripts/create_environment.sh",
+    "path": "simulation/scripts/create_environment.sh",
+    "source_sha256": "d115a7f2e1d8e003e7f3577ed9f2208ec2078b9fef704255ce504ca23daad010",
+    "sha256": "d115a7f2e1d8e003e7f3577ed9f2208ec2078b9fef704255ce504ca23daad010",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/scripts/generate_design.py",
+    "path": "simulation/scripts/generate_design.py",
+    "source_sha256": "36b429e8bc009a3486fee82df4c70a722704ca1c5225e10e1a746f6612518525",
+    "sha256": "36b429e8bc009a3486fee82df4c70a722704ca1c5225e10e1a746f6612518525",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/scripts/run_one.sh",
+    "path": "simulation/scripts/run_one.sh",
+    "source_sha256": "0d7d3424e93d0166dd796b364d43d16bab8c1a4f8b7eec0a38027084a08ce70d",
+    "sha256": "0d7d3424e93d0166dd796b364d43d16bab8c1a4f8b7eec0a38027084a08ce70d",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/scripts/update_checksums.sh",
+    "path": "simulation/scripts/update_checksums.sh",
+    "source_sha256": "a1bc45bbcf1da8cfed9976539305d02fc52e75cffed2b8b92746a5e38a497e0e",
+    "sha256": "a1bc45bbcf1da8cfed9976539305d02fc52e75cffed2b8b92746a5e38a497e0e",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/scripts/validate_package.py",
+    "path": "simulation/scripts/validate_package.py",
+    "source_sha256": "2d29446772bea530a059ea09edc44b8bd2eebefbbc17ee6495717e08805dfb48",
+    "sha256": "2d29446772bea530a059ea09edc44b8bd2eebefbbc17ee6495717e08805dfb48",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/scripts/validate_package.sh",
+    "path": "simulation/scripts/validate_package.sh",
+    "source_sha256": "c11b00fa9c13a7d5900e4bafa4858990baf052811388c756b5679e318794cb72",
+    "sha256": "c11b00fa9c13a7d5900e4bafa4858990baf052811388c756b5679e318794cb72",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/scripts/validate_split_topology.py",
+    "path": "simulation/scripts/validate_split_topology.py",
+    "source_sha256": "1c2e9d05004fb0ad3a46b24ae5d5f0c37fa50f9c7670894dc8d8434e01b40d8a",
+    "sha256": "1c2e9d05004fb0ad3a46b24ae5d5f0c37fa50f9c7670894dc8d8434e01b40d8a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/LICENSE",
+    "path": "simulation/OpenABC/LICENSE",
+    "source_sha256": "e66680c3d6b4a60075e4a2998722852d787bdcb6c60b771f02fdbda5c165575f",
+    "sha256": "e66680c3d6b4a60075e4a2998722852d787bdcb6c60b771f02fdbda5c165575f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/MANIFEST.in",
+    "path": "simulation/OpenABC/MANIFEST.in",
+    "source_sha256": "c15da32b7fa23660dec93a91324011dcd55154312327c8224b6105b370eada2e",
+    "sha256": "c15da32b7fa23660dec93a91324011dcd55154312327c8224b6105b370eada2e",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/README.md",
+    "path": "simulation/OpenABC/README.md",
+    "source_sha256": "2ceafe0af984035904e6af224fc836be964ea44fa6af3c3142dcb5607561d9b3",
+    "sha256": "2ceafe0af984035904e6af224fc836be964ea44fa6af3c3142dcb5607561d9b3",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/__init__.py",
+    "path": "simulation/OpenABC/openabc/__init__.py",
+    "source_sha256": "37bb1aa1b32830bb6d064a03738ccc5798861cfb9ac0636d384d2db025273c06",
+    "sha256": "37bb1aa1b32830bb6d064a03738ccc5798861cfb9ac0636d384d2db025273c06",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/__init__.py",
+    "path": "simulation/OpenABC/openabc/forcefields/__init__.py",
+    "source_sha256": "7585c68550deefe6149df62cb1a6b8f81dca3cd09dcdc249877b8eb9095d4206",
+    "sha256": "7585c68550deefe6149df62cb1a6b8f81dca3cd09dcdc249877b8eb9095d4206",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/cg_model.py",
+    "path": "simulation/OpenABC/openabc/forcefields/cg_model.py",
+    "source_sha256": "7c3d4828ec356c27701780815c594d5b399fb75ec6aeff75d2402a34c66e0a39",
+    "sha256": "7c3d4828ec356c27701780815c594d5b399fb75ec6aeff75d2402a34c66e0a39",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/functional_terms/__init__.py",
+    "path": "simulation/OpenABC/openabc/forcefields/functional_terms/__init__.py",
+    "source_sha256": "8764d29737b24918cacfe6cf2360ca855d56b4d1abe77fb64f0c5892ef4fcaac",
+    "sha256": "8764d29737b24918cacfe6cf2360ca855d56b4d1abe77fb64f0c5892ef4fcaac",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/functional_terms/angle_terms.py",
+    "path": "simulation/OpenABC/openabc/forcefields/functional_terms/angle_terms.py",
+    "source_sha256": "d1ab6aa5ea72363959efebe3c0c9f96894cc82a91570556894dc90fcc4632d8a",
+    "sha256": "d1ab6aa5ea72363959efebe3c0c9f96894cc82a91570556894dc90fcc4632d8a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/functional_terms/bond_terms.py",
+    "path": "simulation/OpenABC/openabc/forcefields/functional_terms/bond_terms.py",
+    "source_sha256": "6001ab0aab01d8c6723ef0fe85d42075dde8f838f2599791ee747646186a3bf7",
+    "sha256": "6001ab0aab01d8c6723ef0fe85d42075dde8f838f2599791ee747646186a3bf7",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/functional_terms/compound_bond_terms.py",
+    "path": "simulation/OpenABC/openabc/forcefields/functional_terms/compound_bond_terms.py",
+    "source_sha256": "a2661d66860caae2630a8530e314f31f5ec614b51379dec94c48d9645547e56f",
+    "sha256": "a2661d66860caae2630a8530e314f31f5ec614b51379dec94c48d9645547e56f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/functional_terms/dihedral_terms.py",
+    "path": "simulation/OpenABC/openabc/forcefields/functional_terms/dihedral_terms.py",
+    "source_sha256": "ed6c18f9a2e4de4c2e858e76840b61a2739d119327bfcf5c10c0c5c333e55d2d",
+    "sha256": "ed6c18f9a2e4de4c2e858e76840b61a2739d119327bfcf5c10c0c5c333e55d2d",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/functional_terms/hbond_terms.py",
+    "path": "simulation/OpenABC/openabc/forcefields/functional_terms/hbond_terms.py",
+    "source_sha256": "f7971c9b34e1560e4e9420c2ad9e6183f4f35c81f04475e575fd4fc4d45d95d9",
+    "sha256": "f7971c9b34e1560e4e9420c2ad9e6183f4f35c81f04475e575fd4fc4d45d95d9",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/functional_terms/nonbonded_terms.py",
+    "path": "simulation/OpenABC/openabc/forcefields/functional_terms/nonbonded_terms.py",
+    "source_sha256": "835456941b4bf5a100168292b23fcc1a8cef2c588fe92f044c5dcd0a5e1b2ef2",
+    "sha256": "835456941b4bf5a100168292b23fcc1a8cef2c588fe92f044c5dcd0a5e1b2ef2",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/functional_terms/zero_offset_nonbonded_terms.py",
+    "path": "simulation/OpenABC/openabc/forcefields/functional_terms/zero_offset_nonbonded_terms.py",
+    "source_sha256": "96ea0b1d4c8f585f40135b01893032f36d45ad1e9331e06694be24c57f9c39c0",
+    "sha256": "96ea0b1d4c8f585f40135b01893032f36d45ad1e9331e06694be24c57f9c39c0",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/hps_model.py",
+    "path": "simulation/OpenABC/openabc/forcefields/hps_model.py",
+    "source_sha256": "e8de56bd4f1ea2e7da352c9e0a48c438480cc0afe0a4ffcb93058dc9feb78ff5",
+    "sha256": "e8de56bd4f1ea2e7da352c9e0a48c438480cc0afe0a4ffcb93058dc9feb78ff5",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/hps_zero_offset_model.py",
+    "path": "simulation/OpenABC/openabc/forcefields/hps_zero_offset_model.py",
+    "source_sha256": "7473a57c51c42a3fcae106709ab5a3c779d978e79429f57bc58a7bbb40225bfc",
+    "sha256": "7473a57c51c42a3fcae106709ab5a3c779d978e79429f57bc58a7bbb40225bfc",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/moff_mrg_model.py",
+    "path": "simulation/OpenABC/openabc/forcefields/moff_mrg_model.py",
+    "source_sha256": "11d56e51252bfaef3cc81df25d09c13425369e2955f692df45946842fbab0070",
+    "sha256": "11d56e51252bfaef3cc81df25d09c13425369e2955f692df45946842fbab0070",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/mpipi_model.py",
+    "path": "simulation/OpenABC/openabc/forcefields/mpipi_model.py",
+    "source_sha256": "f846c61d10def491acdd91ddfc3adbb4f596dfbbcade540d7a8d51a9801c53e9",
+    "sha256": "f846c61d10def491acdd91ddfc3adbb4f596dfbbcade540d7a8d51a9801c53e9",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/mpipi_zero_offset_model.py",
+    "path": "simulation/OpenABC/openabc/forcefields/mpipi_zero_offset_model.py",
+    "source_sha256": "165e4e41bd9e2d40e41ce5f2e001135f7b2cc1c3a337e7278e1e6094e32ca593",
+    "sha256": "165e4e41bd9e2d40e41ce5f2e001135f7b2cc1c3a337e7278e1e6094e32ca593",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parameters/3SPN2.conf",
+    "path": "simulation/OpenABC/openabc/forcefields/parameters/3SPN2.conf",
+    "source_sha256": "3bba26cea4ffe02024883d7251a4087b84552faa45372521df2fbd78c80a2b08",
+    "sha256": "3bba26cea4ffe02024883d7251a4087b84552faa45372521df2fbd78c80a2b08",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parameters/HPS_KR_parameters.csv",
+    "path": "simulation/OpenABC/openabc/forcefields/parameters/HPS_KR_parameters.csv",
+    "source_sha256": "faf4810f5b5eb512fc561fec37f8d88b90e1ddcdcea9acd9f07218899f745c27",
+    "sha256": "faf4810f5b5eb512fc561fec37f8d88b90e1ddcdcea9acd9f07218899f745c27",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parameters/HPS_Urry_parameters.csv",
+    "path": "simulation/OpenABC/openabc/forcefields/parameters/HPS_Urry_parameters.csv",
+    "source_sha256": "ab446587055ab8d8b164b8499cbe6971b232fee6e4908c76c478cf12b0402805",
+    "sha256": "ab446587055ab8d8b164b8499cbe6971b232fee6e4908c76c478cf12b0402805",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parameters/MOFF_contact_parameters.csv",
+    "path": "simulation/OpenABC/openabc/forcefields/parameters/MOFF_contact_parameters.csv",
+    "source_sha256": "e1d80301a0c7104b72414fd706695f319656ca5e7b82a8db4d43113055d26449",
+    "sha256": "e1d80301a0c7104b72414fd706695f319656ca5e7b82a8db4d43113055d26449",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parameters/Mpipi_parameters.csv",
+    "path": "simulation/OpenABC/openabc/forcefields/parameters/Mpipi_parameters.csv",
+    "source_sha256": "5ec7fec915cbafdb646bd1551724a81c321a1678a31a4ab46f9a5d80ec7ae9f4",
+    "sha256": "5ec7fec915cbafdb646bd1551724a81c321a1678a31a4ab46f9a5d80ec7ae9f4",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parameters/__init__.py",
+    "path": "simulation/OpenABC/openabc/forcefields/parameters/__init__.py",
+    "source_sha256": "3d3e3021e8fda66cc04548e6f5ddf7d5c0af8885ff855f9760ce97ec07814c11",
+    "sha256": "3d3e3021e8fda66cc04548e6f5ddf7d5c0af8885ff855f9760ce97ec07814c11",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parameters/build_openmm_MJ_config.py",
+    "path": "simulation/OpenABC/openabc/forcefields/parameters/build_openmm_MJ_config.py",
+    "source_sha256": "2fb3e47925577badd3698dcf761367b54ab4563ad32655fcf0d0d468ed427ad8",
+    "sha256": "2fb3e47925577badd3698dcf761367b54ab4563ad32655fcf0d0d468ed427ad8",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parameters/lammps_Mpipi_RNA.in",
+    "path": "simulation/OpenABC/openabc/forcefields/parameters/lammps_Mpipi_RNA.in",
+    "source_sha256": "f2779f56369d78599cd3136fadc618fec032bbcd1361f8321bb1311a823dc595",
+    "sha256": "f2779f56369d78599cd3136fadc618fec032bbcd1361f8321bb1311a823dc595",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parameters/mixin_3spn2_config_parser.py",
+    "path": "simulation/OpenABC/openabc/forcefields/parameters/mixin_3spn2_config_parser.py",
+    "source_sha256": "0c464c0a47bd20c9330ed04423559cfb84f3eb88da502fe79fda1b5221da310a",
+    "sha256": "0c464c0a47bd20c9330ed04423559cfb84f3eb88da502fe79fda1b5221da310a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parameters/parse_hps_parameters.py",
+    "path": "simulation/OpenABC/openabc/forcefields/parameters/parse_hps_parameters.py",
+    "source_sha256": "fb4f508a5a94d12cd956e8e85b06b9947830211704fe1e6589c6f89f4a2a5345",
+    "sha256": "fb4f508a5a94d12cd956e8e85b06b9947830211704fe1e6589c6f89f4a2a5345",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parameters/parse_moff_parameters.py",
+    "path": "simulation/OpenABC/openabc/forcefields/parameters/parse_moff_parameters.py",
+    "source_sha256": "9333b776205a48102992a78d8be7bf720bbe86bab51bbe9b4c44845c82bd84b0",
+    "sha256": "9333b776205a48102992a78d8be7bf720bbe86bab51bbe9b4c44845c82bd84b0",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parameters/parse_mpipi_parameters.py",
+    "path": "simulation/OpenABC/openabc/forcefields/parameters/parse_mpipi_parameters.py",
+    "source_sha256": "d2aa7b3e68f935e00f48a1b871486c4abcfdb2ce97084148ba91d751960ea8e1",
+    "sha256": "d2aa7b3e68f935e00f48a1b871486c4abcfdb2ce97084148ba91d751960ea8e1",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parameters/pp_MJ.csv",
+    "path": "simulation/OpenABC/openabc/forcefields/parameters/pp_MJ.csv",
+    "source_sha256": "7f17c5e3ef3622b5c2927fb639983923055d71d018c00efe4d73e945819cd837",
+    "sha256": "7f17c5e3ef3622b5c2927fb639983923055d71d018c00efe4d73e945819cd837",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parameters/pp_pairCoeff.in",
+    "path": "simulation/OpenABC/openabc/forcefields/parameters/pp_pairCoeff.in",
+    "source_sha256": "6915ddcc11c8019e4fbcd1be65396571d8454e3e34c28500058c45eae0939d4d",
+    "sha256": "6915ddcc11c8019e4fbcd1be65396571d8454e3e34c28500058c45eae0939d4d",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parameters/proteinDna_pairCoeff.in",
+    "path": "simulation/OpenABC/openabc/forcefields/parameters/proteinDna_pairCoeff.in",
+    "source_sha256": "0fb50d1c36923e9ef37a1ea57e1368d710fb3519b2a64fb3c20b0a6b364a9a1e",
+    "sha256": "0fb50d1c36923e9ef37a1ea57e1368d710fb3519b2a64fb3c20b0a6b364a9a1e",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parameters/template_MOFF.top",
+    "path": "simulation/OpenABC/openabc/forcefields/parameters/template_MOFF.top",
+    "source_sha256": "acf3f46e5f29ebe98647e21643b982105cab24d47c3f22401856c1f4d570400d",
+    "sha256": "acf3f46e5f29ebe98647e21643b982105cab24d47c3f22401856c1f4d570400d",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parsers/__init__.py",
+    "path": "simulation/OpenABC/openabc/forcefields/parsers/__init__.py",
+    "source_sha256": "dd8f62a97e6f73669481f589f839e1ecddf6d6a9afb00eb2867c19d50a5c044c",
+    "sha256": "dd8f62a97e6f73669481f589f839e1ecddf6d6a9afb00eb2867c19d50a5c044c",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parsers/dna_3spn2_parser.py",
+    "path": "simulation/OpenABC/openabc/forcefields/parsers/dna_3spn2_parser.py",
+    "source_sha256": "a3f2b4c713a9973841c32c5ec4a051e30a409dddb09a4840481a09edb696df2b",
+    "sha256": "a3f2b4c713a9973841c32c5ec4a051e30a409dddb09a4840481a09edb696df2b",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parsers/hps_parser.py",
+    "path": "simulation/OpenABC/openabc/forcefields/parsers/hps_parser.py",
+    "source_sha256": "14d0ca36d476833dd7841f1a8f6fa78b66ab088139a750c415495841d2e4e571",
+    "sha256": "14d0ca36d476833dd7841f1a8f6fa78b66ab088139a750c415495841d2e4e571",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parsers/moff_parser.py",
+    "path": "simulation/OpenABC/openabc/forcefields/parsers/moff_parser.py",
+    "source_sha256": "d70faf26a4ea5b02edfe53ecea9d22cca15079bf3b81cab373295d28b815f5b4",
+    "sha256": "d70faf26a4ea5b02edfe53ecea9d22cca15079bf3b81cab373295d28b815f5b4",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parsers/mpipi_parsers.py",
+    "path": "simulation/OpenABC/openabc/forcefields/parsers/mpipi_parsers.py",
+    "source_sha256": "e00a1cb0584581cce72a7272c739feebb795cc61e6efa03172972a58e7df1a9d",
+    "sha256": "e00a1cb0584581cce72a7272c739feebb795cc61e6efa03172972a58e7df1a9d",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parsers/mrg_parser.py",
+    "path": "simulation/OpenABC/openabc/forcefields/parsers/mrg_parser.py",
+    "source_sha256": "634e2bbe5bcbfd364f34632bf902f169563c4019bc3d9a7f4873357acac3029b",
+    "sha256": "634e2bbe5bcbfd364f34632bf902f169563c4019bc3d9a7f4873357acac3029b",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/parsers/smog_parser.py",
+    "path": "simulation/OpenABC/openabc/forcefields/parsers/smog_parser.py",
+    "source_sha256": "c40a0a8386b9a25bfcfb43d7d86672d2b15ca65d7ef5a76cbafe148e45c69451",
+    "sha256": "c40a0a8386b9a25bfcfb43d7d86672d2b15ca65d7ef5a76cbafe148e45c69451",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/rigid.py",
+    "path": "simulation/OpenABC/openabc/forcefields/rigid.py",
+    "source_sha256": "6a4f33431a2bef58ab7fb89bc0b577360dd907cada0bd7215f5a67655f2e836f",
+    "sha256": "6a4f33431a2bef58ab7fb89bc0b577360dd907cada0bd7215f5a67655f2e836f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/forcefields/smog_3spn2_model.py",
+    "path": "simulation/OpenABC/openabc/forcefields/smog_3spn2_model.py",
+    "source_sha256": "a93e1675ec07d9ed777067f1f44184c2bae5158690b258881171141388c786c0",
+    "sha256": "a93e1675ec07d9ed777067f1f44184c2bae5158690b258881171141388c786c0",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/lib/__init__.py",
+    "path": "simulation/OpenABC/openabc/lib/__init__.py",
+    "source_sha256": "1b32ffe2946a07fd3d7ea8de4527c5ea84c0745a5195c972b3da519ca53f1292",
+    "sha256": "1b32ffe2946a07fd3d7ea8de4527c5ea84c0745a5195c972b3da519ca53f1292",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/lib/dna_lib.py",
+    "path": "simulation/OpenABC/openabc/lib/dna_lib.py",
+    "source_sha256": "867a306841f0160f7d9606e3b2dba5c762a7ddd2f4109bbebfef5184ef1408b1",
+    "sha256": "867a306841f0160f7d9606e3b2dba5c762a7ddd2f4109bbebfef5184ef1408b1",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/lib/ion_lib.py",
+    "path": "simulation/OpenABC/openabc/lib/ion_lib.py",
+    "source_sha256": "23446ab4209a47614a52695686405bb2e4530fe419933a096e93ff1de83878b8",
+    "sha256": "23446ab4209a47614a52695686405bb2e4530fe419933a096e93ff1de83878b8",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/lib/physical_constants.py",
+    "path": "simulation/OpenABC/openabc/lib/physical_constants.py",
+    "source_sha256": "f9a2e05a03bfc6c1a38abf5793aac9b5538bca0afda51675a531e48c01c1b759",
+    "sha256": "f9a2e05a03bfc6c1a38abf5793aac9b5538bca0afda51675a531e48c01c1b759",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/lib/protein_lib.py",
+    "path": "simulation/OpenABC/openabc/lib/protein_lib.py",
+    "source_sha256": "2637beea86b2e21cb40203a9714e7ba90dd24ece69b2d60c77cdc75a261e0c33",
+    "sha256": "2637beea86b2e21cb40203a9714e7ba90dd24ece69b2d60c77cdc75a261e0c33",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/lib/rna_lib.py",
+    "path": "simulation/OpenABC/openabc/lib/rna_lib.py",
+    "source_sha256": "2f4432cd743a481901c6a0d9ff82770ae4369623a7306add4ac6b48eb1ec7ada",
+    "sha256": "2f4432cd743a481901c6a0d9ff82770ae4369623a7306add4ac6b48eb1ec7ada",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/lib/unit_conversion.py",
+    "path": "simulation/OpenABC/openabc/lib/unit_conversion.py",
+    "source_sha256": "ccbe2b163d0870f99c73675e75a11fa9333f4cd4be7bd781cf1c9507d7757a20",
+    "sha256": "ccbe2b163d0870f99c73675e75a11fa9333f4cd4be7bd781cf1c9507d7757a20",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/utils/CA2AA.py",
+    "path": "simulation/OpenABC/openabc/utils/CA2AA.py",
+    "source_sha256": "00d346c359cfb2305c26d1e843970a4e0e17d6888dc4defcf7138c84f798300f",
+    "sha256": "00d346c359cfb2305c26d1e843970a4e0e17d6888dc4defcf7138c84f798300f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/utils/__init__.py",
+    "path": "simulation/OpenABC/openabc/utils/__init__.py",
+    "source_sha256": "0a49ac47c0be727f385c1d990d8373c6f447af886c5eaabb8867f1b39a5ed46c",
+    "sha256": "0a49ac47c0be727f385c1d990d8373c6f447af886c5eaabb8867f1b39a5ed46c",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/utils/chromatin_helper_functions.py",
+    "path": "simulation/OpenABC/openabc/utils/chromatin_helper_functions.py",
+    "source_sha256": "d79c066ccdfccd25e86744638e4b5cc3280dfaafc1b3ab066f87eddfa9ab7b8f",
+    "sha256": "d79c066ccdfccd25e86744638e4b5cc3280dfaafc1b3ab066f87eddfa9ab7b8f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/utils/helper_functions.py",
+    "path": "simulation/OpenABC/openabc/utils/helper_functions.py",
+    "source_sha256": "e84c50623cfbf396f63b7f98d8fdfa814a6f7771fd20bb75d603005182394061",
+    "sha256": "e84c50623cfbf396f63b7f98d8fdfa814a6f7771fd20bb75d603005182394061",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/utils/insert.py",
+    "path": "simulation/OpenABC/openabc/utils/insert.py",
+    "source_sha256": "4ad9ce1ece661dfdafb4c2d50c0c533743261fead44d3c34232bd24912069ac0",
+    "sha256": "4ad9ce1ece661dfdafb4c2d50c0c533743261fead44d3c34232bd24912069ac0",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/utils/legacy_shadow_map.py",
+    "path": "simulation/OpenABC/openabc/utils/legacy_shadow_map.py",
+    "source_sha256": "64afd32a4f036e180e43072bf7ac94bf8b3925cdfe35ba266991cccbfd422b87",
+    "sha256": "64afd32a4f036e180e43072bf7ac94bf8b3925cdfe35ba266991cccbfd422b87",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/utils/replica_exchange.py",
+    "path": "simulation/OpenABC/openabc/utils/replica_exchange.py",
+    "source_sha256": "625874fb19d9d24fe64d79a84974617e84d45f6b4072c20bb2470f15c43f7758",
+    "sha256": "625874fb19d9d24fe64d79a84974617e84d45f6b4072c20bb2470f15c43f7758",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/utils/shadow_map.py",
+    "path": "simulation/OpenABC/openabc/utils/shadow_map.py",
+    "source_sha256": "6589f20562852c52a7de67ee362674fd095b9b0e23540bb745a80b8c316ced9c",
+    "sha256": "6589f20562852c52a7de67ee362674fd095b9b0e23540bb745a80b8c316ced9c",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/openabc/utils/stride.py",
+    "path": "simulation/OpenABC/openabc/utils/stride.py",
+    "source_sha256": "31d64f5eb26b026d95379357f91316ef99a571680bc56631a397c1c159b09a85",
+    "sha256": "31d64f5eb26b026d95379357f91316ef99a571680bc56631a397c1c159b09a85",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/OpenABC/pyproject.toml",
+    "path": "simulation/OpenABC/pyproject.toml",
+    "source_sha256": "4ddb04a7a87ed83f56abb85eca9b9bbb421b75fce8033ebeb93f9008266174ba",
+    "sha256": "4ddb04a7a87ed83f56abb85eca9b9bbb421b75fce8033ebeb93f9008266174ba",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/inputs/MED1-alphafold.pdb",
+    "path": "simulation/inputs/MED1-alphafold.pdb",
+    "source_sha256": "254781c89ad0a8089cc9b7bd7ee646ea32141bb05856cdbfecc8a554b56b4a52",
+    "sha256": "254781c89ad0a8089cc9b7bd7ee646ea32141bb05856cdbfecc8a554b56b4a52",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/inputs/OCT4.pdb",
+    "path": "simulation/inputs/OCT4.pdb",
+    "source_sha256": "d4399328a0636e9876ebf3a193bffa5f4323f29c53d006b0c1d400999d2305cc",
+    "sha256": "d4399328a0636e9876ebf3a193bffa5f4323f29c53d006b0c1d400999d2305cc",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/inputs/all_atom_200bpDNA.pdb",
+    "path": "simulation/inputs/all_atom_200bpDNA.pdb",
+    "source_sha256": "9bd34ce3c562b61c675399fc93c6f9324cda55a03ef4567179d077d8cde1a1b8",
+    "sha256": "9bd34ce3c562b61c675399fc93c6f9324cda55a03ef4567179d077d8cde1a1b8",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/env/conda-linux-64.explicit.txt",
+    "path": "simulation/env/conda-linux-64.explicit.txt",
+    "source_sha256": "c8b93057bbcc164d5d775abef7b904e972d07a00c1e09c822bfa6ca625b18898",
+    "sha256": "c8b93057bbcc164d5d775abef7b904e972d07a00c1e09c822bfa6ca625b18898",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/env/environment.yml",
+    "path": "simulation/env/environment.yml",
+    "source_sha256": "d90fe8cb412014aaababe300494d5b9ff1cf611579a9c0e7031c40ed3d251230",
+    "sha256": "d90fe8cb412014aaababe300494d5b9ff1cf611579a9c0e7031c40ed3d251230",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/env/environment_cuda12_6.yml",
+    "path": "simulation/env/environment_cuda12_6.yml",
+    "source_sha256": "6e98a19819f0acbae7bcaff10672d9bfe4cbdde3be6bd933ec09a99a3e4e98f0",
+    "sha256": "6e98a19819f0acbae7bcaff10672d9bfe4cbdde3be6bd933ec09a99a3e4e98f0",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/task_manifest.tsv",
+    "path": "simulation/task_manifest.tsv",
+    "source_sha256": "adb3b189730cb0ae44dda9e18792b93b0f71c546ff9fb0f0bfeed537a8b1ba8e",
+    "sha256": "adb3b189730cb0ae44dda9e18792b93b0f71c546ff9fb0f0bfeed537a8b1ba8e",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/design_matrix.tsv",
+    "path": "simulation/design_matrix.tsv",
+    "source_sha256": "b34d9ecc164150e05793913881e721a3d115577e8cba27173fb6ed1996599326",
+    "sha256": "b34d9ecc164150e05793913881e721a3d115577e8cba27173fb6ed1996599326",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M0O100/run_metadata.json",
+    "path": "simulation/tasks/work/M0O100/run_metadata.json",
+    "source_sha256": "c7a0916e7ff434c4adeb3e8377b7c5db19f8126785f68e8cf0257e31b016265f",
+    "sha256": "c7a0916e7ff434c4adeb3e8377b7c5db19f8126785f68e8cf0257e31b016265f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M0O100/molecule_map.tsv",
+    "path": "simulation/tasks/work/M0O100/molecule_map.tsv",
+    "source_sha256": "bf762c272152352d5826f3b0a31edb4df5c69fa2f3818019656069eeb3702b6c",
+    "sha256": "bf762c272152352d5826f3b0a31edb4df5c69fa2f3818019656069eeb3702b6c",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M0O100D1/run_metadata.json",
+    "path": "simulation/tasks/work/M0O100D1/run_metadata.json",
+    "source_sha256": "79d5b4a454c26f6b507e77cb1f172cf41cb14d32d7bb813e21b37835874ce12d",
+    "sha256": "79d5b4a454c26f6b507e77cb1f172cf41cb14d32d7bb813e21b37835874ce12d",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M0O100D1/molecule_map.tsv",
+    "path": "simulation/tasks/work/M0O100D1/molecule_map.tsv",
+    "source_sha256": "f33207ce7d3e36c93673767bed846d91c5e0a4d52b245d2775abeefaf1b96259",
+    "sha256": "f33207ce7d3e36c93673767bed846d91c5e0a4d52b245d2775abeefaf1b96259",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90/run_metadata.json",
+    "path": "simulation/tasks/work/M10O90/run_metadata.json",
+    "source_sha256": "2810cb3dac84f9c3cc0899fc2137491b8fdc777ddc7c7566fe4e3999c79df33d",
+    "sha256": "2810cb3dac84f9c3cc0899fc2137491b8fdc777ddc7c7566fe4e3999c79df33d",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90/molecule_map.tsv",
+    "path": "simulation/tasks/work/M10O90/molecule_map.tsv",
+    "source_sha256": "d132ebbea9b986f1e7494646bbab8ea2a5beece6a5cd2c2dc2c08488a04a017a",
+    "sha256": "d132ebbea9b986f1e7494646bbab8ea2a5beece6a5cd2c2dc2c08488a04a017a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90-S2/run_metadata.json",
+    "path": "simulation/tasks/work/M10O90-S2/run_metadata.json",
+    "source_sha256": "9350f85b35f61076066297b7c9ee557eb6f775e68741dc57b4c532b2eb323331",
+    "sha256": "9350f85b35f61076066297b7c9ee557eb6f775e68741dc57b4c532b2eb323331",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90-S2/molecule_map.tsv",
+    "path": "simulation/tasks/work/M10O90-S2/molecule_map.tsv",
+    "source_sha256": "caeae663ebf9613fdc186d7be17aa2d5d706993467c7b721e8a8c28600418640",
+    "sha256": "caeae663ebf9613fdc186d7be17aa2d5d706993467c7b721e8a8c28600418640",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90-S4/run_metadata.json",
+    "path": "simulation/tasks/work/M10O90-S4/run_metadata.json",
+    "source_sha256": "90e1b56c2cd6b01ac55ed834668b73efb9e09a95544853e4a27bf1d17cca89e7",
+    "sha256": "90e1b56c2cd6b01ac55ed834668b73efb9e09a95544853e4a27bf1d17cca89e7",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90-S4/molecule_map.tsv",
+    "path": "simulation/tasks/work/M10O90-S4/molecule_map.tsv",
+    "source_sha256": "ad03a367497f0273d0bc057fe9ff7307693df608f02fe091ef5ecd78316f0f06",
+    "sha256": "ad03a367497f0273d0bc057fe9ff7307693df608f02fe091ef5ecd78316f0f06",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90D1/run_metadata.json",
+    "path": "simulation/tasks/work/M10O90D1/run_metadata.json",
+    "source_sha256": "bb716b21eb873c7e1b73aa8cd611dd6e01d032410728a1da7ce5b3d289c2d1f5",
+    "sha256": "bb716b21eb873c7e1b73aa8cd611dd6e01d032410728a1da7ce5b3d289c2d1f5",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90D1/molecule_map.tsv",
+    "path": "simulation/tasks/work/M10O90D1/molecule_map.tsv",
+    "source_sha256": "a982c06a89164377d0a5ce547147a70cd22054fd44042c0e454064f4fb34c3f2",
+    "sha256": "a982c06a89164377d0a5ce547147a70cd22054fd44042c0e454064f4fb34c3f2",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90D1-S2/run_metadata.json",
+    "path": "simulation/tasks/work/M10O90D1-S2/run_metadata.json",
+    "source_sha256": "381008a37a28842491f0369d641d42e766f7775ec5d2672882fc150be01a4699",
+    "sha256": "381008a37a28842491f0369d641d42e766f7775ec5d2672882fc150be01a4699",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90D1-S2/molecule_map.tsv",
+    "path": "simulation/tasks/work/M10O90D1-S2/molecule_map.tsv",
+    "source_sha256": "7f808e24aae5087cfc5c61ba36a239fcfdc9cc8a8960e29af91117eb5f0c79f9",
+    "sha256": "7f808e24aae5087cfc5c61ba36a239fcfdc9cc8a8960e29af91117eb5f0c79f9",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90D1-S4/run_metadata.json",
+    "path": "simulation/tasks/work/M10O90D1-S4/run_metadata.json",
+    "source_sha256": "bbf56e15f87c20d315bf09da16ad40bdcf0c5965b6ac911cc04c85a0c2a38929",
+    "sha256": "bbf56e15f87c20d315bf09da16ad40bdcf0c5965b6ac911cc04c85a0c2a38929",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90D1-S4/molecule_map.tsv",
+    "path": "simulation/tasks/work/M10O90D1-S4/molecule_map.tsv",
+    "source_sha256": "b501d7db1a269ea2873dff0821768aad21e8e363a79534aa7cf7b2e7588e4e36",
+    "sha256": "b501d7db1a269ea2873dff0821768aad21e8e363a79534aa7cf7b2e7588e4e36",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M15O85/run_metadata.json",
+    "path": "simulation/tasks/work/M15O85/run_metadata.json",
+    "source_sha256": "4baf013999bf39bc33777af09546ada99bde654c036a0e0fad558a80c0c895af",
+    "sha256": "4baf013999bf39bc33777af09546ada99bde654c036a0e0fad558a80c0c895af",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M15O85/molecule_map.tsv",
+    "path": "simulation/tasks/work/M15O85/molecule_map.tsv",
+    "source_sha256": "1f12e1d6e7505a6aff0d69aa1930d6c7ead7b165ee95caa2ebf6e23fde2df623",
+    "sha256": "1f12e1d6e7505a6aff0d69aa1930d6c7ead7b165ee95caa2ebf6e23fde2df623",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M20O80/run_metadata.json",
+    "path": "simulation/tasks/work/M20O80/run_metadata.json",
+    "source_sha256": "27491c780e3d1db1cdc9f7a9e8ec2fc00032e845ee608d713e8b7126c5db01f6",
+    "sha256": "27491c780e3d1db1cdc9f7a9e8ec2fc00032e845ee608d713e8b7126c5db01f6",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M20O80/molecule_map.tsv",
+    "path": "simulation/tasks/work/M20O80/molecule_map.tsv",
+    "source_sha256": "fa06b3b494b3275adbb30695b047c03cc594a7069822186434f3f34a0b3abdef",
+    "sha256": "fa06b3b494b3275adbb30695b047c03cc594a7069822186434f3f34a0b3abdef",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M20O80D1/run_metadata.json",
+    "path": "simulation/tasks/work/M20O80D1/run_metadata.json",
+    "source_sha256": "4174d541093aa2d978e969ef7612f7ec7a264fa45ba58bb8a1d807ca0a192c15",
+    "sha256": "4174d541093aa2d978e969ef7612f7ec7a264fa45ba58bb8a1d807ca0a192c15",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M20O80D1/molecule_map.tsv",
+    "path": "simulation/tasks/work/M20O80D1/molecule_map.tsv",
+    "source_sha256": "7f4ba6160f5917192b45f9d37634b7bba3da96cad4f6d72c8b36e53d96c06feb",
+    "sha256": "7f4ba6160f5917192b45f9d37634b7bba3da96cad4f6d72c8b36e53d96c06feb",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M25O75/run_metadata.json",
+    "path": "simulation/tasks/work/M25O75/run_metadata.json",
+    "source_sha256": "0299196efad662b701e215ee575cb2e4f50877892827d08aa8c734c46bcfcea9",
+    "sha256": "0299196efad662b701e215ee575cb2e4f50877892827d08aa8c734c46bcfcea9",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M25O75/molecule_map.tsv",
+    "path": "simulation/tasks/work/M25O75/molecule_map.tsv",
+    "source_sha256": "27b1a6ddc3372d4c40792fbc340eb5f9c22276745bce87ba08fd92d34d4109a7",
+    "sha256": "27b1a6ddc3372d4c40792fbc340eb5f9c22276745bce87ba08fd92d34d4109a7",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M30O70/run_metadata.json",
+    "path": "simulation/tasks/work/M30O70/run_metadata.json",
+    "source_sha256": "0f28467dcf7c0c5d97fe7977b35000bd6521c509893e32172bd0f8bdaf0b9d50",
+    "sha256": "0f28467dcf7c0c5d97fe7977b35000bd6521c509893e32172bd0f8bdaf0b9d50",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M30O70/molecule_map.tsv",
+    "path": "simulation/tasks/work/M30O70/molecule_map.tsv",
+    "source_sha256": "7dbac40c9941025d0f0e143d45e84c59590b331989ba3d1ff3757f9055254d4a",
+    "sha256": "7dbac40c9941025d0f0e143d45e84c59590b331989ba3d1ff3757f9055254d4a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M50O0/run_metadata.json",
+    "path": "simulation/tasks/work/M50O0/run_metadata.json",
+    "source_sha256": "1b38459cc7c595838db4abdc1a5c54a560fc3e8450a8da4849124e0a9563dbf0",
+    "sha256": "1b38459cc7c595838db4abdc1a5c54a560fc3e8450a8da4849124e0a9563dbf0",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M50O0/molecule_map.tsv",
+    "path": "simulation/tasks/work/M50O0/molecule_map.tsv",
+    "source_sha256": "70c3b436cd8f77fae2da1e0f58c75990a3ad0378fbf28d19c454a8b8de8585e1",
+    "sha256": "70c3b436cd8f77fae2da1e0f58c75990a3ad0378fbf28d19c454a8b8de8585e1",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M50O0D1/run_metadata.json",
+    "path": "simulation/tasks/work/M50O0D1/run_metadata.json",
+    "source_sha256": "35f657902e295f87d212bdf20568fb8737ff40181a88e7d3a29b37b508f4ee3a",
+    "sha256": "35f657902e295f87d212bdf20568fb8737ff40181a88e7d3a29b37b508f4ee3a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M50O0D1/molecule_map.tsv",
+    "path": "simulation/tasks/work/M50O0D1/molecule_map.tsv",
+    "source_sha256": "1feb984684124ecae4cabd7006b0a9b2c1d0ee74c0a12eafcfc638e70d618124",
+    "sha256": "1feb984684124ecae4cabd7006b0a9b2c1d0ee74c0a12eafcfc638e70d618124",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M50O50/run_metadata.json",
+    "path": "simulation/tasks/work/M50O50/run_metadata.json",
+    "source_sha256": "0395eba70bb9cd5ae0643c8d8f01b7300653c79e435b11a38a7c4d90351b2a29",
+    "sha256": "0395eba70bb9cd5ae0643c8d8f01b7300653c79e435b11a38a7c4d90351b2a29",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M50O50/molecule_map.tsv",
+    "path": "simulation/tasks/work/M50O50/molecule_map.tsv",
+    "source_sha256": "fda2847bb1967e5b1c20340fd51e968555f4c82644d58cfeab9dfecd9a5527e0",
+    "sha256": "fda2847bb1967e5b1c20340fd51e968555f4c82644d58cfeab9dfecd9a5527e0",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M5O95/run_metadata.json",
+    "path": "simulation/tasks/work/M5O95/run_metadata.json",
+    "source_sha256": "dc8653af6b6ef041068a8e32503d4dc7a9ddcea7207c23bffe9e21516c748995",
+    "sha256": "dc8653af6b6ef041068a8e32503d4dc7a9ddcea7207c23bffe9e21516c748995",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M5O95/molecule_map.tsv",
+    "path": "simulation/tasks/work/M5O95/molecule_map.tsv",
+    "source_sha256": "8608526c4617d52a4c8cae12158778f56aad9b369324474acde0e7c4bac40ca5",
+    "sha256": "8608526c4617d52a4c8cae12158778f56aad9b369324474acde0e7c4bac40ca5",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M0O100/run_metadata.json",
+    "path": "simulation/tasks/work-1/M0O100/run_metadata.json",
+    "source_sha256": "c5b861e03ccd02057c1441f23c6789f0be889766380af9ebbed167a84f0f5722",
+    "sha256": "c5b861e03ccd02057c1441f23c6789f0be889766380af9ebbed167a84f0f5722",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M0O100/molecule_map.tsv",
+    "path": "simulation/tasks/work-1/M0O100/molecule_map.tsv",
+    "source_sha256": "bf762c272152352d5826f3b0a31edb4df5c69fa2f3818019656069eeb3702b6c",
+    "sha256": "bf762c272152352d5826f3b0a31edb4df5c69fa2f3818019656069eeb3702b6c",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M0O100D1/run_metadata.json",
+    "path": "simulation/tasks/work-1/M0O100D1/run_metadata.json",
+    "source_sha256": "2e53f0a76c921578f4dd3419c56a8ae933c78bc4cfa39149eb93f742f94845be",
+    "sha256": "2e53f0a76c921578f4dd3419c56a8ae933c78bc4cfa39149eb93f742f94845be",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M0O100D1/molecule_map.tsv",
+    "path": "simulation/tasks/work-1/M0O100D1/molecule_map.tsv",
+    "source_sha256": "f33207ce7d3e36c93673767bed846d91c5e0a4d52b245d2775abeefaf1b96259",
+    "sha256": "f33207ce7d3e36c93673767bed846d91c5e0a4d52b245d2775abeefaf1b96259",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90/run_metadata.json",
+    "path": "simulation/tasks/work-1/M10O90/run_metadata.json",
+    "source_sha256": "3162b785b59b0287624021dadf86706c351314e7b9c43378371866ac8484b761",
+    "sha256": "3162b785b59b0287624021dadf86706c351314e7b9c43378371866ac8484b761",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90/molecule_map.tsv",
+    "path": "simulation/tasks/work-1/M10O90/molecule_map.tsv",
+    "source_sha256": "d132ebbea9b986f1e7494646bbab8ea2a5beece6a5cd2c2dc2c08488a04a017a",
+    "sha256": "d132ebbea9b986f1e7494646bbab8ea2a5beece6a5cd2c2dc2c08488a04a017a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90-S2/run_metadata.json",
+    "path": "simulation/tasks/work-1/M10O90-S2/run_metadata.json",
+    "source_sha256": "539916113729ff0a7cfe47711f3fe3d1219c24912037238a983659ba37350f3a",
+    "sha256": "539916113729ff0a7cfe47711f3fe3d1219c24912037238a983659ba37350f3a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90-S2/molecule_map.tsv",
+    "path": "simulation/tasks/work-1/M10O90-S2/molecule_map.tsv",
+    "source_sha256": "caeae663ebf9613fdc186d7be17aa2d5d706993467c7b721e8a8c28600418640",
+    "sha256": "caeae663ebf9613fdc186d7be17aa2d5d706993467c7b721e8a8c28600418640",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90-S4/run_metadata.json",
+    "path": "simulation/tasks/work-1/M10O90-S4/run_metadata.json",
+    "source_sha256": "730e24bd97669321fc887de2f4e15f36f98fbdd4ed29e4adff2cc66110ff1fd2",
+    "sha256": "730e24bd97669321fc887de2f4e15f36f98fbdd4ed29e4adff2cc66110ff1fd2",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90-S4/molecule_map.tsv",
+    "path": "simulation/tasks/work-1/M10O90-S4/molecule_map.tsv",
+    "source_sha256": "ad03a367497f0273d0bc057fe9ff7307693df608f02fe091ef5ecd78316f0f06",
+    "sha256": "ad03a367497f0273d0bc057fe9ff7307693df608f02fe091ef5ecd78316f0f06",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90D1/run_metadata.json",
+    "path": "simulation/tasks/work-1/M10O90D1/run_metadata.json",
+    "source_sha256": "91c9494900904beb58be6f6b39198044b09a0efc2fdca480798bec912cd304f0",
+    "sha256": "91c9494900904beb58be6f6b39198044b09a0efc2fdca480798bec912cd304f0",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90D1/molecule_map.tsv",
+    "path": "simulation/tasks/work-1/M10O90D1/molecule_map.tsv",
+    "source_sha256": "a982c06a89164377d0a5ce547147a70cd22054fd44042c0e454064f4fb34c3f2",
+    "sha256": "a982c06a89164377d0a5ce547147a70cd22054fd44042c0e454064f4fb34c3f2",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90D1-S2/run_metadata.json",
+    "path": "simulation/tasks/work-1/M10O90D1-S2/run_metadata.json",
+    "source_sha256": "c39e237dfccf14b95ca828b3838b47370826a7b610010deea6f6c60185fb6c42",
+    "sha256": "c39e237dfccf14b95ca828b3838b47370826a7b610010deea6f6c60185fb6c42",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90D1-S2/molecule_map.tsv",
+    "path": "simulation/tasks/work-1/M10O90D1-S2/molecule_map.tsv",
+    "source_sha256": "7f808e24aae5087cfc5c61ba36a239fcfdc9cc8a8960e29af91117eb5f0c79f9",
+    "sha256": "7f808e24aae5087cfc5c61ba36a239fcfdc9cc8a8960e29af91117eb5f0c79f9",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90D1-S4/run_metadata.json",
+    "path": "simulation/tasks/work-1/M10O90D1-S4/run_metadata.json",
+    "source_sha256": "73e7893ff089cbab70785d02c6f12662f215a580dfee53f308bca99d5ab4f73e",
+    "sha256": "73e7893ff089cbab70785d02c6f12662f215a580dfee53f308bca99d5ab4f73e",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90D1-S4/molecule_map.tsv",
+    "path": "simulation/tasks/work-1/M10O90D1-S4/molecule_map.tsv",
+    "source_sha256": "b501d7db1a269ea2873dff0821768aad21e8e363a79534aa7cf7b2e7588e4e36",
+    "sha256": "b501d7db1a269ea2873dff0821768aad21e8e363a79534aa7cf7b2e7588e4e36",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M15O85/run_metadata.json",
+    "path": "simulation/tasks/work-1/M15O85/run_metadata.json",
+    "source_sha256": "d4b8a9ba9c0254d98dd3670c077478f3a069c32a40348f223d0163760d6f8eea",
+    "sha256": "d4b8a9ba9c0254d98dd3670c077478f3a069c32a40348f223d0163760d6f8eea",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M15O85/molecule_map.tsv",
+    "path": "simulation/tasks/work-1/M15O85/molecule_map.tsv",
+    "source_sha256": "1f12e1d6e7505a6aff0d69aa1930d6c7ead7b165ee95caa2ebf6e23fde2df623",
+    "sha256": "1f12e1d6e7505a6aff0d69aa1930d6c7ead7b165ee95caa2ebf6e23fde2df623",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M20O80/run_metadata.json",
+    "path": "simulation/tasks/work-1/M20O80/run_metadata.json",
+    "source_sha256": "bafd9fdcae431daf574b7c2acdf2b1f38ace8293ad5e587c664dd4108610907d",
+    "sha256": "bafd9fdcae431daf574b7c2acdf2b1f38ace8293ad5e587c664dd4108610907d",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M20O80/molecule_map.tsv",
+    "path": "simulation/tasks/work-1/M20O80/molecule_map.tsv",
+    "source_sha256": "fa06b3b494b3275adbb30695b047c03cc594a7069822186434f3f34a0b3abdef",
+    "sha256": "fa06b3b494b3275adbb30695b047c03cc594a7069822186434f3f34a0b3abdef",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M20O80D1/run_metadata.json",
+    "path": "simulation/tasks/work-1/M20O80D1/run_metadata.json",
+    "source_sha256": "72fb24a3c9644b7b73272d223987942a7752128ee9ec03534e39abc126817f27",
+    "sha256": "72fb24a3c9644b7b73272d223987942a7752128ee9ec03534e39abc126817f27",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M20O80D1/molecule_map.tsv",
+    "path": "simulation/tasks/work-1/M20O80D1/molecule_map.tsv",
+    "source_sha256": "7f4ba6160f5917192b45f9d37634b7bba3da96cad4f6d72c8b36e53d96c06feb",
+    "sha256": "7f4ba6160f5917192b45f9d37634b7bba3da96cad4f6d72c8b36e53d96c06feb",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M25O75/run_metadata.json",
+    "path": "simulation/tasks/work-1/M25O75/run_metadata.json",
+    "source_sha256": "07673b1ea6f55e03492ffd00c2df4756f9764b441fc8922e982916addd590153",
+    "sha256": "07673b1ea6f55e03492ffd00c2df4756f9764b441fc8922e982916addd590153",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M25O75/molecule_map.tsv",
+    "path": "simulation/tasks/work-1/M25O75/molecule_map.tsv",
+    "source_sha256": "27b1a6ddc3372d4c40792fbc340eb5f9c22276745bce87ba08fd92d34d4109a7",
+    "sha256": "27b1a6ddc3372d4c40792fbc340eb5f9c22276745bce87ba08fd92d34d4109a7",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M30O70/run_metadata.json",
+    "path": "simulation/tasks/work-1/M30O70/run_metadata.json",
+    "source_sha256": "17a715319a67de0764be3d2be426ad9667f9efaf0d45fdb419177f13c52013c4",
+    "sha256": "17a715319a67de0764be3d2be426ad9667f9efaf0d45fdb419177f13c52013c4",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M30O70/molecule_map.tsv",
+    "path": "simulation/tasks/work-1/M30O70/molecule_map.tsv",
+    "source_sha256": "7dbac40c9941025d0f0e143d45e84c59590b331989ba3d1ff3757f9055254d4a",
+    "sha256": "7dbac40c9941025d0f0e143d45e84c59590b331989ba3d1ff3757f9055254d4a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M50O0/run_metadata.json",
+    "path": "simulation/tasks/work-1/M50O0/run_metadata.json",
+    "source_sha256": "bda7cbabac75564deb48cc672b62229afecedc36f5e774e224c8af3984ae4343",
+    "sha256": "bda7cbabac75564deb48cc672b62229afecedc36f5e774e224c8af3984ae4343",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M50O0/molecule_map.tsv",
+    "path": "simulation/tasks/work-1/M50O0/molecule_map.tsv",
+    "source_sha256": "70c3b436cd8f77fae2da1e0f58c75990a3ad0378fbf28d19c454a8b8de8585e1",
+    "sha256": "70c3b436cd8f77fae2da1e0f58c75990a3ad0378fbf28d19c454a8b8de8585e1",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M50O0D1/run_metadata.json",
+    "path": "simulation/tasks/work-1/M50O0D1/run_metadata.json",
+    "source_sha256": "924f7ff50a1999cd4f31dd72b390ed37e11243ba8b4180ef0735d26ae3b3b511",
+    "sha256": "924f7ff50a1999cd4f31dd72b390ed37e11243ba8b4180ef0735d26ae3b3b511",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M50O0D1/molecule_map.tsv",
+    "path": "simulation/tasks/work-1/M50O0D1/molecule_map.tsv",
+    "source_sha256": "1feb984684124ecae4cabd7006b0a9b2c1d0ee74c0a12eafcfc638e70d618124",
+    "sha256": "1feb984684124ecae4cabd7006b0a9b2c1d0ee74c0a12eafcfc638e70d618124",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M50O50/run_metadata.json",
+    "path": "simulation/tasks/work-1/M50O50/run_metadata.json",
+    "source_sha256": "facd8e1773368b09168f9de701fba5e220b8e7eb171390245703ca1284fb1d27",
+    "sha256": "facd8e1773368b09168f9de701fba5e220b8e7eb171390245703ca1284fb1d27",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M50O50/molecule_map.tsv",
+    "path": "simulation/tasks/work-1/M50O50/molecule_map.tsv",
+    "source_sha256": "fda2847bb1967e5b1c20340fd51e968555f4c82644d58cfeab9dfecd9a5527e0",
+    "sha256": "fda2847bb1967e5b1c20340fd51e968555f4c82644d58cfeab9dfecd9a5527e0",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M5O95/run_metadata.json",
+    "path": "simulation/tasks/work-1/M5O95/run_metadata.json",
+    "source_sha256": "20fdc886ed2bca83704878532fbfd184285a4cfe340879ce404319099a6baa1d",
+    "sha256": "20fdc886ed2bca83704878532fbfd184285a4cfe340879ce404319099a6baa1d",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M5O95/molecule_map.tsv",
+    "path": "simulation/tasks/work-1/M5O95/molecule_map.tsv",
+    "source_sha256": "8608526c4617d52a4c8cae12158778f56aad9b369324474acde0e7c4bac40ca5",
+    "sha256": "8608526c4617d52a4c8cae12158778f56aad9b369324474acde0e7c4bac40ca5",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M0O100/run_metadata.json",
+    "path": "simulation/tasks/work-2/M0O100/run_metadata.json",
+    "source_sha256": "51b733b54cc2ebbce3b2b79a6a5bc49ec39ba4f2460c1479fc81ae791aa1b574",
+    "sha256": "51b733b54cc2ebbce3b2b79a6a5bc49ec39ba4f2460c1479fc81ae791aa1b574",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M0O100/molecule_map.tsv",
+    "path": "simulation/tasks/work-2/M0O100/molecule_map.tsv",
+    "source_sha256": "bf762c272152352d5826f3b0a31edb4df5c69fa2f3818019656069eeb3702b6c",
+    "sha256": "bf762c272152352d5826f3b0a31edb4df5c69fa2f3818019656069eeb3702b6c",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M0O100D1/run_metadata.json",
+    "path": "simulation/tasks/work-2/M0O100D1/run_metadata.json",
+    "source_sha256": "e6e5c864193d3739957c36ac38c3e5556f3ed81b6e123e8e8c249593d5ff80a7",
+    "sha256": "e6e5c864193d3739957c36ac38c3e5556f3ed81b6e123e8e8c249593d5ff80a7",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M0O100D1/molecule_map.tsv",
+    "path": "simulation/tasks/work-2/M0O100D1/molecule_map.tsv",
+    "source_sha256": "f33207ce7d3e36c93673767bed846d91c5e0a4d52b245d2775abeefaf1b96259",
+    "sha256": "f33207ce7d3e36c93673767bed846d91c5e0a4d52b245d2775abeefaf1b96259",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90/run_metadata.json",
+    "path": "simulation/tasks/work-2/M10O90/run_metadata.json",
+    "source_sha256": "e006b16fc6b9f2a469894f9d643339baba00e0a15dd5f3f813fa5cf08d853fd3",
+    "sha256": "e006b16fc6b9f2a469894f9d643339baba00e0a15dd5f3f813fa5cf08d853fd3",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90/molecule_map.tsv",
+    "path": "simulation/tasks/work-2/M10O90/molecule_map.tsv",
+    "source_sha256": "d132ebbea9b986f1e7494646bbab8ea2a5beece6a5cd2c2dc2c08488a04a017a",
+    "sha256": "d132ebbea9b986f1e7494646bbab8ea2a5beece6a5cd2c2dc2c08488a04a017a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90-S2/run_metadata.json",
+    "path": "simulation/tasks/work-2/M10O90-S2/run_metadata.json",
+    "source_sha256": "f765f6e2d9cc01542def5c39367cabf15ffdd8b8b8f8a8bcf22edf73b25aa583",
+    "sha256": "f765f6e2d9cc01542def5c39367cabf15ffdd8b8b8f8a8bcf22edf73b25aa583",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90-S2/molecule_map.tsv",
+    "path": "simulation/tasks/work-2/M10O90-S2/molecule_map.tsv",
+    "source_sha256": "caeae663ebf9613fdc186d7be17aa2d5d706993467c7b721e8a8c28600418640",
+    "sha256": "caeae663ebf9613fdc186d7be17aa2d5d706993467c7b721e8a8c28600418640",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90-S4/run_metadata.json",
+    "path": "simulation/tasks/work-2/M10O90-S4/run_metadata.json",
+    "source_sha256": "d467ef87eeee01a953b74b5949f701e6fc5cacc48e9172d68882b38cdc048c76",
+    "sha256": "d467ef87eeee01a953b74b5949f701e6fc5cacc48e9172d68882b38cdc048c76",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90-S4/molecule_map.tsv",
+    "path": "simulation/tasks/work-2/M10O90-S4/molecule_map.tsv",
+    "source_sha256": "ad03a367497f0273d0bc057fe9ff7307693df608f02fe091ef5ecd78316f0f06",
+    "sha256": "ad03a367497f0273d0bc057fe9ff7307693df608f02fe091ef5ecd78316f0f06",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90D1/run_metadata.json",
+    "path": "simulation/tasks/work-2/M10O90D1/run_metadata.json",
+    "source_sha256": "3710a1b1ca9069ea5dffc8383ec7648fc8e779963f622c60beb7b109e943cbfc",
+    "sha256": "3710a1b1ca9069ea5dffc8383ec7648fc8e779963f622c60beb7b109e943cbfc",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90D1/molecule_map.tsv",
+    "path": "simulation/tasks/work-2/M10O90D1/molecule_map.tsv",
+    "source_sha256": "a982c06a89164377d0a5ce547147a70cd22054fd44042c0e454064f4fb34c3f2",
+    "sha256": "a982c06a89164377d0a5ce547147a70cd22054fd44042c0e454064f4fb34c3f2",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90D1-S2/run_metadata.json",
+    "path": "simulation/tasks/work-2/M10O90D1-S2/run_metadata.json",
+    "source_sha256": "2575014262cdd765cea6001b082e737225937e81798188cb5cd9f240990286f6",
+    "sha256": "2575014262cdd765cea6001b082e737225937e81798188cb5cd9f240990286f6",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90D1-S2/molecule_map.tsv",
+    "path": "simulation/tasks/work-2/M10O90D1-S2/molecule_map.tsv",
+    "source_sha256": "7f808e24aae5087cfc5c61ba36a239fcfdc9cc8a8960e29af91117eb5f0c79f9",
+    "sha256": "7f808e24aae5087cfc5c61ba36a239fcfdc9cc8a8960e29af91117eb5f0c79f9",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90D1-S4/run_metadata.json",
+    "path": "simulation/tasks/work-2/M10O90D1-S4/run_metadata.json",
+    "source_sha256": "716cbbcaf133cb1bffff494ccd3b5c1a68293f8f591f00d3c9c6a28365ba6f59",
+    "sha256": "716cbbcaf133cb1bffff494ccd3b5c1a68293f8f591f00d3c9c6a28365ba6f59",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90D1-S4/molecule_map.tsv",
+    "path": "simulation/tasks/work-2/M10O90D1-S4/molecule_map.tsv",
+    "source_sha256": "b501d7db1a269ea2873dff0821768aad21e8e363a79534aa7cf7b2e7588e4e36",
+    "sha256": "b501d7db1a269ea2873dff0821768aad21e8e363a79534aa7cf7b2e7588e4e36",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M15O85/run_metadata.json",
+    "path": "simulation/tasks/work-2/M15O85/run_metadata.json",
+    "source_sha256": "5c75f7b5abe05143c08118cc5df2c09bf1aff7ac5904597a644bd824bfaccbf5",
+    "sha256": "5c75f7b5abe05143c08118cc5df2c09bf1aff7ac5904597a644bd824bfaccbf5",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M15O85/molecule_map.tsv",
+    "path": "simulation/tasks/work-2/M15O85/molecule_map.tsv",
+    "source_sha256": "1f12e1d6e7505a6aff0d69aa1930d6c7ead7b165ee95caa2ebf6e23fde2df623",
+    "sha256": "1f12e1d6e7505a6aff0d69aa1930d6c7ead7b165ee95caa2ebf6e23fde2df623",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M20O80/run_metadata.json",
+    "path": "simulation/tasks/work-2/M20O80/run_metadata.json",
+    "source_sha256": "de56bbf3232bab413bbb25b9cf016a6181a04d448f21bd4ca6a6a89aba587f64",
+    "sha256": "de56bbf3232bab413bbb25b9cf016a6181a04d448f21bd4ca6a6a89aba587f64",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M20O80/molecule_map.tsv",
+    "path": "simulation/tasks/work-2/M20O80/molecule_map.tsv",
+    "source_sha256": "fa06b3b494b3275adbb30695b047c03cc594a7069822186434f3f34a0b3abdef",
+    "sha256": "fa06b3b494b3275adbb30695b047c03cc594a7069822186434f3f34a0b3abdef",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M20O80D1/run_metadata.json",
+    "path": "simulation/tasks/work-2/M20O80D1/run_metadata.json",
+    "source_sha256": "3a5f26de7628ff4f0efe85a0f629bb7be27537d4f7c4039b91bf6ae63dfd4b48",
+    "sha256": "3a5f26de7628ff4f0efe85a0f629bb7be27537d4f7c4039b91bf6ae63dfd4b48",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M20O80D1/molecule_map.tsv",
+    "path": "simulation/tasks/work-2/M20O80D1/molecule_map.tsv",
+    "source_sha256": "7f4ba6160f5917192b45f9d37634b7bba3da96cad4f6d72c8b36e53d96c06feb",
+    "sha256": "7f4ba6160f5917192b45f9d37634b7bba3da96cad4f6d72c8b36e53d96c06feb",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M25O75/run_metadata.json",
+    "path": "simulation/tasks/work-2/M25O75/run_metadata.json",
+    "source_sha256": "6add2f47550f3ed5429f00e252aa8a597e154fdac88042e8db5ef9bd48893099",
+    "sha256": "6add2f47550f3ed5429f00e252aa8a597e154fdac88042e8db5ef9bd48893099",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M25O75/molecule_map.tsv",
+    "path": "simulation/tasks/work-2/M25O75/molecule_map.tsv",
+    "source_sha256": "27b1a6ddc3372d4c40792fbc340eb5f9c22276745bce87ba08fd92d34d4109a7",
+    "sha256": "27b1a6ddc3372d4c40792fbc340eb5f9c22276745bce87ba08fd92d34d4109a7",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M30O70/run_metadata.json",
+    "path": "simulation/tasks/work-2/M30O70/run_metadata.json",
+    "source_sha256": "5a9176e4b11658d7ff902669e2d337bb3e24c07495a6ed0a406629fa074578a3",
+    "sha256": "5a9176e4b11658d7ff902669e2d337bb3e24c07495a6ed0a406629fa074578a3",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M30O70/molecule_map.tsv",
+    "path": "simulation/tasks/work-2/M30O70/molecule_map.tsv",
+    "source_sha256": "7dbac40c9941025d0f0e143d45e84c59590b331989ba3d1ff3757f9055254d4a",
+    "sha256": "7dbac40c9941025d0f0e143d45e84c59590b331989ba3d1ff3757f9055254d4a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M50O0/run_metadata.json",
+    "path": "simulation/tasks/work-2/M50O0/run_metadata.json",
+    "source_sha256": "8c59fd879c0e13516bd58f790ce6da4eb99ae918c5f5793f7810ca6aeea83e2c",
+    "sha256": "8c59fd879c0e13516bd58f790ce6da4eb99ae918c5f5793f7810ca6aeea83e2c",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M50O0/molecule_map.tsv",
+    "path": "simulation/tasks/work-2/M50O0/molecule_map.tsv",
+    "source_sha256": "70c3b436cd8f77fae2da1e0f58c75990a3ad0378fbf28d19c454a8b8de8585e1",
+    "sha256": "70c3b436cd8f77fae2da1e0f58c75990a3ad0378fbf28d19c454a8b8de8585e1",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M50O0D1/run_metadata.json",
+    "path": "simulation/tasks/work-2/M50O0D1/run_metadata.json",
+    "source_sha256": "688e5f64944e834fb06ac89622c9bbfe9f39394fb96fd708ff39aee838b74f24",
+    "sha256": "688e5f64944e834fb06ac89622c9bbfe9f39394fb96fd708ff39aee838b74f24",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M50O0D1/molecule_map.tsv",
+    "path": "simulation/tasks/work-2/M50O0D1/molecule_map.tsv",
+    "source_sha256": "1feb984684124ecae4cabd7006b0a9b2c1d0ee74c0a12eafcfc638e70d618124",
+    "sha256": "1feb984684124ecae4cabd7006b0a9b2c1d0ee74c0a12eafcfc638e70d618124",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M50O50/run_metadata.json",
+    "path": "simulation/tasks/work-2/M50O50/run_metadata.json",
+    "source_sha256": "024ff84d719095be1d0db40b53922d12d3490af1915e9446ce46808a09a131c0",
+    "sha256": "024ff84d719095be1d0db40b53922d12d3490af1915e9446ce46808a09a131c0",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M50O50/molecule_map.tsv",
+    "path": "simulation/tasks/work-2/M50O50/molecule_map.tsv",
+    "source_sha256": "fda2847bb1967e5b1c20340fd51e968555f4c82644d58cfeab9dfecd9a5527e0",
+    "sha256": "fda2847bb1967e5b1c20340fd51e968555f4c82644d58cfeab9dfecd9a5527e0",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M5O95/run_metadata.json",
+    "path": "simulation/tasks/work-2/M5O95/run_metadata.json",
+    "source_sha256": "871f523573ca099507081e7d2766c757c3a03670b433148013ebf4472579beef",
+    "sha256": "871f523573ca099507081e7d2766c757c3a03670b433148013ebf4472579beef",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M5O95/molecule_map.tsv",
+    "path": "simulation/tasks/work-2/M5O95/molecule_map.tsv",
+    "source_sha256": "8608526c4617d52a4c8cae12158778f56aad9b369324474acde0e7c4bac40ca5",
+    "sha256": "8608526c4617d52a4c8cae12158778f56aad9b369324474acde0e7c4bac40ca5",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "work/D1/run_sim.py",
+    "path": "simulation/dna_only/original_runners/work.py",
+    "source_sha256": "26ccf2581a1a05833f3379bc5e41bf0092c5acbb9279fa9a9df9eb07ceaa9a8c",
+    "sha256": "26ccf2581a1a05833f3379bc5e41bf0092c5acbb9279fa9a9df9eb07ceaa9a8c",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "work-1/D1/run_sim.py",
+    "path": "simulation/dna_only/original_runners/work-1.py",
+    "source_sha256": "26ccf2581a1a05833f3379bc5e41bf0092c5acbb9279fa9a9df9eb07ceaa9a8c",
+    "sha256": "26ccf2581a1a05833f3379bc5e41bf0092c5acbb9279fa9a9df9eb07ceaa9a8c",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "work-2/D1/run_sim.py",
+    "path": "simulation/dna_only/original_runners/work-2.py",
+    "source_sha256": "26ccf2581a1a05833f3379bc5e41bf0092c5acbb9279fa9a9df9eb07ceaa9a8c",
+    "sha256": "26ccf2581a1a05833f3379bc5e41bf0092c5acbb9279fa9a9df9eb07ceaa9a8c",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/D1_unaffected_control_sampled.csv",
+    "path": "analysis/outputs/tables/D1_unaffected_control_sampled.csv",
+    "source_sha256": "90fa9edf65248a9a53db3301fceeacf8fa6230b93d2f4c442871f4d330855789",
+    "sha256": "90fa9edf65248a9a53db3301fceeacf8fa6230b93d2f4c442871f4d330855789",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/DNA_conformation_framewise.csv",
+    "path": "analysis/outputs/tables/DNA_conformation_framewise.csv",
+    "source_sha256": "b8bdcfe9673c58d6639c14723c704a6d157c08f91a3d091ddd7271b078d9ba19",
+    "sha256": "b8bdcfe9673c58d6639c14723c704a6d157c08f91a3d091ddd7271b078d9ba19",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/DNA_conformation_with_D1_by_replicate.csv",
+    "path": "analysis/outputs/tables/DNA_conformation_with_D1_by_replicate.csv",
+    "source_sha256": "a1d917d4d9bdcb9342fea642c8e55d787658617c457056225aa61e4ba1e053d4",
+    "sha256": "a1d917d4d9bdcb9342fea642c8e55d787658617c457056225aa61e4ba1e053d4",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/balanced_analysis_validation.csv",
+    "path": "analysis/outputs/tables/balanced_analysis_validation.csv",
+    "source_sha256": "8296064910b24da6d69f6acacafcfdbd6e9f9ceca1d14d69178beb0ed0eaa7d9",
+    "sha256": "8296064910b24da6d69f6acacafcfdbd6e9f9ceca1d14d69178beb0ed0eaa7d9",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/balanced_binned_contact_maps_group_summary.csv",
+    "path": "analysis/outputs/tables/balanced_binned_contact_maps_group_summary.csv",
+    "source_sha256": "8563beb0f09ee278644d59361d6b2a285b915ce88c3910b084f4f7841c19e072",
+    "sha256": "8563beb0f09ee278644d59361d6b2a285b915ce88c3910b084f4f7841c19e072",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/balanced_cluster_group.csv",
+    "path": "analysis/outputs/tables/balanced_cluster_group.csv",
+    "source_sha256": "8a186522616571caa8cd0ad0d45af4c47bbb5b9c25b0c2c204b41168a4f561f6",
+    "sha256": "8a186522616571caa8cd0ad0d45af4c47bbb5b9c25b0c2c204b41168a4f561f6",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/balanced_cluster_repeat.csv",
+    "path": "analysis/outputs/tables/balanced_cluster_repeat.csv",
+    "source_sha256": "f1b4e559ff772a57596042fdd4ec8de70330ff95a6b1609ed8844073c15d6909",
+    "sha256": "f1b4e559ff772a57596042fdd4ec8de70330ff95a6b1609ed8844073c15d6909",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/balanced_degree_group.csv",
+    "path": "analysis/outputs/tables/balanced_degree_group.csv",
+    "source_sha256": "8f1a8f37901539789617aec0cc2ab9d9653791da4ceb553997545f166454234d",
+    "sha256": "8f1a8f37901539789617aec0cc2ab9d9653791da4ceb553997545f166454234d",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/balanced_frame_group.csv",
+    "path": "analysis/outputs/tables/balanced_frame_group.csv",
+    "source_sha256": "b49c25db494e6c2969a085a0940dcc6a9f032c80db1d0feeab450b60d88dfc65",
+    "sha256": "b49c25db494e6c2969a085a0940dcc6a9f032c80db1d0feeab450b60d88dfc65",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/balanced_frame_repeat.csv",
+    "path": "analysis/outputs/tables/balanced_frame_repeat.csv",
+    "source_sha256": "eda27a213bd3a06ff035625b02ba98e9c61b3f2d5b644d4313371f6e6c1ac593",
+    "sha256": "eda27a213bd3a06ff035625b02ba98e9c61b3f2d5b644d4313371f6e6c1ac593",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/balanced_framewise_clusters.csv",
+    "path": "analysis/outputs/tables/balanced_framewise_clusters.csv",
+    "source_sha256": "22c0d7dbaa5e1408b7eacdd9997a662a5374d91721eaeec459e0bbc76d04f4a0",
+    "sha256": "22c0d7dbaa5e1408b7eacdd9997a662a5374d91721eaeec459e0bbc76d04f4a0",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/balanced_framewise_network_contacts_DNA.csv",
+    "path": "analysis/outputs/tables/balanced_framewise_network_contacts_DNA.csv",
+    "source_sha256": "4e9efc6af8b7d4e5394686fc001c12aac7614c46f68e6a7468183d38ca7a2cb9",
+    "sha256": "4e9efc6af8b7d4e5394686fc001c12aac7614c46f68e6a7468183d38ca7a2cb9",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/balanced_paired.csv",
+    "path": "analysis/outputs/tables/balanced_paired.csv",
+    "source_sha256": "ed1793272515cf5970b325f7f7cefe07ca1adb123fbe55ddd49e32207aa90716",
+    "sha256": "ed1793272515cf5970b325f7f7cefe07ca1adb123fbe55ddd49e32207aa90716",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/balanced_site_profiles_group_summary.csv",
+    "path": "analysis/outputs/tables/balanced_site_profiles_group_summary.csv",
+    "source_sha256": "54900e9d649f35abffaf7ee29be10f6ab93d1d2fa8de7a191a17fc3fa90cf69d",
+    "sha256": "54900e9d649f35abffaf7ee29be10f6ab93d1d2fa8de7a191a17fc3fa90cf69d",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/balanced_snapshot_selection.csv",
+    "path": "analysis/outputs/tables/balanced_snapshot_selection.csv",
+    "source_sha256": "61aa66c2491e7996b5966f629c10e373d5cc4b72170ba870beb132c3e1f667ae",
+    "sha256": "61aa66c2491e7996b5966f629c10e373d5cc4b72170ba870beb132c3e1f667ae",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/definition_audit_framewise.csv",
+    "path": "analysis/outputs/tables/definition_audit_framewise.csv",
+    "source_sha256": "7c05d8a0de0933ad53743a9e62ba53cd18d2aa39319d3a20612cd3354564bfbe",
+    "sha256": "7c05d8a0de0933ad53743a9e62ba53cd18d2aa39319d3a20612cd3354564bfbe",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/definition_audit_initial_radial_comparison.csv",
+    "path": "analysis/outputs/tables/definition_audit_initial_radial_comparison.csv",
+    "source_sha256": "ac0a31af59e495d70d6a07a50ce60540f8f74438bc6dcf0a37b3fa60e683f5e0",
+    "sha256": "ac0a31af59e495d70d6a07a50ce60540f8f74438bc6dcf0a37b3fa60e683f5e0",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/definition_audit_mask_decomposition_repeat.csv",
+    "path": "analysis/outputs/tables/definition_audit_mask_decomposition_repeat.csv",
+    "source_sha256": "06cee47a7d7dc5f14b1df486050172825fd729111b7e92f73e493aa6759d810f",
+    "sha256": "06cee47a7d7dc5f14b1df486050172825fd729111b7e92f73e493aa6759d810f",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/definition_audit_mask_transfer_group.csv",
+    "path": "analysis/outputs/tables/definition_audit_mask_transfer_group.csv",
+    "source_sha256": "87e7bada37f4d9deafbc19fd6e5474cce124672897d42ad1668d38e4abe31463",
+    "sha256": "87e7bada37f4d9deafbc19fd6e5474cce124672897d42ad1668d38e4abe31463",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/definition_audit_mask_transfer_repeat.csv",
+    "path": "analysis/outputs/tables/definition_audit_mask_transfer_repeat.csv",
+    "source_sha256": "d7073ad1526d9dc345e860cc6299062798058b66236cc48f8fbce5fc60d9b8af",
+    "sha256": "d7073ad1526d9dc345e860cc6299062798058b66236cc48f8fbce5fc60d9b8af",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/definition_audit_radial_paired_repeat.csv",
+    "path": "analysis/outputs/tables/definition_audit_radial_paired_repeat.csv",
+    "source_sha256": "ba9f7efe8d9255c7dbb9a258d0356798676f42353d53f193cb0c9f60891b819e",
+    "sha256": "ba9f7efe8d9255c7dbb9a258d0356798676f42353d53f193cb0c9f60891b819e",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/definition_audit_repeat.csv",
+    "path": "analysis/outputs/tables/definition_audit_repeat.csv",
+    "source_sha256": "f62777d7cbbc99777a6ac31ffd62b1cd0809b7fb6e1d482b2b3635a3879a1061",
+    "sha256": "f62777d7cbbc99777a6ac31ffd62b1cd0809b7fb6e1d482b2b3635a3879a1061",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/definition_audit_validation.csv",
+    "path": "analysis/outputs/tables/definition_audit_validation.csv",
+    "source_sha256": "0ff53e09e5d1c29d2fbdf43a7411243d4c7ec5901e50993e227ac05df7af2fd9",
+    "sha256": "0ff53e09e5d1c29d2fbdf43a7411243d4c7ec5901e50993e227ac05df7af2fd9",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/mechanism_framewise.csv",
+    "path": "analysis/outputs/tables/mechanism_framewise.csv",
+    "source_sha256": "b97a982d312c43194fe5c351ca8441be5fb32825dffc1817c95cd1b8ff6a9054",
+    "sha256": "b97a982d312c43194fe5c351ca8441be5fb32825dffc1817c95cd1b8ff6a9054",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/mechanism_group.csv",
+    "path": "analysis/outputs/tables/mechanism_group.csv",
+    "source_sha256": "f4c20c6693a12683faf0578f7d1ef297e198ec266c3dde6e9fe6313d433a067f",
+    "sha256": "f4c20c6693a12683faf0578f7d1ef297e198ec266c3dde6e9fe6313d433a067f",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/mechanism_radial_histogram_group.csv",
+    "path": "analysis/outputs/tables/mechanism_radial_histogram_group.csv",
+    "source_sha256": "e40565d8cbf9cab16ca2df0aa0c79f4360426dea3cb2749a3a5662e90ab2a10d",
+    "sha256": "e40565d8cbf9cab16ca2df0aa0c79f4360426dea3cb2749a3a5662e90ab2a10d",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/mechanism_radial_histogram_repeat.csv",
+    "path": "analysis/outputs/tables/mechanism_radial_histogram_repeat.csv",
+    "source_sha256": "7afd2696d39a1b1554265cfaffb231f56e30b6082e6f974f4c36db680accdbd8",
+    "sha256": "7afd2696d39a1b1554265cfaffb231f56e30b6082e6f974f4c36db680accdbd8",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/mechanism_repeat.csv",
+    "path": "analysis/outputs/tables/mechanism_repeat.csv",
+    "source_sha256": "06022e2cef8076c3e30f3c4dc5538e7f84f244fccde113084248a985294668aa",
+    "sha256": "06022e2cef8076c3e30f3c4dc5538e7f84f244fccde113084248a985294668aa",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/mechanism_split_did_group.csv",
+    "path": "analysis/outputs/tables/mechanism_split_did_group.csv",
+    "source_sha256": "d7ca0305e6cc0a4f85a977af795d7c89dcb5fe06d96732ccfc44ca151fd55d63",
+    "sha256": "d7ca0305e6cc0a4f85a977af795d7c89dcb5fe06d96732ccfc44ca151fd55d63",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/mechanism_split_did_repeat.csv",
+    "path": "analysis/outputs/tables/mechanism_split_did_repeat.csv",
+    "source_sha256": "7ce2238d7ac019a5250da99f14572e632791f4ec7af7b13e7446ce8332af5dd8",
+    "sha256": "7ce2238d7ac019a5250da99f14572e632791f4ec7af7b13e7446ce8332af5dd8",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/mechanism_split_effects_repeat.csv",
+    "path": "analysis/outputs/tables/mechanism_split_effects_repeat.csv",
+    "source_sha256": "ca2372146ed9301c70580d8145e3e4be0e17475eab006b5d5092548b0e9a9745",
+    "sha256": "ca2372146ed9301c70580d8145e3e4be0e17475eab006b5d5092548b0e9a9745",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/mechanism_validation.csv",
+    "path": "analysis/outputs/tables/mechanism_validation.csv",
+    "source_sha256": "6ffe4233307862e01ef9aebc011143c3be952fcc371fd619027113b27462826d",
+    "sha256": "6ffe4233307862e01ef9aebc011143c3be952fcc371fd619027113b27462826d",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/publication_1000frame_numerical_summary.csv",
+    "path": "analysis/outputs/tables/publication_1000frame_numerical_summary.csv",
+    "source_sha256": "925d3b7faae97761bd8ebce73964a990eec5bdc6afb6b16f00dd9a320517772c",
+    "sha256": "925d3b7faae97761bd8ebce73964a990eec5bdc6afb6b16f00dd9a320517772c",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/reframed_main_snapshot_selection.csv",
+    "path": "analysis/outputs/tables/reframed_main_snapshot_selection.csv",
+    "source_sha256": "ae26b207c20c518917f34cf53fddf7eb8c167bcd51d96d7b5992b9bd53ba51f5",
+    "sha256": "ae26b207c20c518917f34cf53fddf7eb8c167bcd51d96d7b5992b9bd53ba51f5",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/system_design.csv",
+    "path": "analysis/outputs/tables/system_design.csv",
+    "source_sha256": "cb043774e80c762c1b7452cc80ee036b5ad4b9da3a56a35df941c8da33478401",
+    "sha256": "cb043774e80c762c1b7452cc80ee036b5ad4b9da3a56a35df941c8da33478401",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/outputs/tables/trajectory_manifest.csv",
+    "path": "analysis/outputs/tables/trajectory_manifest.csv",
+    "source_sha256": "b9beb08653640f3a87c1f29b0ccc237d683d16795086750076f1ace941e3b7b8",
+    "sha256": "4cf149fc88489fd5c53f56ba2162dcd497d1a431a6a1d45055eec8567c7635ec",
+    "transformation": "portable paths only"
+  },
+  {
+    "source": "paper_analysis/FIG-10-10/TOC/TOC.pdf",
+    "path": "reference_figures/TOC/TOC.pdf",
+    "source_sha256": "e6af83955e0bf25868fdb8031a33179cf02b563d487a855eb67fc460df7f4206",
+    "sha256": "e6af83955e0bf25868fdb8031a33179cf02b563d487a855eb67fc460df7f4206",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "paper_analysis/FIG-10-10/figures/Fig1.pdf",
+    "path": "reference_figures/figures/Fig1.pdf",
+    "source_sha256": "5e2c36dcc1cb669e1b819684f1ff47080db93524a10c3b4341da0b212c8cd0a1",
+    "sha256": "5e2c36dcc1cb669e1b819684f1ff47080db93524a10c3b4341da0b212c8cd0a1",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "paper_analysis/FIG-10-10/figures/Fig2.pdf",
+    "path": "reference_figures/figures/Fig2.pdf",
+    "source_sha256": "de8bbca7fd4e48a299c9b18dc807b138aece520b04dc70941b921120dff088f7",
+    "sha256": "de8bbca7fd4e48a299c9b18dc807b138aece520b04dc70941b921120dff088f7",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "paper_analysis/FIG-10-10/figures/Fig3.pdf",
+    "path": "reference_figures/figures/Fig3.pdf",
+    "source_sha256": "415d3a67476c6062a28e543fd55a32727c5fbb7d67380f5e3201966add280f54",
+    "sha256": "415d3a67476c6062a28e543fd55a32727c5fbb7d67380f5e3201966add280f54",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "paper_analysis/FIG-10-10/figures/Fig4.pdf",
+    "path": "reference_figures/figures/Fig4.pdf",
+    "source_sha256": "9e7efdec9eb918a5d1f8fad71d3414a3ed90bfe64106de926cb28a9b02e7ffd9",
+    "sha256": "9e7efdec9eb918a5d1f8fad71d3414a3ed90bfe64106de926cb28a9b02e7ffd9",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "paper_analysis/FIG-10-10/supporting/S1_Fig.pdf",
+    "path": "reference_figures/supporting/S1_Fig.pdf",
+    "source_sha256": "0d4a9349f9ce8b48ba0aa2b0ee54ed4d08165f43f792e141df3095c3e5326ffe",
+    "sha256": "0d4a9349f9ce8b48ba0aa2b0ee54ed4d08165f43f792e141df3095c3e5326ffe",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "paper_analysis/FIG-10-10/supporting/S2_Fig.pdf",
+    "path": "reference_figures/supporting/S2_Fig.pdf",
+    "source_sha256": "c850e93ff03982833472f66a27aac9cd32076ed3126cd4dbca31fb29b0cb7853",
+    "sha256": "c850e93ff03982833472f66a27aac9cd32076ed3126cd4dbca31fb29b0cb7853",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "paper_analysis/FIG-10-10/supporting/S3_Fig.pdf",
+    "path": "reference_figures/supporting/S3_Fig.pdf",
+    "source_sha256": "3ad6ae75b273149ef8657d163efc175e31e22d8d46985f3e8598159b5667a69d",
+    "sha256": "3ad6ae75b273149ef8657d163efc175e31e22d8d46985f3e8598159b5667a69d",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "paper_analysis/FIG-10-10/supporting/S4_Fig.pdf",
+    "path": "reference_figures/supporting/S4_Fig.pdf",
+    "source_sha256": "e89d32c7371b9e689f235e0002ab08dfca99530eea8ffb79cdfd7ef0ef61ee17",
+    "sha256": "e89d32c7371b9e689f235e0002ab08dfca99530eea8ffb79cdfd7ef0ef61ee17",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "paper_analysis/FIG-10-10/supporting/S5_Fig.pdf",
+    "path": "reference_figures/supporting/S5_Fig.pdf",
+    "source_sha256": "ae93cb283c1e91db3d7f4b538d1b9ad60fb97f44da202f38d621cdb680e1f8ab",
+    "sha256": "ae93cb283c1e91db3d7f4b538d1b9ad60fb97f44da202f38d621cdb680e1f8ab",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "paper_analysis/FIG-10-10/supporting/S6_Fig.pdf",
+    "path": "reference_figures/supporting/S6_Fig.pdf",
+    "source_sha256": "cc7a5e6e2df72ba0dbd8a5eaf290ebcad9cd96e0c074107c91708dada0f289bd",
+    "sha256": "cc7a5e6e2df72ba0dbd8a5eaf290ebcad9cd96e0c074107c91708dada0f289bd",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "paper_analysis/FIG-10-10/supporting/S7_Fig.pdf",
+    "path": "reference_figures/supporting/S7_Fig.pdf",
+    "source_sha256": "f098954a5c38d3a6dfff6b7c66e61f54cdb150523ac9d8b67366d2c789c21cfc",
+    "sha256": "f098954a5c38d3a6dfff6b7c66e61f54cdb150523ac9d8b67366d2c789c21cfc",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "paper_analysis/FIG-10-10/supporting/S8_Fig.pdf",
+    "path": "reference_figures/supporting/S8_Fig.pdf",
+    "source_sha256": "bf85b18eb4392a6ca06417aaad385c622d0fde6e0c68353b1bafd928b28c498f",
+    "sha256": "bf85b18eb4392a6ca06417aaad385c622d0fde6e0c68353b1bafd928b28c498f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "paper_analysis/outputs/cache/figure_exports/FIG-10-10/structures/fig1_panel_b_med1_pymol.png",
+    "path": "analysis/figure_assets/fig1_panel_b_med1_pymol.png",
+    "source_sha256": "34dc3e75ea1656fa75077351e574f97d71bae4036fec52c8b688c2e3ca21fbfb",
+    "sha256": "34dc3e75ea1656fa75077351e574f97d71bae4036fec52c8b688c2e3ca21fbfb",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "paper_analysis/outputs/cache/figure_exports/FIG-10-10/structures/fig1_panel_b_oct4_pymol.png",
+    "path": "analysis/figure_assets/fig1_panel_b_oct4_pymol.png",
+    "source_sha256": "386f5acf0717cbeb59b967987a8bddc5fa97efbd2cd62eb05ef4a4e96272f66f",
+    "sha256": "386f5acf0717cbeb59b967987a8bddc5fa97efbd2cd62eb05ef4a4e96272f66f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "paper_analysis/outputs/cache/figure_exports/FIG-10-10/structures/fig1_panel_b_scale.json",
+    "path": "analysis/figure_assets/fig1_panel_b_scale.json",
+    "source_sha256": "c44ce6dbbbb477fd0bf8a56b9f00426533c8e7608d976c29b965c25ce4488e6b",
+    "sha256": "c44ce6dbbbb477fd0bf8a56b9f00426533c8e7608d976c29b965c25ce4488e6b",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M0O100/run.sh",
+    "path": "simulation/tasks/work/M0O100/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M0O100D1/run.sh",
+    "path": "simulation/tasks/work/M0O100D1/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90/run.sh",
+    "path": "simulation/tasks/work/M10O90/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90-S2/run.sh",
+    "path": "simulation/tasks/work/M10O90-S2/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90-S4/run.sh",
+    "path": "simulation/tasks/work/M10O90-S4/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90D1/run.sh",
+    "path": "simulation/tasks/work/M10O90D1/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90D1-S2/run.sh",
+    "path": "simulation/tasks/work/M10O90D1-S2/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90D1-S4/run.sh",
+    "path": "simulation/tasks/work/M10O90D1-S4/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M15O85/run.sh",
+    "path": "simulation/tasks/work/M15O85/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M20O80/run.sh",
+    "path": "simulation/tasks/work/M20O80/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M20O80D1/run.sh",
+    "path": "simulation/tasks/work/M20O80D1/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M25O75/run.sh",
+    "path": "simulation/tasks/work/M25O75/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M30O70/run.sh",
+    "path": "simulation/tasks/work/M30O70/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M50O0/run.sh",
+    "path": "simulation/tasks/work/M50O0/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M50O0D1/run.sh",
+    "path": "simulation/tasks/work/M50O0D1/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M50O50/run.sh",
+    "path": "simulation/tasks/work/M50O50/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M5O95/run.sh",
+    "path": "simulation/tasks/work/M5O95/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M0O100/run.sh",
+    "path": "simulation/tasks/work-1/M0O100/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M0O100D1/run.sh",
+    "path": "simulation/tasks/work-1/M0O100D1/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90/run.sh",
+    "path": "simulation/tasks/work-1/M10O90/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90-S2/run.sh",
+    "path": "simulation/tasks/work-1/M10O90-S2/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90-S4/run.sh",
+    "path": "simulation/tasks/work-1/M10O90-S4/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90D1/run.sh",
+    "path": "simulation/tasks/work-1/M10O90D1/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90D1-S2/run.sh",
+    "path": "simulation/tasks/work-1/M10O90D1-S2/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90D1-S4/run.sh",
+    "path": "simulation/tasks/work-1/M10O90D1-S4/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M15O85/run.sh",
+    "path": "simulation/tasks/work-1/M15O85/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M20O80/run.sh",
+    "path": "simulation/tasks/work-1/M20O80/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M20O80D1/run.sh",
+    "path": "simulation/tasks/work-1/M20O80D1/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M25O75/run.sh",
+    "path": "simulation/tasks/work-1/M25O75/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M30O70/run.sh",
+    "path": "simulation/tasks/work-1/M30O70/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M50O0/run.sh",
+    "path": "simulation/tasks/work-1/M50O0/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M50O0D1/run.sh",
+    "path": "simulation/tasks/work-1/M50O0D1/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M50O50/run.sh",
+    "path": "simulation/tasks/work-1/M50O50/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M5O95/run.sh",
+    "path": "simulation/tasks/work-1/M5O95/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M0O100/run.sh",
+    "path": "simulation/tasks/work-2/M0O100/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M0O100D1/run.sh",
+    "path": "simulation/tasks/work-2/M0O100D1/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90/run.sh",
+    "path": "simulation/tasks/work-2/M10O90/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90-S2/run.sh",
+    "path": "simulation/tasks/work-2/M10O90-S2/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90-S4/run.sh",
+    "path": "simulation/tasks/work-2/M10O90-S4/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90D1/run.sh",
+    "path": "simulation/tasks/work-2/M10O90D1/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90D1-S2/run.sh",
+    "path": "simulation/tasks/work-2/M10O90D1-S2/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90D1-S4/run.sh",
+    "path": "simulation/tasks/work-2/M10O90D1-S4/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M15O85/run.sh",
+    "path": "simulation/tasks/work-2/M15O85/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M20O80/run.sh",
+    "path": "simulation/tasks/work-2/M20O80/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M20O80D1/run.sh",
+    "path": "simulation/tasks/work-2/M20O80D1/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M25O75/run.sh",
+    "path": "simulation/tasks/work-2/M25O75/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M30O70/run.sh",
+    "path": "simulation/tasks/work-2/M30O70/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M50O0/run.sh",
+    "path": "simulation/tasks/work-2/M50O0/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M50O0D1/run.sh",
+    "path": "simulation/tasks/work-2/M50O0D1/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M50O50/run.sh",
+    "path": "simulation/tasks/work-2/M50O50/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M5O95/run.sh",
+    "path": "simulation/tasks/work-2/M5O95/run.sh",
+    "source_sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "sha256": "fdd6d176ce368f0087133f90ab8836c877865a769e17649195a613cb71472386",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "source": "paper_analysis/plot_academic_toc.py",
+    "path": "analysis/plot_academic_toc.py",
+    "source_sha256": "48eb3faa20e387a8e0648f273211e7cccba294706c60c3a15ea0cfecb08668e6",
+    "sha256": "48eb3faa20e387a8e0648f273211e7cccba294706c60c3a15ea0cfecb08668e6",
+    "transformation": "Publication numerical algorithms retained; portable paths, original-frame selection, and final per-figure export settings adapted where needed"
+  },
+  {
+    "source": "paper_analysis/plot_reframed_figures.py",
+    "path": "analysis/plot_reframed_figures.py",
+    "source_sha256": "302584c727db4c062e779bdc66367874aad2d3ef82715c962baf21045e750946",
+    "sha256": "ba8e50856f29e3b80d9aa6054636b3261479674507fb4ad818a19d2d5ce557dd",
+    "transformation": "Publication numerical algorithms retained; portable paths, original-frame selection, and final per-figure export settings adapted where needed"
+  },
+  {
+    "source": "paper_analysis/plot_reframed_supplementary.py",
+    "path": "analysis/plot_reframed_supplementary.py",
+    "source_sha256": "51e3f2e184fc354aafa2ae447e4645218ddb9fd1a0366899907b33a08c75f559",
+    "sha256": "16fcbaa68ddd9d2e10bae577a26d7063cb7397e3f68b674f89063a10379fcacc",
+    "transformation": "Publication numerical algorithms retained; portable paths, original-frame selection, and final per-figure export settings adapted where needed"
+  },
+  {
+    "source": "paper_analysis/publication_snapshots.py",
+    "path": "analysis/publication_snapshots.py",
+    "source_sha256": "55c7779f7c11af595a7fb31a58600f8aad2a86cf2ad1a15f385f78ef5fecdaee",
+    "sha256": "8cf03137cf826e76d3941eeb06da103fb9e805352088330a229d0a426cb4c887",
+    "transformation": "Publication numerical algorithms retained; portable paths, original-frame selection, and final per-figure export settings adapted where needed"
+  },
+  {
+    "source": "paper_analysis/publication_style.py",
+    "path": "analysis/publication_style.py",
+    "source_sha256": "3cd3f2b73519e4769fc04798cb366f7998ddd97a6d4b2fa5da3d0c58708e7c3f",
+    "sha256": "1549120ebf7c4186378d990edaf40b49d3adcd1b59e763c37faec1682287ba78",
+    "transformation": "Publication numerical algorithms retained; portable paths, original-frame selection, and final per-figure export settings adapted where needed"
+  },
+  {
+    "source": "paper_analysis/render_fig1_panel_b.pml",
+    "path": "analysis/render_fig1_panel_b.pml",
+    "source_sha256": "1f71e1b1215295921a68362a40941d256fd895ffdb14cff9ee6e9be7c9a3a667",
+    "sha256": "69b4c938d362b53b8d54bac667b3e134c03da20427778955913b3151af03f77f",
+    "transformation": "Publication numerical algorithms retained; portable paths, original-frame selection, and final per-figure export settings adapted where needed"
+  },
+  {
+    "source": "paper_analysis/render_snapshot_pymol.py",
+    "path": "analysis/render_snapshot_pymol.py",
+    "source_sha256": "6bc6c515b8079c07fad4c4c25b292c816f9f6ce1b7912f8637e1d477ed1686f2",
+    "sha256": "6bc6c515b8079c07fad4c4c25b292c816f9f6ce1b7912f8637e1d477ed1686f2",
+    "transformation": "Publication numerical algorithms retained; portable paths, original-frame selection, and final per-figure export settings adapted where needed"
+  },
+  {
+    "source": "paper_analysis/run_balanced_analysis.py",
+    "path": "analysis/run_balanced_analysis.py",
+    "source_sha256": "72e546abfc4ccb66a543b36b5dbd762974034017f1a5c533ae6ed99510b67ea9",
+    "sha256": "96c05aba4735d1149310551c756a9597a563aba5e6a38ab49b4722018eb58e9d",
+    "transformation": "Publication numerical algorithms retained; portable paths, original-frame selection, and final per-figure export settings adapted where needed"
+  },
+  {
+    "source": "paper_analysis/run_definition_audits.py",
+    "path": "analysis/run_definition_audits.py",
+    "source_sha256": "4b20ae5671e60ed07e4efdf8b55f6aa1d6752d0bdc3ab85ccc675ea581667155",
+    "sha256": "e211f205d79be9b839b723f41f9d6ae5255b60be4a4c3035faa4fafcecad48a7",
+    "transformation": "Publication numerical algorithms retained; portable paths, original-frame selection, and final per-figure export settings adapted where needed"
+  },
+  {
+    "source": "paper_analysis/run_mechanism_extensions.py",
+    "path": "analysis/run_mechanism_extensions.py",
+    "source_sha256": "75cc47226d697b461abc82abd09a86df7ced3f8ef1a159e0e4aa0b827a93881f",
+    "sha256": "466411d2683b24bab75eafd557ddec7c5bbc139f686228aa395a377ab2bccf10",
+    "transformation": "Publication numerical algorithms retained; portable paths, original-frame selection, and final per-figure export settings adapted where needed"
+  },
+  {
+    "source": "paper_analysis/run_publication_analysis.py",
+    "path": "analysis/run_publication_analysis.py",
+    "source_sha256": "81c5576e80e85e1c270ad1014ef9c247e9b6ab1f1358302fa089d6da290e23f0",
+    "sha256": "0f045725185f106ed26118592d2497952fb9244685f9ea7de2638ca154c4646c",
+    "transformation": "Publication numerical algorithms retained; portable paths, original-frame selection, and final per-figure export settings adapted where needed"
+  },
+  {
+    "source": "paper_analysis/validate_publication_sampling.py",
+    "path": "analysis/validate_publication_sampling.py",
+    "source_sha256": "6b42816da9490e1bb49c449ac17165f00e97bc349b5e097e00c79e54158868f3",
+    "sha256": "8ca29826b2d9add59f5b179fcb7baf0bf2987ed605afbdac7f98bcb2bc0e80d2",
+    "transformation": "Publication numerical algorithms retained; portable paths, original-frame selection, and final per-figure export settings adapted where needed"
+  }
+]

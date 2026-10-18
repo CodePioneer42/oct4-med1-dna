@@ -1,0 +1,5 @@
+# Preserve the byte-level checksums of exported scientific and upstream files.
+* -text
+*.gz binary
+*.pdf binary
+*.png binary

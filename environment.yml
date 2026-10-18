@@ -1,0 +1,16 @@
+name: oct4-med1-reproduce
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=2.4.6
+  - pandas=2.3.3
+  - scipy=1.17.1
+  - matplotlib=3.10.9
+  - mdanalysis=2.10.0
+  - pymol-open-source
+  - openmm
+  - mdtraj
+  - scikit-learn
+  - networkx
+  - pip

@@ -8,6 +8,8 @@ caches.  It writes only publication figures under ``outputs/figures``.
 from __future__ import annotations
 
 import argparse
+from functools import wraps
+from io import BytesIO
 import json
 import warnings
 import xml.etree.ElementTree as ET
@@ -24,7 +26,7 @@ from matplotlib.colors import BoundaryNorm, ListedColormap, to_rgba
 from matplotlib.patches import Patch
 
 import run_balanced_analysis as base
-from publication_style import CONDITIONS, OCT4_REGIONS
+from publication_style import CONDITIONS, OCT4_REGIONS, FIG1010_ORIGINAL_SI_STYLE
 from run_mechanism_extensions import EXTENSION_VERSION
 
 
@@ -62,6 +64,17 @@ MED1_PLDDT_REGIONS = [
     (361, 518, "#E29450", "M4"),
 ]
 MED1_ALPHAFOLD_PDB = base.PACKAGE_ROOT / "inputs" / "MED1-alphafold.pdb"
+
+
+def original_fig1010_style(function):
+    """Keep the typography of the four earlier PDFs in the final figure set."""
+    @wraps(function)
+    def render(*args, **kwargs):
+        from matplotlib.font_manager import FontProperties, findfont
+        findfont(FontProperties(family="Arial"), fallback_to_default=False)
+        with matplotlib.rc_context(FIG1010_ORIGINAL_SI_STYLE):
+            return function(*args, **kwargs)
+    return render
 
 
 def read_table(tables_dir: Path, name: str) -> pd.DataFrame:
@@ -193,6 +206,13 @@ def save_supporting(fig: plt.Figure, path: Path) -> None:
     titled_axes = [ax.get_title() for ax in fig.axes if ax.get_title()]
     if titled_axes:
         raise RuntimeError(f"Supporting subplot titles are not allowed: {titled_axes}")
+    if path.stem in {"figS2_cutoff_sensitivity", "figS3_MED1_partner_composition"}:
+        # These final PDFs followed a PNG export. Repeat its layout pass in
+        # memory: constrained_layout otherwise stops at a slightly different
+        # position on the first PDF-only save.
+        with BytesIO() as intermediate:
+            fig.savefig(intermediate, format="png", dpi=600,
+                        bbox_inches="tight", pad_inches=0.03)
     base.save_figure(fig, path)
 
 
@@ -226,6 +246,7 @@ def pack_supporting_row(fig: plt.Figure, axes: list[plt.Axes], *, twins=None) ->
     pack_figure_rows(fig, [[ax for group in groups for ax in group]], resize=True)
 
 
+@original_fig1010_style
 def plot_med1_plddt(out: Path) -> None:
     """S1: AlphaFold pLDDT profile and the four MED1 restraint regions."""
     if not MED1_ALPHAFOLD_PDB.exists():
@@ -332,6 +353,7 @@ def read_protein_charges() -> dict[str, np.ndarray]:
     return proteins
 
 
+@original_fig1010_style
 def plot_protein_charge_distribution(out: Path) -> None:
     """S8: per-residue charges and identically smoothed sequence profiles."""
     profiles = read_protein_charges()
@@ -455,7 +477,10 @@ def draw_dna_only_snapshot(ax: plt.Axes, selected: pd.Series) -> None:
         topology_format="PDB",
         format="DCD",
     )
-    universe.trajectory[int(selected["frame"]) - 1]
+    stored_frame = base.trajectory_frame_indices(
+        task_path, len(universe.trajectory), [int(selected["frame"])]
+    )[0]
+    universe.trajectory[stored_frame]
     coordinates_nm = universe.atoms.positions.astype(np.float64) / 10.0
     whole = base.unwrap_dna(coordinates_nm, box_nm)
     centered = whole - whole.mean(axis=0)
@@ -519,6 +544,7 @@ def plot_composition_diagnostics(
     save_supporting(fig, out / "figS4_composition_snapshots")
 
 
+@original_fig1010_style
 def plot_cutoff_sensitivity(
     tables: dict[str, pd.DataFrame],
     out: Path,
@@ -647,6 +673,7 @@ def plot_cutoff_sensitivity(
     save_supporting(fig, out / "figS2_cutoff_sensitivity")
 
 
+@original_fig1010_style
 def plot_med1_partner_composition(
     tables: dict[str, pd.DataFrame],
     out: Path,

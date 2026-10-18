@@ -1,0 +1,14 @@
+system,replicate,frame,time_us,selection_rule
+M0O100,work-2,2997,2.997,sampled frame nearest pooled medians of direct LCC and edge density; weak 3-us preference
+M5O95,work-2,3141,3.141,sampled frame nearest pooled medians of direct LCC and edge density; weak 3-us preference
+M10O90,work,3461,3.461,sampled frame nearest pooled medians of direct LCC and edge density; weak 3-us preference
+M15O85,work,3093,3.093,sampled frame nearest pooled medians of direct LCC and edge density; weak 3-us preference
+M20O80,work,2809,2.809,sampled frame nearest pooled medians of direct LCC and edge density; weak 3-us preference
+M25O75,work-2,2861,2.861,sampled frame nearest pooled medians of direct LCC and edge density; weak 3-us preference
+M30O70,work-2,2405,2.405,sampled frame nearest pooled medians of direct LCC and edge density; weak 3-us preference
+M50O50,work-1,2033,2.033,sampled frame nearest pooled medians of direct LCC and edge density; weak 3-us preference
+M0O100D1,work,3717,3.717,sampled frame nearest pooled medians of direct LCC and edge density; weak 3-us preference
+M10O90D1,work,2921,2.9210000000000003,sampled frame nearest pooled medians of direct LCC and edge density; weak 3-us preference
+M20O80D1,work-1,2945,2.945,sampled frame nearest pooled medians of direct LCC and edge density; weak 3-us preference
+M50O0D1,work-1,3025,3.025,sampled frame nearest pooled medians of direct LCC and edge density; weak 3-us preference
+M50O0D1,work-1,3025,3.025,sampled frame nearest pooled medians of direct LCC and edge density; weak 3-us preference

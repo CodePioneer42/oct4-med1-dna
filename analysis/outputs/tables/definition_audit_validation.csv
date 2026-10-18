@@ -1,0 +1,5 @@
+check,value,required,passed
+each trajectory contributes 1000 production frames,[1000],[1000],True
+mask decomposition is exactly additive,0,<=1e-12,True
+fixed-member initial metrics are invariant across Full/Split maps,max range=0 nm,<=1e-10 nm,True
+native-pair removal matches task metadata,"{'Split-2': 0, 'Split-4': 244}","{'Split-2': 0, 'Split-4': 244}",True

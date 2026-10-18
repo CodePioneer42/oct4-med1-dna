@@ -1,0 +1,554 @@
+{
+  "validated_at": "2026-10-18T03:21:45.305507+00:00",
+  "figure_authority": "paper_analysis/FIG-10-10",
+  "base_commit": "893d6d4b310987e0aa49b9aef918a359977a5f53",
+  "source_materials": {
+    "protein_tasks": 51,
+    "dna_only_controls": 3,
+    "figure_source_tables": 36,
+    "direct_plot_input_tables": 29,
+    "compressed_objects": 79,
+    "compressed_input_bytes": 107463924,
+    "restored_input_files": 127,
+    "restored_bytes": 1616514891,
+    "reference_pdfs_byte_identical_to_authoritative_directory": 13
+  },
+  "validation": {
+    "unit_tests_passed": 7,
+    "sampling_checks_passed": 21,
+    "production_package_static_validation": "passed",
+    "production_package_file_checksums": 232,
+    "split_topology_validation": "passed",
+    "dna_cpu_smoke_test_steps": 20,
+    "dna_cpu_smoke_test": "passed",
+    "clean_checkout_input_restoration": "passed",
+    "clean_checkout_sampling": "passed",
+    "clean_checkout_table_figure_text_layout_matches": 5,
+    "full_analysis_rejects_snapshot_only_dataset": true
+  },
+  "figure_reproduction": {
+    "generated_pdfs": 13,
+    "matching_text_layouts": 13,
+    "matching_raster_dimensions": 13,
+    "exact_rasters_at_144_dpi": 9,
+    "maximum_channel_error_out_of_255": 2,
+    "figures": [
+      {
+        "file": "TOC/TOC.pdf",
+        "dpi": 144,
+        "text_layout_identical": true,
+        "raster_dimensions_identical": true,
+        "reference_shape": [
+          252,
+          468,
+          3
+        ],
+        "generated_shape": [
+          252,
+          468,
+          3
+        ],
+        "raster_identical": false,
+        "differing_pixel_fraction": 0.0004578754578754579,
+        "mean_absolute_channel_error": 0.00016393071948627504,
+        "max_channel_error": 1
+      },
+      {
+        "file": "figures/Fig1.pdf",
+        "dpi": 144,
+        "text_layout_identical": true,
+        "raster_dimensions_identical": true,
+        "reference_shape": [
+          826,
+          1019,
+          3
+        ],
+        "generated_shape": [
+          826,
+          1019,
+          3
+        ],
+        "raster_identical": true,
+        "differing_pixel_fraction": 0.0,
+        "mean_absolute_channel_error": 0.0,
+        "max_channel_error": 0
+      },
+      {
+        "file": "figures/Fig2.pdf",
+        "dpi": 144,
+        "text_layout_identical": true,
+        "raster_dimensions_identical": true,
+        "reference_shape": [
+          652,
+          980,
+          3
+        ],
+        "generated_shape": [
+          652,
+          980,
+          3
+        ],
+        "raster_identical": true,
+        "differing_pixel_fraction": 0.0,
+        "mean_absolute_channel_error": 0.0,
+        "max_channel_error": 0
+      },
+      {
+        "file": "figures/Fig3.pdf",
+        "dpi": 144,
+        "text_layout_identical": true,
+        "raster_dimensions_identical": true,
+        "reference_shape": [
+          652,
+          1025,
+          3
+        ],
+        "generated_shape": [
+          652,
+          1025,
+          3
+        ],
+        "raster_identical": false,
+        "differing_pixel_fraction": 0.00041448451294328893,
+        "mean_absolute_channel_error": 0.00015462117811362164,
+        "max_channel_error": 1
+      },
+      {
+        "file": "figures/Fig4.pdf",
+        "dpi": 144,
+        "text_layout_identical": true,
+        "raster_dimensions_identical": true,
+        "reference_shape": [
+          888,
+          1015,
+          3
+        ],
+        "generated_shape": [
+          888,
+          1015,
+          3
+        ],
+        "raster_identical": false,
+        "differing_pixel_fraction": 0.0005014867083832601,
+        "mean_absolute_channel_error": 0.00020303554786313407,
+        "max_channel_error": 2
+      },
+      {
+        "file": "supporting/S1_Fig.pdf",
+        "dpi": 144,
+        "text_layout_identical": true,
+        "raster_dimensions_identical": true,
+        "reference_shape": [
+          429,
+          1027,
+          3
+        ],
+        "generated_shape": [
+          429,
+          1027,
+          3
+        ],
+        "raster_identical": true,
+        "differing_pixel_fraction": 0.0,
+        "mean_absolute_channel_error": 0.0,
+        "max_channel_error": 0
+      },
+      {
+        "file": "supporting/S2_Fig.pdf",
+        "dpi": 144,
+        "text_layout_identical": true,
+        "raster_dimensions_identical": true,
+        "reference_shape": [
+          480,
+          688,
+          3
+        ],
+        "generated_shape": [
+          480,
+          688,
+          3
+        ],
+        "raster_identical": true,
+        "differing_pixel_fraction": 0.0,
+        "mean_absolute_channel_error": 0.0,
+        "max_channel_error": 0
+      },
+      {
+        "file": "supporting/S3_Fig.pdf",
+        "dpi": 144,
+        "text_layout_identical": true,
+        "raster_dimensions_identical": true,
+        "reference_shape": [
+          501,
+          1034,
+          3
+        ],
+        "generated_shape": [
+          501,
+          1034,
+          3
+        ],
+        "raster_identical": true,
+        "differing_pixel_fraction": 0.0,
+        "mean_absolute_channel_error": 0.0,
+        "max_channel_error": 0
+      },
+      {
+        "file": "supporting/S4_Fig.pdf",
+        "dpi": 144,
+        "text_layout_identical": true,
+        "raster_dimensions_identical": true,
+        "reference_shape": [
+          1019,
+          1006,
+          3
+        ],
+        "generated_shape": [
+          1019,
+          1006,
+          3
+        ],
+        "raster_identical": false,
+        "differing_pixel_fraction": 6.145657946335725e-05,
+        "mean_absolute_channel_error": 2.243652901043201e-05,
+        "max_channel_error": 1
+      },
+      {
+        "file": "supporting/S5_Fig.pdf",
+        "dpi": 144,
+        "text_layout_identical": true,
+        "raster_dimensions_identical": true,
+        "reference_shape": [
+          1209,
+          1022,
+          3
+        ],
+        "generated_shape": [
+          1209,
+          1022,
+          3
+        ],
+        "raster_identical": true,
+        "differing_pixel_fraction": 0.0,
+        "mean_absolute_channel_error": 0.0,
+        "max_channel_error": 0
+      },
+      {
+        "file": "supporting/S6_Fig.pdf",
+        "dpi": 144,
+        "text_layout_identical": true,
+        "raster_dimensions_identical": true,
+        "reference_shape": [
+          335,
+          687,
+          3
+        ],
+        "generated_shape": [
+          335,
+          687,
+          3
+        ],
+        "raster_identical": true,
+        "differing_pixel_fraction": 0.0,
+        "mean_absolute_channel_error": 0.0,
+        "max_channel_error": 0
+      },
+      {
+        "file": "supporting/S7_Fig.pdf",
+        "dpi": 144,
+        "text_layout_identical": true,
+        "raster_dimensions_identical": true,
+        "reference_shape": [
+          335,
+          967,
+          3
+        ],
+        "generated_shape": [
+          335,
+          967,
+          3
+        ],
+        "raster_identical": true,
+        "differing_pixel_fraction": 0.0,
+        "mean_absolute_channel_error": 0.0,
+        "max_channel_error": 0
+      },
+      {
+        "file": "supporting/S8_Fig.pdf",
+        "dpi": 144,
+        "text_layout_identical": true,
+        "raster_dimensions_identical": true,
+        "reference_shape": [
+          660,
+          1024,
+          3
+        ],
+        "generated_shape": [
+          660,
+          1024,
+          3
+        ],
+        "raster_identical": true,
+        "differing_pixel_fraction": 0.0,
+        "mean_absolute_channel_error": 0.0,
+        "max_channel_error": 0
+      }
+    ]
+  },
+  "snapshot_coordinate_checks": [
+    {
+      "system": "D1",
+      "replicate": "work-2",
+      "source_frame": 3065,
+      "atom_count": 400,
+      "reader_arrays_identical": true,
+      "coordinate_record_bytes_identical": true
+    },
+    {
+      "system": "M0O100D1",
+      "replicate": "work",
+      "source_frame": 2841,
+      "atom_count": 36400,
+      "reader_arrays_identical": true,
+      "coordinate_record_bytes_identical": true
+    },
+    {
+      "system": "M0O100D1",
+      "replicate": "work",
+      "source_frame": 3717,
+      "atom_count": 36400,
+      "reader_arrays_identical": true,
+      "coordinate_record_bytes_identical": true
+    },
+    {
+      "system": "M10O90",
+      "replicate": "work",
+      "source_frame": 3461,
+      "atom_count": 48210,
+      "reader_arrays_identical": true,
+      "coordinate_record_bytes_identical": true
+    },
+    {
+      "system": "M10O90-S2",
+      "replicate": "work",
+      "source_frame": 3025,
+      "atom_count": 48210,
+      "reader_arrays_identical": true,
+      "coordinate_record_bytes_identical": true
+    },
+    {
+      "system": "M10O90D1",
+      "replicate": "work",
+      "source_frame": 2921,
+      "atom_count": 48610,
+      "reader_arrays_identical": true,
+      "coordinate_record_bytes_identical": true
+    },
+    {
+      "system": "M10O90D1",
+      "replicate": "work",
+      "source_frame": 3021,
+      "atom_count": 48610,
+      "reader_arrays_identical": true,
+      "coordinate_record_bytes_identical": true
+    },
+    {
+      "system": "M15O85",
+      "replicate": "work",
+      "source_frame": 3093,
+      "atom_count": 54315,
+      "reader_arrays_identical": true,
+      "coordinate_record_bytes_identical": true
+    },
+    {
+      "system": "M20O80",
+      "replicate": "work",
+      "source_frame": 2809,
+      "atom_count": 60420,
+      "reader_arrays_identical": true,
+      "coordinate_record_bytes_identical": true
+    },
+    {
+      "system": "M10O90D1",
+      "replicate": "work-1",
+      "source_frame": 2389,
+      "atom_count": 48610,
+      "reader_arrays_identical": true,
+      "coordinate_record_bytes_identical": true
+    },
+    {
+      "system": "M10O90D1-S2",
+      "replicate": "work-1",
+      "source_frame": 2389,
+      "atom_count": 48610,
+      "reader_arrays_identical": true,
+      "coordinate_record_bytes_identical": true
+    },
+    {
+      "system": "M20O80D1",
+      "replicate": "work-1",
+      "source_frame": 2869,
+      "atom_count": 60820,
+      "reader_arrays_identical": true,
+      "coordinate_record_bytes_identical": true
+    },
+    {
+      "system": "M20O80D1",
+      "replicate": "work-1",
+      "source_frame": 2945,
+      "atom_count": 60820,
+      "reader_arrays_identical": true,
+      "coordinate_record_bytes_identical": true
+    },
+    {
+      "system": "M50O0D1",
+      "replicate": "work-1",
+      "source_frame": 3025,
+      "atom_count": 79450,
+      "reader_arrays_identical": true,
+      "coordinate_record_bytes_identical": true
+    },
+    {
+      "system": "M50O50",
+      "replicate": "work-1",
+      "source_frame": 2033,
+      "atom_count": 97050,
+      "reader_arrays_identical": true,
+      "coordinate_record_bytes_identical": true
+    },
+    {
+      "system": "M0O100",
+      "replicate": "work-2",
+      "source_frame": 2997,
+      "atom_count": 36000,
+      "reader_arrays_identical": true,
+      "coordinate_record_bytes_identical": true
+    },
+    {
+      "system": "M10O90D1-S2",
+      "replicate": "work-2",
+      "source_frame": 3053,
+      "atom_count": 48610,
+      "reader_arrays_identical": true,
+      "coordinate_record_bytes_identical": true
+    },
+    {
+      "system": "M25O75",
+      "replicate": "work-2",
+      "source_frame": 2861,
+      "atom_count": 66525,
+      "reader_arrays_identical": true,
+      "coordinate_record_bytes_identical": true
+    },
+    {
+      "system": "M30O70",
+      "replicate": "work-2",
+      "source_frame": 2405,
+      "atom_count": 72630,
+      "reader_arrays_identical": true,
+      "coordinate_record_bytes_identical": true
+    },
+    {
+      "system": "M50O0",
+      "replicate": "work-2",
+      "source_frame": 3001,
+      "atom_count": 79050,
+      "reader_arrays_identical": true,
+      "coordinate_record_bytes_identical": true
+    },
+    {
+      "system": "M50O0D1",
+      "replicate": "work-2",
+      "source_frame": 2917,
+      "atom_count": 79450,
+      "reader_arrays_identical": true,
+      "coordinate_record_bytes_identical": true
+    },
+    {
+      "system": "M5O95",
+      "replicate": "work-2",
+      "source_frame": 3141,
+      "atom_count": 42105,
+      "reader_arrays_identical": true,
+      "coordinate_record_bytes_identical": true
+    }
+  ],
+  "serialized_system_checks": [
+    {
+      "task_id": "work/M10O90D1-S2",
+      "particles": 48610,
+      "forces": 11,
+      "random_seed": 2026081103,
+      "timestep_fs": 10.0,
+      "friction_per_ps": 0.01,
+      "total_steps": 500000000,
+      "output_interval": 100000,
+      "system_xml_sha256": "31060e7e5f51dae11cfb9f46a99c93d34871d2e34eea578238a90c35818a16be",
+      "openmm_version": "8.5.1",
+      "platform": "CUDA"
+    },
+    {
+      "task_id": "work-1/M15O85",
+      "particles": 54315,
+      "forces": 8,
+      "random_seed": 2026090401,
+      "timestep_fs": 10.0,
+      "friction_per_ps": 0.01,
+      "total_steps": 500000000,
+      "output_interval": 100000,
+      "system_xml_sha256": "812cf097df0f493bd89084019ed9f56ff60abcff449bc5d9a97b33b061f8f525",
+      "openmm_version": "8.5.1",
+      "platform": "CUDA"
+    },
+    {
+      "task_id": "work-2/M50O50",
+      "particles": 97050,
+      "forces": 8,
+      "random_seed": 2026090402,
+      "timestep_fs": 10.0,
+      "friction_per_ps": 0.01,
+      "total_steps": 500000000,
+      "output_interval": 100000,
+      "system_xml_sha256": "d12f146f0e48a9a18717dcfe6481e6c13c8d60255cd32f83313f89a138a7aa21",
+      "openmm_version": "8.5.1",
+      "platform": "CUDA"
+    },
+    {
+      "task_id": "work/D1",
+      "particles": 400,
+      "forces": 6,
+      "random_seed": null,
+      "timestep_fs": 10.0,
+      "friction_per_ps": 0.01,
+      "total_steps": 500000000,
+      "output_interval": 100000,
+      "system_xml_sha256": "8fcd284d672d3f12519cf5da92e038c4472284cbb767f70244c62ddc24beaca6",
+      "openmm_version": "8.5.1",
+      "platform": "CUDA"
+    }
+  ],
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.9",
+    "MDAnalysis": "2.10.0",
+    "openmm": "8.5.1"
+  },
+  "fonts": {
+    "Arial": {
+      "file": "Arial.ttf",
+      "sha256": "35c0f3559d8db569e36c31095b8a60d441643d95f59139de40e23fada819b833"
+    },
+    "Nimbus Sans": {
+      "file": "NimbusSans-Regular.otf",
+      "sha256": "7c25be4d78155523080ab85b10277150657ff7dabbcad7037bdd536c9b6d0d08"
+    }
+  },
+  "limits": [
+    "Complete production trajectories are not included; snapshot coordinates contain only 22 original frames.",
+    "Full production dynamics and all trajectory metrics were not rerun.",
+    "S7C follows FIG-10-10 physical-chain denominators (Full=10, Split-2=20), not parental-MED1 deduplication."
+  ]
+}

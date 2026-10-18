@@ -1,0 +1,13 @@
+name: med1fix
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - cuda-version=13.0
+  - openmm=8.5.1
+  - mdtraj=1.11.1
+  - mdanalysis=2.10.0
+  - numpy=2.4.6
+  - pandas=2.3.3
+  - scipy=1.17.1
+  - pip

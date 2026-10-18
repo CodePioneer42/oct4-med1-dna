@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-"""Render the current PDF figures from external analysis results.
+"""Render the FIG-10-10 PDF figures from the included source data.
 
 Example: python analysis/reproduce_figures.py --set all --package-root /path/to/data
 --analysis-output /path/to/results --output /path/to/figures
 
 The default 'tables' set renders S2, S3, S5, S6, S7 without trajectories.
 The 'main' set renders Figures 1-4 and TOC; 'supporting' renders S1-S8.
-Molecular snapshots require the external trajectories and a PyMOL executable.
+Run scripts/prepare_inputs.py first. Molecular snapshots use the included
+selected coordinate frames and require a PyMOL executable.
 """
 
 from __future__ import annotations
@@ -24,11 +25,13 @@ HERE = Path(__file__).resolve().parent
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--set", choices=["tables", "main", "supporting", "all"], default="tables")
-    parser.add_argument("--package-root", type=Path, default=HERE.parent / "data")
+    parser.add_argument("--package-root", type=Path, default=HERE.parent / "simulation")
     parser.add_argument("--data-root", type=Path)
     parser.add_argument("--dna-only-root", type=Path)
     parser.add_argument("--analysis-output", type=Path, default=HERE / "outputs")
     parser.add_argument("--output", type=Path, default=HERE.parent / "generated")
+    parser.add_argument("--rerender-structures", action="store_true",
+                        help="Regenerate the two Figure 1B molecular renders from input PDBs")
     args = parser.parse_args()
     package = args.package_root.expanduser().resolve()
     data = (args.data_root or package / "tasks").expanduser().resolve()
@@ -52,12 +55,15 @@ def main() -> None:
     from publication_style import FONT
 
     findfont(FontProperties(family=FONT), fallback_to_default=False)
+    if args.set in {"tables", "supporting", "all"}:
+        findfont(FontProperties(family="Arial"), fallback_to_default=False)
     base.configure_style()
     warnings.filterwarnings("ignore", message="DCDReader currently makes independent timesteps")
     warnings.filterwarnings("ignore", message="Unknown element .*")
     warnings.filterwarnings("ignore", message="Element information is missing.*")
     snapshots.RENDER_DIR = output / "cache" / "snapshots"
-    mainfig.MAIN_FIGURES = output / "cache" / "structures"
+    mainfig.MAIN_FIGURES = (output / "cache" / "structures" if args.rerender_structures
+                           else HERE / "figure_assets")
 
     def relocate(tables):
         manifest = tables["trajectory_manifest"].copy()

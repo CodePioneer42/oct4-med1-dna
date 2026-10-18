@@ -6,13 +6,16 @@ Example: python analysis/run_publication_analysis.py --package-root /path/to/dat
 
 The package contains task_manifest.tsv, inputs/*.pdb, and tasks/<replicate>/<system>/
 with start.pdb, output.dcd, molecule_map.tsv, run_metadata.json, system.xml, and DONE.
-DNA-only controls contain <replicate>/D1/start.pdb and output.dcd. No input data,
-analysis results, or final figures are distributed in this repository.
+DNA-only controls contain <replicate>/D1/start.pdb and output.dcd. The repository
+includes production inputs, figure source tables, and the selected figure
+snapshots. Recomputing the complete analysis needs the full analysis-frame
+trajectories; the small figure-snapshot subset is insufficient for that step.
 """
 
 from __future__ import annotations
 
 import argparse
+import json
 from concurrent.futures import ProcessPoolExecutor, as_completed
 import os
 from pathlib import Path
@@ -42,10 +45,10 @@ def cache_job(kind, task, cache_dir, recompute):
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--package-root", type=Path, default=HERE.parent / "data")
+    parser.add_argument("--package-root", type=Path, default=HERE.parent / "simulation")
     parser.add_argument("--data-root", type=Path, help="Trajectory directory; default: PACKAGE_ROOT/tasks")
     parser.add_argument("--dna-only-root", type=Path, help="DNA-only controls; default: PACKAGE_ROOT/dna_only")
-    parser.add_argument("--output", type=Path, default=HERE / "outputs")
+    parser.add_argument("--output", type=Path, default=HERE.parent / "generated/recomputed-analysis")
     parser.add_argument("--workers", type=int, default=4)
     parser.add_argument("--recompute", action="store_true")
     mode = parser.add_mutually_exclusive_group()
@@ -62,6 +65,12 @@ def main() -> None:
         parser.error("--workers must be positive")
     if not (package / "task_manifest.tsv").is_file():
         parser.error(f"Missing input manifest: {package / 'task_manifest.tsv'}")
+    if not args.aggregate_only:
+        for sidecar in list(data.glob("*/*/trajectory_frames.json")) + list(dna.glob("*/D1/trajectory_frames.json")):
+            if json.loads(sidecar.read_text()).get("purpose") == "figure_snapshots_only":
+                parser.error("The supplied coordinates contain figure snapshots only. "
+                             "Use reproduce_figures.py to redraw the figures, or supply full "
+                             "analysis trajectories with --data-root and --dna-only-root.")
     os.environ.update({
         "OCT4_MED1_PACKAGE_ROOT": str(package), "OCT4_MED1_DATA_ROOT": str(data),
         "OCT4_MED1_DNA_ONLY_ROOT": str(dna), "OCT4_MED1_OUTPUT": str(output),

@@ -1,0 +1,1418 @@
+{
+  "schema": "oct4-med1-gzip-inputs-v1",
+  "objects": [
+    {
+      "path": "simulation/input_objects/63eb58eed9e312f3946dce3c7b32c9d51027a7a1393ae374ed92c5a1375c6e0d.gz",
+      "sha256": "2e2bf49fca2676e4132a79e2eefc252fb77f6ef87bdf706a63f6abd9ed6bb28c",
+      "bytes": 764760
+    },
+    {
+      "path": "simulation/input_objects/eb3461c076353da06e51d3ac92345eb0b53e0817006f0dde82459c80b210f0e5.gz",
+      "sha256": "638855e16fdcf19917a62ca3580433556805b5fcd8b3f05830377bec769f303f",
+      "bytes": 1495408
+    },
+    {
+      "path": "simulation/input_objects/287df1d1d6cf13cbe701abc0945d7c26964a0b7888338bdd4ec39e19bbbb971a.gz",
+      "sha256": "090537851890605141cc049ca1be1f1236742c38a4ab29304c18fdc405b981ac",
+      "bytes": 772615
+    },
+    {
+      "path": "simulation/input_objects/7d1ea0221b7f4318e903c164d44e0d552669109bb5f9a400722eeb92af7b60b1.gz",
+      "sha256": "9148b2e9accd3dbd103c35f2cbbe4b28ffdb594454549970d3d2c8e69f50dd93",
+      "bytes": 1517836
+    },
+    {
+      "path": "simulation/input_objects/bfe0f087e34a594f8a69d7652bb2654a5797669c2d375a11a02a5d0422652bd1.gz",
+      "sha256": "5345f8fdb2ba68f36ba06147d93226c37c09ed6bed472ea5b21234ab754eab5d",
+      "bytes": 1034460
+    },
+    {
+      "path": "simulation/input_objects/5820c713c45de47e81714b9eb87175183b5d5aa859e223ecbb1f66b3c3a344e6.gz",
+      "sha256": "4e05a89daf9a8b18fa5d1ae3cc6cdb6bd03234ad5bb8842f5bbe6f1373f11d91",
+      "bytes": 2119756
+    },
+    {
+      "path": "simulation/input_objects/83765da5f1adb6b73f2375d34a3a8dc98e73958f4de6a00116057e167782fcb3.gz",
+      "sha256": "5b86b3ee30263f2981efaab7b0087fb3131dddb516b31bb25b860dcf3c17d809",
+      "bytes": 2119685
+    },
+    {
+      "path": "simulation/input_objects/5a624ba76fa0b289b2d00ca167be66f4879682a0e6e2d3a239f36f1640b6361d.gz",
+      "sha256": "a06524bd9adeb3e7dad751dd3ae8936dc12688e22336413e121fe299145f98a7",
+      "bytes": 2067440
+    },
+    {
+      "path": "simulation/input_objects/75084bf6c0ebd96e1adc7e633a79f66b757854bafb6535409a4704c733c0f54a.gz",
+      "sha256": "8d13ec3642ef686129c6d65bc85f03ae4321a911eccefd02315367eadbbe1119",
+      "bytes": 1042333
+    },
+    {
+      "path": "simulation/input_objects/7edfb5b4d904271693c90da3146f94685e5af717fdbd30c422e720a5265d8ffc.gz",
+      "sha256": "545cc24a6a9198c65ea6f0299259ea651582f740effe2da5932251850354bf59",
+      "bytes": 2142033
+    },
+    {
+      "path": "simulation/input_objects/31060e7e5f51dae11cfb9f46a99c93d34871d2e34eea578238a90c35818a16be.gz",
+      "sha256": "a9c8c89b703df701e15a147967f71a544cb48f069fc52698bcd4512880f07459",
+      "bytes": 2141996
+    },
+    {
+      "path": "simulation/input_objects/9b8dc402eb0783da844107e132c86915b414cba38f83bda95adfa1051a115606.gz",
+      "sha256": "8ea5da530d5abb0c8272b228eef4096858c340dae97c470ca88c633f40921478",
+      "bytes": 2092701
+    },
+    {
+      "path": "simulation/input_objects/14d364a29afe016db0f487e1d62beaa7612aaa41e6587462f8df8372c192671d.gz",
+      "sha256": "72b5fa1e5735f590b362e56be743f56e15e428a5126d1486d2fc8d982e70b4dc",
+      "bytes": 1167315
+    },
+    {
+      "path": "simulation/input_objects/812cf097df0f493bd89084019ed9f56ff60abcff449bc5d9a97b33b061f8f525.gz",
+      "sha256": "70e3669203bd9d07eda07aa86ebf4ef21011b0ef45a6945d5f7619583bf49036",
+      "bytes": 2418575
+    },
+    {
+      "path": "simulation/input_objects/807be4b37d6a0fdf29bea6cd437d90afb426aa61f1dc4641436f8feb522919b7.gz",
+      "sha256": "597218a0dc9928cedf8fdef00173e14a695c8e1480585c75362dec27508fffbd",
+      "bytes": 1302347
+    },
+    {
+      "path": "simulation/input_objects/b96d709d3417d6a6c79fef9284ee470b0ba629e26aea02b2f9c6d99ae067cc75.gz",
+      "sha256": "d7eccc15d617e70603a0b6606eb98840ee5af6153f52c36377ed908260a8c8bb",
+      "bytes": 2736323
+    },
+    {
+      "path": "simulation/input_objects/9bff7f7674744f11d8075b4fb2f5041c0f9f321efed781ab87e08af147943584.gz",
+      "sha256": "491e6581bd2df833af29df0895d40cdf84d850ccacbff0635ebd0be8061b02d8",
+      "bytes": 1310051
+    },
+    {
+      "path": "simulation/input_objects/1d91e0db0453b3d712cc08a74f0d8ef32a1f6e58b3bea2c69740f7256aa43d35.gz",
+      "sha256": "3ed027c09ce90cf2f22e4cb0adebc9544dd1add9719e15dfc97aeae4919c5fb9",
+      "bytes": 2758751
+    },
+    {
+      "path": "simulation/input_objects/4dee4804c2f5949bfaf4f3bb108fd5f60d315cbe46177fe9411a797a6de939c7.gz",
+      "sha256": "f8aaf2ddae75a26f9268a8b53b7e393562ccf51542eb6e2f849862d1ba706e9a",
+      "bytes": 1435875
+    },
+    {
+      "path": "simulation/input_objects/c7fb94a9975878775df92882c826d8126913e9dd2480b33e219e4c0f0ab1e183.gz",
+      "sha256": "eb044f0e5ee1bb1b341c48a19e6583a97f239a17972a974aeac24a86ab16bc21",
+      "bytes": 3040015
+    },
+    {
+      "path": "simulation/input_objects/bff643dfbb987182ec29ec26a655fda314976d1ce75472c62c00ce3ca628edec.gz",
+      "sha256": "bf0f7bc6af770a307565303accef3cb7b8baa6ff0acc0073b0db8f713e6ac3c0",
+      "bytes": 1571429
+    },
+    {
+      "path": "simulation/input_objects/a5ae902bddc16abb7e03991c87355888664e12c7042734f14189c3c89058f978.gz",
+      "sha256": "bf67685501688a476acb1a8ee81ffec241c6b15f103cde571565b6f2ebd3d658",
+      "bytes": 3351912
+    },
+    {
+      "path": "simulation/input_objects/e900a024ad9bbf977452eab9da56c3f2289379812f538ed6d5fe66fe8b20231c.gz",
+      "sha256": "f783061966035bc6ce23f1e0cb9d7dab6234a19b03609de1abf64ae46784af1b",
+      "bytes": 1721215
+    },
+    {
+      "path": "simulation/input_objects/bb34f0e6b9a8894ad2873326923947d10d1fcf12e748356f4eed68d6d2151025.gz",
+      "sha256": "a9c85c0fd3b9b01ac1b771c258711b5495e4360b8b8b73fe7bcca0deadab6fea",
+      "bytes": 3837354
+    },
+    {
+      "path": "simulation/input_objects/202ef6b418f2b979d38e1365321b9843880eb669a094b4dfd9d46b5b02a1831c.gz",
+      "sha256": "553ec0c14b00fc239e367a8d8aad767739bc18d87af0c4f358d5347321aed7f5",
+      "bytes": 1728710
+    },
+    {
+      "path": "simulation/input_objects/5e4f2f189d442318ae320bb7e4771bced9bebeb914d9dfbc40797900576ca15b.gz",
+      "sha256": "0b318411ddf66d1be3affa072a18fc233c270eca48ebba52a01092bb3dc9d927",
+      "bytes": 3861938
+    },
+    {
+      "path": "simulation/input_objects/deb08f6717342111ae209fde42700c1a1c2387a9e4ff42aeabafb3f1c2aa42f4.gz",
+      "sha256": "ee4827e6148e29f697dc0dec09e5ad31c585f23ce15b485963d2bf19170c2294",
+      "bytes": 2107689
+    },
+    {
+      "path": "simulation/input_objects/d12f146f0e48a9a18717dcfe6481e6c13c8d60255cd32f83313f89a138a7aa21.gz",
+      "sha256": "b0d257039da816016f5e5e80ad8475d5febd42396a2be06269d2a87330d1dce3",
+      "bytes": 4585312
+    },
+    {
+      "path": "simulation/input_objects/82fc206ff21a2ae2219ef36940e3077e1475628bd302cccf28dc37ec46a58247.gz",
+      "sha256": "b7ac5be6761cefbfbeab713aaec638a863159a8af822fab2c64fe0cd7121d126",
+      "bytes": 899217
+    },
+    {
+      "path": "simulation/input_objects/55eacea5322f95188f08a8e3f10c15fa21eaf0f373e9257745b830666c6cd9fe.gz",
+      "sha256": "a64ea5331926024131b432e40849edbc06cbdc0ee54a5f0838e5301db32ec26b",
+      "bytes": 1805680
+    },
+    {
+      "path": "simulation/input_objects/5c2f0de028ac8977cdfb09e5b4cfb08f404bc2af67d9a644dfe70a6ad7ed229a.gz",
+      "sha256": "8b64350da2629dd2542acfc795b08fac858d3b408e0267d91f59681d9660aa26",
+      "bytes": 766117
+    },
+    {
+      "path": "simulation/input_objects/8057627e6280ac43ef705503d71ae02110ebb82921e520149cc8ac73e400ef1a.gz",
+      "sha256": "f48f8edf58b50f8d924e7be0250d6adc07f7160e20ea8c9e2f67f8ce67ad5320",
+      "bytes": 773884
+    },
+    {
+      "path": "simulation/input_objects/a114cc4d073caa2dc7a0364f3dbe0a70f4589799173a15f0f0557be1ce9a200b.gz",
+      "sha256": "207107861b5f9606c0f29b762764a63faa000e358add784dbfd78bd2c5112df5",
+      "bytes": 1034729
+    },
+    {
+      "path": "simulation/input_objects/3748d3b2ac8c3f81b9d803e721342f18c80e29e4ecc39ffeb583203410b448d2.gz",
+      "sha256": "bb4857db8f69d5753ee1477493a74f897c78847a2d1359940a49fa175180ee95",
+      "bytes": 1042537
+    },
+    {
+      "path": "simulation/input_objects/239d5fcfd84ee3cd0a5f21eee74cae9289032d73d61a0ae40c054f790487dfbe.gz",
+      "sha256": "243858be48fe73e211cb61284284f1198563d0d9e4ae129bfa34b9c08d03dd52",
+      "bytes": 1168412
+    },
+    {
+      "path": "simulation/input_objects/53df01905ab421e8cc6a06140beaf8cbfe881c02b0e54b1b5f1a5af9e4d19317.gz",
+      "sha256": "b26df27b39f3381f499019f7aa28884e23dae7342e2f8a4fda2f003421e5b1d6",
+      "bytes": 1301025
+    },
+    {
+      "path": "simulation/input_objects/2f3adea6fe5d631a2e1ae3ca178e1c3f53b5538de02052481c6bff079b6153d1.gz",
+      "sha256": "1ef240bf419aec2835fa7981e6890a1d04bbd45a7a092e5b3feb8395f6f43547",
+      "bytes": 1308463
+    },
+    {
+      "path": "simulation/input_objects/0de345b53a3abab40669875daf54a1fb557ee7d9a12198064483ec66823043fd.gz",
+      "sha256": "49b0bdcfeb739bd847e35a639e2395ff2f5b86a8f380ad46760c916e38fb8ab5",
+      "bytes": 1436616
+    },
+    {
+      "path": "simulation/input_objects/9baa63aa8a46b9755e5e75b09a1de5a05cf829f79f3a00d39b9ad55bd9a63e39.gz",
+      "sha256": "1d22093851f0c2d82b8a3220b3e2fc24f8daf23d69433ad691448d21fb3aeb2f",
+      "bytes": 1571214
+    },
+    {
+      "path": "simulation/input_objects/30d9374733ff37d53c0c09cedd3e5198fea9b145ea10361e7e5e03381c8e9279.gz",
+      "sha256": "61443f94410e159a84db5924945e6798d2438d93a100f777c31000d0b4670981",
+      "bytes": 1722493
+    },
+    {
+      "path": "simulation/input_objects/9e7bc0abc77127a0f55cf20e6ca7de10549dce859f752115deea2377e020725c.gz",
+      "sha256": "f73517657d5274fb8a28c6807515347592512b12b5116a148e59b135b772e66e",
+      "bytes": 1730241
+    },
+    {
+      "path": "simulation/input_objects/874dc793b768b304242a08a01a635abd1d0012cb134f487433f1e0612b50fd59.gz",
+      "sha256": "d11103d84b3f2c64352f8c7ecbe06f9d3ad18d45a5989ecc08938abbff2db5f4",
+      "bytes": 2109489
+    },
+    {
+      "path": "simulation/input_objects/e7ac5ee8d0ef2847ec5147c542f28ff36d1f216dee7d5aee01a0931f005a2e4f.gz",
+      "sha256": "72ce54f775ac32fdb5d98a02aaa5bc63ac7ee9861537fb9e39e0798ae1872c15",
+      "bytes": 899600
+    },
+    {
+      "path": "simulation/input_objects/94f920e22eb393012a30197b22d2ed4901ea51eb52eea158fbedf0817fd86224.gz",
+      "sha256": "bb288087152de7565b00504276c5f34cddcd5151a84ceb6ef42e661a5d163370",
+      "bytes": 764886
+    },
+    {
+      "path": "simulation/input_objects/fa9f85f946b18ace633b3709430e0ee6d727c51ea00e816a8672849ba3f6ffdb.gz",
+      "sha256": "398fd804c567bde0666b55f97b42e125d1daacdece9875cdbbd340ce418c9667",
+      "bytes": 772354
+    },
+    {
+      "path": "simulation/input_objects/87a0115ee5bb91ad134ab14cec86d2421e7276057a71d473eef3438578f43bed.gz",
+      "sha256": "00a1d194747a23f34ade785798146db7627e093fa6cf8bfa8f708ecda7ee8e96",
+      "bytes": 1034145
+    },
+    {
+      "path": "simulation/input_objects/25b6d06d57c03811e8fe308dffc80f5578ba39ff49064d2fc6fd3ec351191c0f.gz",
+      "sha256": "5d0af406e3a56630e1e35f0376f9c3484e6ef13946351cb08f35a81f3982b5e5",
+      "bytes": 1041664
+    },
+    {
+      "path": "simulation/input_objects/d837061848764e37dcdfef7695a15276a808397d21ab3d0a3df9d1be03271d1a.gz",
+      "sha256": "5fd062478949702ffa7aee54fd2408d92cfd3edbf44fe8ae89552dd16e420659",
+      "bytes": 1168663
+    },
+    {
+      "path": "simulation/input_objects/a386211eb3acc590fdbd1ecba4328ca38903c7c96107d2e248f58dd68626fba5.gz",
+      "sha256": "6ce5cac0efb52532233cb094f9f4871f6847639ae28891e658fa8c4a3930364f",
+      "bytes": 1301634
+    },
+    {
+      "path": "simulation/input_objects/6dae9e9e1c88f3134ef0c1f63e133b279109e73c03105bf1ca2208540d455cb6.gz",
+      "sha256": "f94d21abfc0a25b1c1fdb533833d5fccefbcddc343d37732b660ea159640e71c",
+      "bytes": 1309155
+    },
+    {
+      "path": "simulation/input_objects/dc8c77957645e91d67f6b1a77a90a6c08a377cd114cefa089637a92ebcec0ea1.gz",
+      "sha256": "2e1c185ba166e50856d95adffadac295679e6b525ede21e29351deb6749adb88",
+      "bytes": 1436082
+    },
+    {
+      "path": "simulation/input_objects/63413fca6343e85bc5fa861c40856da3ecfcfa44606bbb19bbc4823796ea8924.gz",
+      "sha256": "608053a284d69849a3a7adbbf06f84d2399c4e7ee509f95f6eee928c666281ce",
+      "bytes": 1572669
+    },
+    {
+      "path": "simulation/input_objects/020605473d35323e8f7698829ce5784b9fa7f0c05d31f4fc4e976a47b591153d.gz",
+      "sha256": "2950378b3cb91dcfac4cba0da31542773bd5c2af81f3c99270a96d6580ca5d32",
+      "bytes": 1722267
+    },
+    {
+      "path": "simulation/input_objects/d6cad39b86c5b78ad0b9b0260660388a3b42829e3f69253b528601dbf549c6b3.gz",
+      "sha256": "ac965f667e5d378c185b065492d34366a76fe621f8aabd2ead2a5fa713c06b62",
+      "bytes": 1729903
+    },
+    {
+      "path": "simulation/input_objects/f3c196cdaed1ac220043d638c2055d5a28a69ea823cea60adf7bcac4aad80a43.gz",
+      "sha256": "a1bc914c87de95b542b9d87055fae9e726a596324cef72991942e4fdfa35e7bf",
+      "bytes": 2106904
+    },
+    {
+      "path": "simulation/input_objects/85a684f6fbcc6e1405f1f52237c6fa05898e1c7b3b63ac76dbdc255d4e059ae4.gz",
+      "sha256": "c242b83460a56dd8c6146f6ec5a453b5adaa7d90246d8355d7792ad225343634",
+      "bytes": 899772
+    },
+    {
+      "path": "simulation/input_objects/7b7c09965550dc5a662643e3cc6d9c387cf8cddc18548b68319486078898a43c.gz",
+      "sha256": "cf7706ec29d46583d93c254591bba4dccbf7efb634909e7bba709c0e95580d2c",
+      "bytes": 7751
+    },
+    {
+      "path": "simulation/input_objects/8fcd284d672d3f12519cf5da92e038c4472284cbb767f70244c62ddc24beaca6.gz",
+      "sha256": "0123c7629a6df1d6a17d3039ccbdf2a8a87007f029d3b590ea4dcf6ff7d3f09f",
+      "bytes": 29920
+    },
+    {
+      "path": "simulation/input_objects/30dae079bf730aa05166f7dc8eca6e0625907d8355a1b82455768eb6a44c9ba4.gz",
+      "sha256": "30975ffd0b8b407eefcb26528089e1a5f2b20455c1340e3712ddb0659b24b6ea",
+      "bytes": 7662
+    },
+    {
+      "path": "simulation/input_objects/401ab3889936f3e1c9fab57dabaf827200e20b46cd4cacb2dfd733e5de87dfd7.gz",
+      "sha256": "480e3162669d1345a6ffb535e400723834a706211f43db5eb78e9c559c907e8a",
+      "bytes": 7414
+    },
+    {
+      "path": "simulation/input_objects/cf9c7d9c19a658b59e00196b1e7ea2b9cd3e8ced2fd472ca60a2c70bd4ad73b6.gz",
+      "sha256": "83046c04506571569ac04e567a32220c4aced5dbec7a138b70cc03394a2951d4",
+      "bytes": 778534
+    },
+    {
+      "path": "simulation/input_objects/63904d2beaed9fdebaf322596f56c0012d608f86d8542d242e4e3228f90c5787.gz",
+      "sha256": "c9083d3a749784ff909f51d3fbc5a4663bc850c2ef84f48a5aae719ab66418d7",
+      "bytes": 511710
+    },
+    {
+      "path": "simulation/input_objects/38ec54e36870411d2cce576b92fd1e6d57f8f14dc981ae9b1bb0d3f9d6ba6880.gz",
+      "sha256": "2dbbd63f15be27b3581e7df7d0c2e8ba0833c72f2c584f84fd550d9d8e041975",
+      "bytes": 511822
+    },
+    {
+      "path": "simulation/input_objects/af5c1c2c614a48199ace94072795f72e332ed4902b273acb190d61e98cd77040.gz",
+      "sha256": "caf65d81d8b6b8ce1764931f561bf96c8184e04dde97f4e8044371bf97b6676b",
+      "bytes": 1034032
+    },
+    {
+      "path": "simulation/input_objects/602cca1fa49b6d71d539dc74775a983afede53c9e809b8341109b8e7e5a36d11.gz",
+      "sha256": "7d5847c2af8e76e51c5509cf5144b15c99edad1582a60966550bd3317c3850b1",
+      "bytes": 577067
+    },
+    {
+      "path": "simulation/input_objects/643fed31d7240e0ab23e02765e27721393ee4b0f98aae23784812e3d339ee0ee.gz",
+      "sha256": "d7d87326a59a69a17d02ddcdce705095dba7d338762f1787c70164dad284884e",
+      "bytes": 641771
+    },
+    {
+      "path": "simulation/input_objects/6a66cb18ff4dad803f5c4552c41559a4ab0cfa7d82690530bbe50062908ad13d.gz",
+      "sha256": "4415780dc95caf1aecaae315962b8963ab6605723103d32d418eb262eb765043",
+      "bytes": 513645
+    },
+    {
+      "path": "simulation/input_objects/e316a3a2366e0ed696e3bee83a61b4e303fa60dbfb93c92f8fd6eeef8a8a09db.gz",
+      "sha256": "8bc55c1629452599dbb27110158a8fb40658ebe26d2a24d28bfda05bfd16897f",
+      "bytes": 517530
+    },
+    {
+      "path": "simulation/input_objects/39b2cd92142d6dbd73676ea93247941cb081f6d3a864b7b15cb0dba418fd5104.gz",
+      "sha256": "1379bfa446ed093801895e23e0094053a0d4dd5159876c3e8ff3a7bb8ac3323e",
+      "bytes": 1284272
+    },
+    {
+      "path": "simulation/input_objects/c9bd0fe5875df1683c6fb3b60883ffa2f8fd2209dd3bcb076fb14003791ffbfa.gz",
+      "sha256": "e03d388bd1431c1a1f15f693b47f3c1a10b1ffa3a30e0559590c97dcac4c1796",
+      "bytes": 839807
+    },
+    {
+      "path": "simulation/input_objects/9513e8ec792da62d1bc3f6749c30e5a9f23d3e0fe90e50255167b90339032fa1.gz",
+      "sha256": "e1e96e07947eecdef27d8bf96b5661ec533776b0f021adbcb1284784617928b4",
+      "bytes": 1025455
+    },
+    {
+      "path": "simulation/input_objects/28dc6f1285b36aefa204811ce26f20d781607f1edca777165157eca80e61ff9b.gz",
+      "sha256": "501cd4b1a289a91b90101fdab8b29974c87ffb1aff54ac7a797a2a3443bdd3ef",
+      "bytes": 4467
+    },
+    {
+      "path": "simulation/input_objects/185310b2278403c5a4e42be6a0374b89992081e73af0e8dc36990267ed17f50c.gz",
+      "sha256": "eeca9ed5d93d16830e6bb1735ac8e58b75fbf220d221e2ca67a855ad9941f452",
+      "bytes": 385124
+    },
+    {
+      "path": "simulation/input_objects/41a35b46f29e844ea32cfba28a9f807c016d43f9e925effaa656897b1167c911.gz",
+      "sha256": "9de856338641c0ff7efcb02adfc53ffc920f4e5eb6a1baf38dcb1f4e6c287997",
+      "bytes": 515587
+    },
+    {
+      "path": "simulation/input_objects/84f12e29bd7ae9528742c396c7ddb2772764d615ceb36b8b4f3f95eed41eb923.gz",
+      "sha256": "5978769a615256543404c7613f785750aab48c038d01c6bb5d389f6efa52a777",
+      "bytes": 701856
+    },
+    {
+      "path": "simulation/input_objects/220d39cda4d437115e52425f1289267f1b8e3df009f142faee99e1468bf99c49.gz",
+      "sha256": "5f529f61d2f1ea544ee5c87773982af50764b39f7a6ed720c880877fbc56ef91",
+      "bytes": 764442
+    },
+    {
+      "path": "simulation/input_objects/4103c8349f1544805fac4eb1d458e8126a8115bd4dde02d175194d0504cf516d.gz",
+      "sha256": "3cf20d040f4ef5135c88a349826b8951fb1c66cd38d8b49f1577cf28d359e1ae",
+      "bytes": 837462
+    },
+    {
+      "path": "simulation/input_objects/6866d5f8298b59dc16d1c84f00680203ac60df9e0ea12ae8f529ea449cdb6882.gz",
+      "sha256": "a7e7222085c6edeb4b62ea897101eb9cb3489c621023eed486d7b685549bc5e9",
+      "bytes": 844981
+    },
+    {
+      "path": "simulation/input_objects/0a706fc5ac4ab7f88844c0d20f25f178b9a80f979261c22c2a154d5f67a71640.gz",
+      "sha256": "28165b048cd5c2cbe945cc4feb9f52bad034ccbbd7c93071d426fd5f0ed8f332",
+      "bytes": 445964
+    }
+  ],
+  "files": [
+    {
+      "path": "simulation/tasks/work/M0O100/start.pdb",
+      "object": "simulation/input_objects/63eb58eed9e312f3946dce3c7b32c9d51027a7a1393ae374ed92c5a1375c6e0d.gz",
+      "sha256": "63eb58eed9e312f3946dce3c7b32c9d51027a7a1393ae374ed92c5a1375c6e0d",
+      "bytes": 2916004,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M0O100/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M0O100/system.xml",
+      "object": "simulation/input_objects/eb3461c076353da06e51d3ac92345eb0b53e0817006f0dde82459c80b210f0e5.gz",
+      "sha256": "eb3461c076353da06e51d3ac92345eb0b53e0817006f0dde82459c80b210f0e5",
+      "bytes": 17585922,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M0O100/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M0O100D1/start.pdb",
+      "object": "simulation/input_objects/287df1d1d6cf13cbe701abc0945d7c26964a0b7888338bdd4ec39e19bbbb971a.gz",
+      "sha256": "287df1d1d6cf13cbe701abc0945d7c26964a0b7888338bdd4ec39e19bbbb971a",
+      "bytes": 2948404,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M0O100D1/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M0O100D1/system.xml",
+      "object": "simulation/input_objects/7d1ea0221b7f4318e903c164d44e0d552669109bb5f9a400722eeb92af7b60b1.gz",
+      "sha256": "7d1ea0221b7f4318e903c164d44e0d552669109bb5f9a400722eeb92af7b60b1",
+      "bytes": 18039380,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M0O100D1/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M10O90/start.pdb",
+      "object": "simulation/input_objects/bfe0f087e34a594f8a69d7652bb2654a5797669c2d375a11a02a5d0422652bd1.gz",
+      "sha256": "bfe0f087e34a594f8a69d7652bb2654a5797669c2d375a11a02a5d0422652bd1",
+      "bytes": 3905014,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M10O90/system.xml",
+      "object": "simulation/input_objects/5820c713c45de47e81714b9eb87175183b5d5aa859e223ecbb1f66b3c3a344e6.gz",
+      "sha256": "5820c713c45de47e81714b9eb87175183b5d5aa859e223ecbb1f66b3c3a344e6",
+      "bytes": 22861463,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M10O90-S2/start.pdb",
+      "object": "simulation/input_objects/bfe0f087e34a594f8a69d7652bb2654a5797669c2d375a11a02a5d0422652bd1.gz",
+      "sha256": "bfe0f087e34a594f8a69d7652bb2654a5797669c2d375a11a02a5d0422652bd1",
+      "bytes": 3905014,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90-S2/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M10O90-S2/system.xml",
+      "object": "simulation/input_objects/83765da5f1adb6b73f2375d34a3a8dc98e73958f4de6a00116057e167782fcb3.gz",
+      "sha256": "83765da5f1adb6b73f2375d34a3a8dc98e73958f4de6a00116057e167782fcb3",
+      "bytes": 22860215,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90-S2/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M10O90-S4/start.pdb",
+      "object": "simulation/input_objects/bfe0f087e34a594f8a69d7652bb2654a5797669c2d375a11a02a5d0422652bd1.gz",
+      "sha256": "bfe0f087e34a594f8a69d7652bb2654a5797669c2d375a11a02a5d0422652bd1",
+      "bytes": 3905014,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90-S4/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M10O90-S4/system.xml",
+      "object": "simulation/input_objects/5a624ba76fa0b289b2d00ca167be66f4879682a0e6e2d3a239f36f1640b6361d.gz",
+      "sha256": "5a624ba76fa0b289b2d00ca167be66f4879682a0e6e2d3a239f36f1640b6361d",
+      "bytes": 22497873,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90-S4/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M10O90D1/start.pdb",
+      "object": "simulation/input_objects/75084bf6c0ebd96e1adc7e633a79f66b757854bafb6535409a4704c733c0f54a.gz",
+      "sha256": "75084bf6c0ebd96e1adc7e633a79f66b757854bafb6535409a4704c733c0f54a",
+      "bytes": 3937414,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90D1/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M10O90D1/system.xml",
+      "object": "simulation/input_objects/7edfb5b4d904271693c90da3146f94685e5af717fdbd30c422e720a5265d8ffc.gz",
+      "sha256": "7edfb5b4d904271693c90da3146f94685e5af717fdbd30c422e720a5265d8ffc",
+      "bytes": 23314921,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90D1/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M10O90D1-S2/start.pdb",
+      "object": "simulation/input_objects/75084bf6c0ebd96e1adc7e633a79f66b757854bafb6535409a4704c733c0f54a.gz",
+      "sha256": "75084bf6c0ebd96e1adc7e633a79f66b757854bafb6535409a4704c733c0f54a",
+      "bytes": 3937414,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90D1-S2/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M10O90D1-S2/system.xml",
+      "object": "simulation/input_objects/31060e7e5f51dae11cfb9f46a99c93d34871d2e34eea578238a90c35818a16be.gz",
+      "sha256": "31060e7e5f51dae11cfb9f46a99c93d34871d2e34eea578238a90c35818a16be",
+      "bytes": 23313673,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90D1-S2/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M10O90D1-S4/start.pdb",
+      "object": "simulation/input_objects/75084bf6c0ebd96e1adc7e633a79f66b757854bafb6535409a4704c733c0f54a.gz",
+      "sha256": "75084bf6c0ebd96e1adc7e633a79f66b757854bafb6535409a4704c733c0f54a",
+      "bytes": 3937414,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90D1-S4/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M10O90D1-S4/system.xml",
+      "object": "simulation/input_objects/9b8dc402eb0783da844107e132c86915b414cba38f83bda95adfa1051a115606.gz",
+      "sha256": "9b8dc402eb0783da844107e132c86915b414cba38f83bda95adfa1051a115606",
+      "bytes": 22951331,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90D1-S4/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M15O85/start.pdb",
+      "object": "simulation/input_objects/14d364a29afe016db0f487e1d62beaa7612aaa41e6587462f8df8372c192671d.gz",
+      "sha256": "14d364a29afe016db0f487e1d62beaa7612aaa41e6587462f8df8372c192671d",
+      "bytes": 4399519,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M15O85/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M15O85/system.xml",
+      "object": "simulation/input_objects/812cf097df0f493bd89084019ed9f56ff60abcff449bc5d9a97b33b061f8f525.gz",
+      "sha256": "812cf097df0f493bd89084019ed9f56ff60abcff449bc5d9a97b33b061f8f525",
+      "bytes": 25495623,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M15O85/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M20O80/start.pdb",
+      "object": "simulation/input_objects/807be4b37d6a0fdf29bea6cd437d90afb426aa61f1dc4641436f8feb522919b7.gz",
+      "sha256": "807be4b37d6a0fdf29bea6cd437d90afb426aa61f1dc4641436f8feb522919b7",
+      "bytes": 4894024,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M20O80/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M20O80/system.xml",
+      "object": "simulation/input_objects/b96d709d3417d6a6c79fef9284ee470b0ba629e26aea02b2f9c6d99ae067cc75.gz",
+      "sha256": "b96d709d3417d6a6c79fef9284ee470b0ba629e26aea02b2f9c6d99ae067cc75",
+      "bytes": 28129783,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M20O80/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M20O80D1/start.pdb",
+      "object": "simulation/input_objects/9bff7f7674744f11d8075b4fb2f5041c0f9f321efed781ab87e08af147943584.gz",
+      "sha256": "9bff7f7674744f11d8075b4fb2f5041c0f9f321efed781ab87e08af147943584",
+      "bytes": 4926424,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M20O80D1/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M20O80D1/system.xml",
+      "object": "simulation/input_objects/1d91e0db0453b3d712cc08a74f0d8ef32a1f6e58b3bea2c69740f7256aa43d35.gz",
+      "sha256": "1d91e0db0453b3d712cc08a74f0d8ef32a1f6e58b3bea2c69740f7256aa43d35",
+      "bytes": 28583241,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M20O80D1/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M25O75/start.pdb",
+      "object": "simulation/input_objects/4dee4804c2f5949bfaf4f3bb108fd5f60d315cbe46177fe9411a797a6de939c7.gz",
+      "sha256": "4dee4804c2f5949bfaf4f3bb108fd5f60d315cbe46177fe9411a797a6de939c7",
+      "bytes": 5388529,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M25O75/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M25O75/system.xml",
+      "object": "simulation/input_objects/c7fb94a9975878775df92882c826d8126913e9dd2480b33e219e4c0f0ab1e183.gz",
+      "sha256": "c7fb94a9975878775df92882c826d8126913e9dd2480b33e219e4c0f0ab1e183",
+      "bytes": 30763943,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M25O75/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M30O70/start.pdb",
+      "object": "simulation/input_objects/bff643dfbb987182ec29ec26a655fda314976d1ce75472c62c00ce3ca628edec.gz",
+      "sha256": "bff643dfbb987182ec29ec26a655fda314976d1ce75472c62c00ce3ca628edec",
+      "bytes": 5883034,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M30O70/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M30O70/system.xml",
+      "object": "simulation/input_objects/a5ae902bddc16abb7e03991c87355888664e12c7042734f14189c3c89058f978.gz",
+      "sha256": "a5ae902bddc16abb7e03991c87355888664e12c7042734f14189c3c89058f978",
+      "bytes": 33398103,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M30O70/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M50O0/start.pdb",
+      "object": "simulation/input_objects/e900a024ad9bbf977452eab9da56c3f2289379812f538ed6d5fe66fe8b20231c.gz",
+      "sha256": "e900a024ad9bbf977452eab9da56c3f2289379812f538ed6d5fe66fe8b20231c",
+      "bytes": 6403054,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M50O0/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M50O0/system.xml",
+      "object": "simulation/input_objects/bb34f0e6b9a8894ad2873326923947d10d1fcf12e748356f4eed68d6d2151025.gz",
+      "sha256": "bb34f0e6b9a8894ad2873326923947d10d1fcf12e748356f4eed68d6d2151025",
+      "bytes": 35061472,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M50O0/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M50O0D1/start.pdb",
+      "object": "simulation/input_objects/202ef6b418f2b979d38e1365321b9843880eb669a094b4dfd9d46b5b02a1831c.gz",
+      "sha256": "202ef6b418f2b979d38e1365321b9843880eb669a094b4dfd9d46b5b02a1831c",
+      "bytes": 6435454,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M50O0D1/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M50O0D1/system.xml",
+      "object": "simulation/input_objects/5e4f2f189d442318ae320bb7e4771bced9bebeb914d9dfbc40797900576ca15b.gz",
+      "sha256": "5e4f2f189d442318ae320bb7e4771bced9bebeb914d9dfbc40797900576ca15b",
+      "bytes": 35514930,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M50O0D1/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M50O50/start.pdb",
+      "object": "simulation/input_objects/deb08f6717342111ae209fde42700c1a1c2387a9e4ff42aeabafb3f1c2aa42f4.gz",
+      "sha256": "deb08f6717342111ae209fde42700c1a1c2387a9e4ff42aeabafb3f1c2aa42f4",
+      "bytes": 7861054,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M50O50/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M50O50/system.xml",
+      "object": "simulation/input_objects/d12f146f0e48a9a18717dcfe6481e6c13c8d60255cd32f83313f89a138a7aa21.gz",
+      "sha256": "d12f146f0e48a9a18717dcfe6481e6c13c8d60255cd32f83313f89a138a7aa21",
+      "bytes": 43934746,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M50O50/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M5O95/start.pdb",
+      "object": "simulation/input_objects/82fc206ff21a2ae2219ef36940e3077e1475628bd302cccf28dc37ec46a58247.gz",
+      "sha256": "82fc206ff21a2ae2219ef36940e3077e1475628bd302cccf28dc37ec46a58247",
+      "bytes": 3410509,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M5O95/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work/M5O95/system.xml",
+      "object": "simulation/input_objects/55eacea5322f95188f08a8e3f10c15fa21eaf0f373e9257745b830666c6cd9fe.gz",
+      "sha256": "55eacea5322f95188f08a8e3f10c15fa21eaf0f373e9257745b830666c6cd9fe",
+      "bytes": 20232510,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M5O95/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M0O100/start.pdb",
+      "object": "simulation/input_objects/5c2f0de028ac8977cdfb09e5b4cfb08f404bc2af67d9a644dfe70a6ad7ed229a.gz",
+      "sha256": "5c2f0de028ac8977cdfb09e5b4cfb08f404bc2af67d9a644dfe70a6ad7ed229a",
+      "bytes": 2916004,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M0O100/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M0O100/system.xml",
+      "object": "simulation/input_objects/eb3461c076353da06e51d3ac92345eb0b53e0817006f0dde82459c80b210f0e5.gz",
+      "sha256": "eb3461c076353da06e51d3ac92345eb0b53e0817006f0dde82459c80b210f0e5",
+      "bytes": 17585922,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M0O100/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M0O100D1/start.pdb",
+      "object": "simulation/input_objects/8057627e6280ac43ef705503d71ae02110ebb82921e520149cc8ac73e400ef1a.gz",
+      "sha256": "8057627e6280ac43ef705503d71ae02110ebb82921e520149cc8ac73e400ef1a",
+      "bytes": 2948404,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M0O100D1/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M0O100D1/system.xml",
+      "object": "simulation/input_objects/7d1ea0221b7f4318e903c164d44e0d552669109bb5f9a400722eeb92af7b60b1.gz",
+      "sha256": "7d1ea0221b7f4318e903c164d44e0d552669109bb5f9a400722eeb92af7b60b1",
+      "bytes": 18039380,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M0O100D1/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M10O90/start.pdb",
+      "object": "simulation/input_objects/a114cc4d073caa2dc7a0364f3dbe0a70f4589799173a15f0f0557be1ce9a200b.gz",
+      "sha256": "a114cc4d073caa2dc7a0364f3dbe0a70f4589799173a15f0f0557be1ce9a200b",
+      "bytes": 3905014,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M10O90/system.xml",
+      "object": "simulation/input_objects/5820c713c45de47e81714b9eb87175183b5d5aa859e223ecbb1f66b3c3a344e6.gz",
+      "sha256": "5820c713c45de47e81714b9eb87175183b5d5aa859e223ecbb1f66b3c3a344e6",
+      "bytes": 22861463,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M10O90-S2/start.pdb",
+      "object": "simulation/input_objects/a114cc4d073caa2dc7a0364f3dbe0a70f4589799173a15f0f0557be1ce9a200b.gz",
+      "sha256": "a114cc4d073caa2dc7a0364f3dbe0a70f4589799173a15f0f0557be1ce9a200b",
+      "bytes": 3905014,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90-S2/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M10O90-S2/system.xml",
+      "object": "simulation/input_objects/83765da5f1adb6b73f2375d34a3a8dc98e73958f4de6a00116057e167782fcb3.gz",
+      "sha256": "83765da5f1adb6b73f2375d34a3a8dc98e73958f4de6a00116057e167782fcb3",
+      "bytes": 22860215,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90-S2/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M10O90-S4/start.pdb",
+      "object": "simulation/input_objects/a114cc4d073caa2dc7a0364f3dbe0a70f4589799173a15f0f0557be1ce9a200b.gz",
+      "sha256": "a114cc4d073caa2dc7a0364f3dbe0a70f4589799173a15f0f0557be1ce9a200b",
+      "bytes": 3905014,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90-S4/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M10O90-S4/system.xml",
+      "object": "simulation/input_objects/5a624ba76fa0b289b2d00ca167be66f4879682a0e6e2d3a239f36f1640b6361d.gz",
+      "sha256": "5a624ba76fa0b289b2d00ca167be66f4879682a0e6e2d3a239f36f1640b6361d",
+      "bytes": 22497873,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90-S4/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M10O90D1/start.pdb",
+      "object": "simulation/input_objects/3748d3b2ac8c3f81b9d803e721342f18c80e29e4ecc39ffeb583203410b448d2.gz",
+      "sha256": "3748d3b2ac8c3f81b9d803e721342f18c80e29e4ecc39ffeb583203410b448d2",
+      "bytes": 3937414,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90D1/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M10O90D1/system.xml",
+      "object": "simulation/input_objects/7edfb5b4d904271693c90da3146f94685e5af717fdbd30c422e720a5265d8ffc.gz",
+      "sha256": "7edfb5b4d904271693c90da3146f94685e5af717fdbd30c422e720a5265d8ffc",
+      "bytes": 23314921,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90D1/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M10O90D1-S2/start.pdb",
+      "object": "simulation/input_objects/3748d3b2ac8c3f81b9d803e721342f18c80e29e4ecc39ffeb583203410b448d2.gz",
+      "sha256": "3748d3b2ac8c3f81b9d803e721342f18c80e29e4ecc39ffeb583203410b448d2",
+      "bytes": 3937414,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90D1-S2/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M10O90D1-S2/system.xml",
+      "object": "simulation/input_objects/31060e7e5f51dae11cfb9f46a99c93d34871d2e34eea578238a90c35818a16be.gz",
+      "sha256": "31060e7e5f51dae11cfb9f46a99c93d34871d2e34eea578238a90c35818a16be",
+      "bytes": 23313673,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90D1-S2/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M10O90D1-S4/start.pdb",
+      "object": "simulation/input_objects/3748d3b2ac8c3f81b9d803e721342f18c80e29e4ecc39ffeb583203410b448d2.gz",
+      "sha256": "3748d3b2ac8c3f81b9d803e721342f18c80e29e4ecc39ffeb583203410b448d2",
+      "bytes": 3937414,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90D1-S4/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M10O90D1-S4/system.xml",
+      "object": "simulation/input_objects/9b8dc402eb0783da844107e132c86915b414cba38f83bda95adfa1051a115606.gz",
+      "sha256": "9b8dc402eb0783da844107e132c86915b414cba38f83bda95adfa1051a115606",
+      "bytes": 22951331,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90D1-S4/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M15O85/start.pdb",
+      "object": "simulation/input_objects/239d5fcfd84ee3cd0a5f21eee74cae9289032d73d61a0ae40c054f790487dfbe.gz",
+      "sha256": "239d5fcfd84ee3cd0a5f21eee74cae9289032d73d61a0ae40c054f790487dfbe",
+      "bytes": 4399519,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M15O85/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M15O85/system.xml",
+      "object": "simulation/input_objects/812cf097df0f493bd89084019ed9f56ff60abcff449bc5d9a97b33b061f8f525.gz",
+      "sha256": "812cf097df0f493bd89084019ed9f56ff60abcff449bc5d9a97b33b061f8f525",
+      "bytes": 25495623,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M15O85/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M20O80/start.pdb",
+      "object": "simulation/input_objects/53df01905ab421e8cc6a06140beaf8cbfe881c02b0e54b1b5f1a5af9e4d19317.gz",
+      "sha256": "53df01905ab421e8cc6a06140beaf8cbfe881c02b0e54b1b5f1a5af9e4d19317",
+      "bytes": 4894024,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M20O80/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M20O80/system.xml",
+      "object": "simulation/input_objects/b96d709d3417d6a6c79fef9284ee470b0ba629e26aea02b2f9c6d99ae067cc75.gz",
+      "sha256": "b96d709d3417d6a6c79fef9284ee470b0ba629e26aea02b2f9c6d99ae067cc75",
+      "bytes": 28129783,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M20O80/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M20O80D1/start.pdb",
+      "object": "simulation/input_objects/2f3adea6fe5d631a2e1ae3ca178e1c3f53b5538de02052481c6bff079b6153d1.gz",
+      "sha256": "2f3adea6fe5d631a2e1ae3ca178e1c3f53b5538de02052481c6bff079b6153d1",
+      "bytes": 4926424,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M20O80D1/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M20O80D1/system.xml",
+      "object": "simulation/input_objects/1d91e0db0453b3d712cc08a74f0d8ef32a1f6e58b3bea2c69740f7256aa43d35.gz",
+      "sha256": "1d91e0db0453b3d712cc08a74f0d8ef32a1f6e58b3bea2c69740f7256aa43d35",
+      "bytes": 28583241,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M20O80D1/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M25O75/start.pdb",
+      "object": "simulation/input_objects/0de345b53a3abab40669875daf54a1fb557ee7d9a12198064483ec66823043fd.gz",
+      "sha256": "0de345b53a3abab40669875daf54a1fb557ee7d9a12198064483ec66823043fd",
+      "bytes": 5388529,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M25O75/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M25O75/system.xml",
+      "object": "simulation/input_objects/c7fb94a9975878775df92882c826d8126913e9dd2480b33e219e4c0f0ab1e183.gz",
+      "sha256": "c7fb94a9975878775df92882c826d8126913e9dd2480b33e219e4c0f0ab1e183",
+      "bytes": 30763943,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M25O75/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M30O70/start.pdb",
+      "object": "simulation/input_objects/9baa63aa8a46b9755e5e75b09a1de5a05cf829f79f3a00d39b9ad55bd9a63e39.gz",
+      "sha256": "9baa63aa8a46b9755e5e75b09a1de5a05cf829f79f3a00d39b9ad55bd9a63e39",
+      "bytes": 5883034,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M30O70/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M30O70/system.xml",
+      "object": "simulation/input_objects/a5ae902bddc16abb7e03991c87355888664e12c7042734f14189c3c89058f978.gz",
+      "sha256": "a5ae902bddc16abb7e03991c87355888664e12c7042734f14189c3c89058f978",
+      "bytes": 33398103,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M30O70/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M50O0/start.pdb",
+      "object": "simulation/input_objects/30d9374733ff37d53c0c09cedd3e5198fea9b145ea10361e7e5e03381c8e9279.gz",
+      "sha256": "30d9374733ff37d53c0c09cedd3e5198fea9b145ea10361e7e5e03381c8e9279",
+      "bytes": 6403054,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M50O0/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M50O0/system.xml",
+      "object": "simulation/input_objects/bb34f0e6b9a8894ad2873326923947d10d1fcf12e748356f4eed68d6d2151025.gz",
+      "sha256": "bb34f0e6b9a8894ad2873326923947d10d1fcf12e748356f4eed68d6d2151025",
+      "bytes": 35061472,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M50O0/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M50O0D1/start.pdb",
+      "object": "simulation/input_objects/9e7bc0abc77127a0f55cf20e6ca7de10549dce859f752115deea2377e020725c.gz",
+      "sha256": "9e7bc0abc77127a0f55cf20e6ca7de10549dce859f752115deea2377e020725c",
+      "bytes": 6435454,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M50O0D1/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M50O0D1/system.xml",
+      "object": "simulation/input_objects/5e4f2f189d442318ae320bb7e4771bced9bebeb914d9dfbc40797900576ca15b.gz",
+      "sha256": "5e4f2f189d442318ae320bb7e4771bced9bebeb914d9dfbc40797900576ca15b",
+      "bytes": 35514930,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M50O0D1/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M50O50/start.pdb",
+      "object": "simulation/input_objects/874dc793b768b304242a08a01a635abd1d0012cb134f487433f1e0612b50fd59.gz",
+      "sha256": "874dc793b768b304242a08a01a635abd1d0012cb134f487433f1e0612b50fd59",
+      "bytes": 7861054,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M50O50/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M50O50/system.xml",
+      "object": "simulation/input_objects/d12f146f0e48a9a18717dcfe6481e6c13c8d60255cd32f83313f89a138a7aa21.gz",
+      "sha256": "d12f146f0e48a9a18717dcfe6481e6c13c8d60255cd32f83313f89a138a7aa21",
+      "bytes": 43934746,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M50O50/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M5O95/start.pdb",
+      "object": "simulation/input_objects/e7ac5ee8d0ef2847ec5147c542f28ff36d1f216dee7d5aee01a0931f005a2e4f.gz",
+      "sha256": "e7ac5ee8d0ef2847ec5147c542f28ff36d1f216dee7d5aee01a0931f005a2e4f",
+      "bytes": 3410509,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M5O95/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-1/M5O95/system.xml",
+      "object": "simulation/input_objects/55eacea5322f95188f08a8e3f10c15fa21eaf0f373e9257745b830666c6cd9fe.gz",
+      "sha256": "55eacea5322f95188f08a8e3f10c15fa21eaf0f373e9257745b830666c6cd9fe",
+      "bytes": 20232510,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M5O95/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M0O100/start.pdb",
+      "object": "simulation/input_objects/94f920e22eb393012a30197b22d2ed4901ea51eb52eea158fbedf0817fd86224.gz",
+      "sha256": "94f920e22eb393012a30197b22d2ed4901ea51eb52eea158fbedf0817fd86224",
+      "bytes": 2916004,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M0O100/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M0O100/system.xml",
+      "object": "simulation/input_objects/eb3461c076353da06e51d3ac92345eb0b53e0817006f0dde82459c80b210f0e5.gz",
+      "sha256": "eb3461c076353da06e51d3ac92345eb0b53e0817006f0dde82459c80b210f0e5",
+      "bytes": 17585922,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M0O100/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M0O100D1/start.pdb",
+      "object": "simulation/input_objects/fa9f85f946b18ace633b3709430e0ee6d727c51ea00e816a8672849ba3f6ffdb.gz",
+      "sha256": "fa9f85f946b18ace633b3709430e0ee6d727c51ea00e816a8672849ba3f6ffdb",
+      "bytes": 2948404,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M0O100D1/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M0O100D1/system.xml",
+      "object": "simulation/input_objects/7d1ea0221b7f4318e903c164d44e0d552669109bb5f9a400722eeb92af7b60b1.gz",
+      "sha256": "7d1ea0221b7f4318e903c164d44e0d552669109bb5f9a400722eeb92af7b60b1",
+      "bytes": 18039380,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M0O100D1/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M10O90/start.pdb",
+      "object": "simulation/input_objects/87a0115ee5bb91ad134ab14cec86d2421e7276057a71d473eef3438578f43bed.gz",
+      "sha256": "87a0115ee5bb91ad134ab14cec86d2421e7276057a71d473eef3438578f43bed",
+      "bytes": 3905014,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M10O90/system.xml",
+      "object": "simulation/input_objects/5820c713c45de47e81714b9eb87175183b5d5aa859e223ecbb1f66b3c3a344e6.gz",
+      "sha256": "5820c713c45de47e81714b9eb87175183b5d5aa859e223ecbb1f66b3c3a344e6",
+      "bytes": 22861463,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M10O90-S2/start.pdb",
+      "object": "simulation/input_objects/87a0115ee5bb91ad134ab14cec86d2421e7276057a71d473eef3438578f43bed.gz",
+      "sha256": "87a0115ee5bb91ad134ab14cec86d2421e7276057a71d473eef3438578f43bed",
+      "bytes": 3905014,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90-S2/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M10O90-S2/system.xml",
+      "object": "simulation/input_objects/83765da5f1adb6b73f2375d34a3a8dc98e73958f4de6a00116057e167782fcb3.gz",
+      "sha256": "83765da5f1adb6b73f2375d34a3a8dc98e73958f4de6a00116057e167782fcb3",
+      "bytes": 22860215,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90-S2/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M10O90-S4/start.pdb",
+      "object": "simulation/input_objects/87a0115ee5bb91ad134ab14cec86d2421e7276057a71d473eef3438578f43bed.gz",
+      "sha256": "87a0115ee5bb91ad134ab14cec86d2421e7276057a71d473eef3438578f43bed",
+      "bytes": 3905014,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90-S4/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M10O90-S4/system.xml",
+      "object": "simulation/input_objects/5a624ba76fa0b289b2d00ca167be66f4879682a0e6e2d3a239f36f1640b6361d.gz",
+      "sha256": "5a624ba76fa0b289b2d00ca167be66f4879682a0e6e2d3a239f36f1640b6361d",
+      "bytes": 22497873,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90-S4/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M10O90D1/start.pdb",
+      "object": "simulation/input_objects/25b6d06d57c03811e8fe308dffc80f5578ba39ff49064d2fc6fd3ec351191c0f.gz",
+      "sha256": "25b6d06d57c03811e8fe308dffc80f5578ba39ff49064d2fc6fd3ec351191c0f",
+      "bytes": 3937414,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90D1/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M10O90D1/system.xml",
+      "object": "simulation/input_objects/7edfb5b4d904271693c90da3146f94685e5af717fdbd30c422e720a5265d8ffc.gz",
+      "sha256": "7edfb5b4d904271693c90da3146f94685e5af717fdbd30c422e720a5265d8ffc",
+      "bytes": 23314921,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90D1/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M10O90D1-S2/start.pdb",
+      "object": "simulation/input_objects/25b6d06d57c03811e8fe308dffc80f5578ba39ff49064d2fc6fd3ec351191c0f.gz",
+      "sha256": "25b6d06d57c03811e8fe308dffc80f5578ba39ff49064d2fc6fd3ec351191c0f",
+      "bytes": 3937414,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90D1-S2/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M10O90D1-S2/system.xml",
+      "object": "simulation/input_objects/31060e7e5f51dae11cfb9f46a99c93d34871d2e34eea578238a90c35818a16be.gz",
+      "sha256": "31060e7e5f51dae11cfb9f46a99c93d34871d2e34eea578238a90c35818a16be",
+      "bytes": 23313673,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90D1-S2/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M10O90D1-S4/start.pdb",
+      "object": "simulation/input_objects/25b6d06d57c03811e8fe308dffc80f5578ba39ff49064d2fc6fd3ec351191c0f.gz",
+      "sha256": "25b6d06d57c03811e8fe308dffc80f5578ba39ff49064d2fc6fd3ec351191c0f",
+      "bytes": 3937414,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90D1-S4/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M10O90D1-S4/system.xml",
+      "object": "simulation/input_objects/9b8dc402eb0783da844107e132c86915b414cba38f83bda95adfa1051a115606.gz",
+      "sha256": "9b8dc402eb0783da844107e132c86915b414cba38f83bda95adfa1051a115606",
+      "bytes": 22951331,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90D1-S4/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M15O85/start.pdb",
+      "object": "simulation/input_objects/d837061848764e37dcdfef7695a15276a808397d21ab3d0a3df9d1be03271d1a.gz",
+      "sha256": "d837061848764e37dcdfef7695a15276a808397d21ab3d0a3df9d1be03271d1a",
+      "bytes": 4399519,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M15O85/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M15O85/system.xml",
+      "object": "simulation/input_objects/812cf097df0f493bd89084019ed9f56ff60abcff449bc5d9a97b33b061f8f525.gz",
+      "sha256": "812cf097df0f493bd89084019ed9f56ff60abcff449bc5d9a97b33b061f8f525",
+      "bytes": 25495623,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M15O85/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M20O80/start.pdb",
+      "object": "simulation/input_objects/a386211eb3acc590fdbd1ecba4328ca38903c7c96107d2e248f58dd68626fba5.gz",
+      "sha256": "a386211eb3acc590fdbd1ecba4328ca38903c7c96107d2e248f58dd68626fba5",
+      "bytes": 4894024,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M20O80/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M20O80/system.xml",
+      "object": "simulation/input_objects/b96d709d3417d6a6c79fef9284ee470b0ba629e26aea02b2f9c6d99ae067cc75.gz",
+      "sha256": "b96d709d3417d6a6c79fef9284ee470b0ba629e26aea02b2f9c6d99ae067cc75",
+      "bytes": 28129783,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M20O80/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M20O80D1/start.pdb",
+      "object": "simulation/input_objects/6dae9e9e1c88f3134ef0c1f63e133b279109e73c03105bf1ca2208540d455cb6.gz",
+      "sha256": "6dae9e9e1c88f3134ef0c1f63e133b279109e73c03105bf1ca2208540d455cb6",
+      "bytes": 4926424,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M20O80D1/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M20O80D1/system.xml",
+      "object": "simulation/input_objects/1d91e0db0453b3d712cc08a74f0d8ef32a1f6e58b3bea2c69740f7256aa43d35.gz",
+      "sha256": "1d91e0db0453b3d712cc08a74f0d8ef32a1f6e58b3bea2c69740f7256aa43d35",
+      "bytes": 28583241,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M20O80D1/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M25O75/start.pdb",
+      "object": "simulation/input_objects/dc8c77957645e91d67f6b1a77a90a6c08a377cd114cefa089637a92ebcec0ea1.gz",
+      "sha256": "dc8c77957645e91d67f6b1a77a90a6c08a377cd114cefa089637a92ebcec0ea1",
+      "bytes": 5388529,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M25O75/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M25O75/system.xml",
+      "object": "simulation/input_objects/c7fb94a9975878775df92882c826d8126913e9dd2480b33e219e4c0f0ab1e183.gz",
+      "sha256": "c7fb94a9975878775df92882c826d8126913e9dd2480b33e219e4c0f0ab1e183",
+      "bytes": 30763943,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M25O75/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M30O70/start.pdb",
+      "object": "simulation/input_objects/63413fca6343e85bc5fa861c40856da3ecfcfa44606bbb19bbc4823796ea8924.gz",
+      "sha256": "63413fca6343e85bc5fa861c40856da3ecfcfa44606bbb19bbc4823796ea8924",
+      "bytes": 5883034,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M30O70/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M30O70/system.xml",
+      "object": "simulation/input_objects/a5ae902bddc16abb7e03991c87355888664e12c7042734f14189c3c89058f978.gz",
+      "sha256": "a5ae902bddc16abb7e03991c87355888664e12c7042734f14189c3c89058f978",
+      "bytes": 33398103,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M30O70/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M50O0/start.pdb",
+      "object": "simulation/input_objects/020605473d35323e8f7698829ce5784b9fa7f0c05d31f4fc4e976a47b591153d.gz",
+      "sha256": "020605473d35323e8f7698829ce5784b9fa7f0c05d31f4fc4e976a47b591153d",
+      "bytes": 6403054,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M50O0/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M50O0/system.xml",
+      "object": "simulation/input_objects/bb34f0e6b9a8894ad2873326923947d10d1fcf12e748356f4eed68d6d2151025.gz",
+      "sha256": "bb34f0e6b9a8894ad2873326923947d10d1fcf12e748356f4eed68d6d2151025",
+      "bytes": 35061472,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M50O0/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M50O0D1/start.pdb",
+      "object": "simulation/input_objects/d6cad39b86c5b78ad0b9b0260660388a3b42829e3f69253b528601dbf549c6b3.gz",
+      "sha256": "d6cad39b86c5b78ad0b9b0260660388a3b42829e3f69253b528601dbf549c6b3",
+      "bytes": 6435454,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M50O0D1/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M50O0D1/system.xml",
+      "object": "simulation/input_objects/5e4f2f189d442318ae320bb7e4771bced9bebeb914d9dfbc40797900576ca15b.gz",
+      "sha256": "5e4f2f189d442318ae320bb7e4771bced9bebeb914d9dfbc40797900576ca15b",
+      "bytes": 35514930,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M50O0D1/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M50O50/start.pdb",
+      "object": "simulation/input_objects/f3c196cdaed1ac220043d638c2055d5a28a69ea823cea60adf7bcac4aad80a43.gz",
+      "sha256": "f3c196cdaed1ac220043d638c2055d5a28a69ea823cea60adf7bcac4aad80a43",
+      "bytes": 7861054,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M50O50/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M50O50/system.xml",
+      "object": "simulation/input_objects/d12f146f0e48a9a18717dcfe6481e6c13c8d60255cd32f83313f89a138a7aa21.gz",
+      "sha256": "d12f146f0e48a9a18717dcfe6481e6c13c8d60255cd32f83313f89a138a7aa21",
+      "bytes": 43934746,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M50O50/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M5O95/start.pdb",
+      "object": "simulation/input_objects/85a684f6fbcc6e1405f1f52237c6fa05898e1c7b3b63ac76dbdc255d4e059ae4.gz",
+      "sha256": "85a684f6fbcc6e1405f1f52237c6fa05898e1c7b3b63ac76dbdc255d4e059ae4",
+      "bytes": 3410509,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M5O95/start.pdb",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/tasks/work-2/M5O95/system.xml",
+      "object": "simulation/input_objects/55eacea5322f95188f08a8e3f10c15fa21eaf0f373e9257745b830666c6cd9fe.gz",
+      "sha256": "55eacea5322f95188f08a8e3f10c15fa21eaf0f373e9257745b830666c6cd9fe",
+      "bytes": 20232510,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M5O95/system.xml",
+      "kind": "production_input"
+    },
+    {
+      "path": "simulation/dna_only/work/D1/start.pdb",
+      "object": "simulation/input_objects/7b7c09965550dc5a662643e3cc6d9c387cf8cddc18548b68319486078898a43c.gz",
+      "sha256": "7b7c09965550dc5a662643e3cc6d9c387cf8cddc18548b68319486078898a43c",
+      "bytes": 32404,
+      "source": "work/D1/start.pdb",
+      "kind": "dna_only_input"
+    },
+    {
+      "path": "simulation/dna_only/work/D1/system.xml",
+      "object": "simulation/input_objects/8fcd284d672d3f12519cf5da92e038c4472284cbb767f70244c62ddc24beaca6.gz",
+      "sha256": "8fcd284d672d3f12519cf5da92e038c4472284cbb767f70244c62ddc24beaca6",
+      "bytes": 466327,
+      "source": "work/D1/system.xml",
+      "kind": "dna_only_input"
+    },
+    {
+      "path": "simulation/dna_only/work-1/D1/start.pdb",
+      "object": "simulation/input_objects/30dae079bf730aa05166f7dc8eca6e0625907d8355a1b82455768eb6a44c9ba4.gz",
+      "sha256": "30dae079bf730aa05166f7dc8eca6e0625907d8355a1b82455768eb6a44c9ba4",
+      "bytes": 32404,
+      "source": "work-1/D1/start.pdb",
+      "kind": "dna_only_input"
+    },
+    {
+      "path": "simulation/dna_only/work-1/D1/system.xml",
+      "object": "simulation/input_objects/8fcd284d672d3f12519cf5da92e038c4472284cbb767f70244c62ddc24beaca6.gz",
+      "sha256": "8fcd284d672d3f12519cf5da92e038c4472284cbb767f70244c62ddc24beaca6",
+      "bytes": 466327,
+      "source": "work-1/D1/system.xml",
+      "kind": "dna_only_input"
+    },
+    {
+      "path": "simulation/dna_only/work-2/D1/start.pdb",
+      "object": "simulation/input_objects/401ab3889936f3e1c9fab57dabaf827200e20b46cd4cacb2dfd733e5de87dfd7.gz",
+      "sha256": "401ab3889936f3e1c9fab57dabaf827200e20b46cd4cacb2dfd733e5de87dfd7",
+      "bytes": 32404,
+      "source": "work-2/D1/start.pdb",
+      "kind": "dna_only_input"
+    },
+    {
+      "path": "simulation/dna_only/work-2/D1/system.xml",
+      "object": "simulation/input_objects/8fcd284d672d3f12519cf5da92e038c4472284cbb767f70244c62ddc24beaca6.gz",
+      "sha256": "8fcd284d672d3f12519cf5da92e038c4472284cbb767f70244c62ddc24beaca6",
+      "bytes": 466327,
+      "source": "work-2/D1/system.xml",
+      "kind": "dna_only_input"
+    },
+    {
+      "path": "simulation/tasks/work/M0O100D1/output.dcd",
+      "object": "simulation/input_objects/cf9c7d9c19a658b59e00196b1e7ea2b9cd3e8ced2fd472ca60a2c70bd4ad73b6.gz",
+      "sha256": "cf9c7d9c19a658b59e00196b1e7ea2b9cd3e8ced2fd472ca60a2c70bd4ad73b6",
+      "bytes": 873924,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M0O100D1/output.dcd",
+      "kind": "figure_snapshots_only"
+    },
+    {
+      "path": "simulation/tasks/work/M10O90/output.dcd",
+      "object": "simulation/input_objects/63904d2beaed9fdebaf322596f56c0012d608f86d8542d242e4e3228f90c5787.gz",
+      "sha256": "63904d2beaed9fdebaf322596f56c0012d608f86d8542d242e4e3228f90c5787",
+      "bytes": 578820,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90/output.dcd",
+      "kind": "figure_snapshots_only"
+    },
+    {
+      "path": "simulation/tasks/work/M10O90-S2/output.dcd",
+      "object": "simulation/input_objects/38ec54e36870411d2cce576b92fd1e6d57f8f14dc981ae9b1bb0d3f9d6ba6880.gz",
+      "sha256": "38ec54e36870411d2cce576b92fd1e6d57f8f14dc981ae9b1bb0d3f9d6ba6880",
+      "bytes": 578820,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90-S2/output.dcd",
+      "kind": "figure_snapshots_only"
+    },
+    {
+      "path": "simulation/tasks/work/M10O90D1/output.dcd",
+      "object": "simulation/input_objects/af5c1c2c614a48199ace94072795f72e332ed4902b273acb190d61e98cd77040.gz",
+      "sha256": "af5c1c2c614a48199ace94072795f72e332ed4902b273acb190d61e98cd77040",
+      "bytes": 1166964,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M10O90D1/output.dcd",
+      "kind": "figure_snapshots_only"
+    },
+    {
+      "path": "simulation/tasks/work/M15O85/output.dcd",
+      "object": "simulation/input_objects/602cca1fa49b6d71d539dc74775a983afede53c9e809b8341109b8e7e5a36d11.gz",
+      "sha256": "602cca1fa49b6d71d539dc74775a983afede53c9e809b8341109b8e7e5a36d11",
+      "bytes": 652080,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M15O85/output.dcd",
+      "kind": "figure_snapshots_only"
+    },
+    {
+      "path": "simulation/tasks/work/M20O80/output.dcd",
+      "object": "simulation/input_objects/643fed31d7240e0ab23e02765e27721393ee4b0f98aae23784812e3d339ee0ee.gz",
+      "sha256": "643fed31d7240e0ab23e02765e27721393ee4b0f98aae23784812e3d339ee0ee",
+      "bytes": 725340,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work/M20O80/output.dcd",
+      "kind": "figure_snapshots_only"
+    },
+    {
+      "path": "simulation/tasks/work-1/M10O90D1/output.dcd",
+      "object": "simulation/input_objects/6a66cb18ff4dad803f5c4552c41559a4ab0cfa7d82690530bbe50062908ad13d.gz",
+      "sha256": "6a66cb18ff4dad803f5c4552c41559a4ab0cfa7d82690530bbe50062908ad13d",
+      "bytes": 583620,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90D1/output.dcd",
+      "kind": "figure_snapshots_only"
+    },
+    {
+      "path": "simulation/tasks/work-1/M10O90D1-S2/output.dcd",
+      "object": "simulation/input_objects/e316a3a2366e0ed696e3bee83a61b4e303fa60dbfb93c92f8fd6eeef8a8a09db.gz",
+      "sha256": "e316a3a2366e0ed696e3bee83a61b4e303fa60dbfb93c92f8fd6eeef8a8a09db",
+      "bytes": 583620,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M10O90D1-S2/output.dcd",
+      "kind": "figure_snapshots_only"
+    },
+    {
+      "path": "simulation/tasks/work-1/M20O80D1/output.dcd",
+      "object": "simulation/input_objects/39b2cd92142d6dbd73676ea93247941cb081f6d3a864b7b15cb0dba418fd5104.gz",
+      "sha256": "39b2cd92142d6dbd73676ea93247941cb081f6d3a864b7b15cb0dba418fd5104",
+      "bytes": 1460004,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M20O80D1/output.dcd",
+      "kind": "figure_snapshots_only"
+    },
+    {
+      "path": "simulation/tasks/work-1/M50O0D1/output.dcd",
+      "object": "simulation/input_objects/c9bd0fe5875df1683c6fb3b60883ffa2f8fd2209dd3bcb076fb14003791ffbfa.gz",
+      "sha256": "c9bd0fe5875df1683c6fb3b60883ffa2f8fd2209dd3bcb076fb14003791ffbfa",
+      "bytes": 953700,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M50O0D1/output.dcd",
+      "kind": "figure_snapshots_only"
+    },
+    {
+      "path": "simulation/tasks/work-1/M50O50/output.dcd",
+      "object": "simulation/input_objects/9513e8ec792da62d1bc3f6749c30e5a9f23d3e0fe90e50255167b90339032fa1.gz",
+      "sha256": "9513e8ec792da62d1bc3f6749c30e5a9f23d3e0fe90e50255167b90339032fa1",
+      "bytes": 1164900,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-1/M50O50/output.dcd",
+      "kind": "figure_snapshots_only"
+    },
+    {
+      "path": "simulation/dna_only/work-2/D1/output.dcd",
+      "object": "simulation/input_objects/28dc6f1285b36aefa204811ce26f20d781607f1edca777165157eca80e61ff9b.gz",
+      "sha256": "28dc6f1285b36aefa204811ce26f20d781607f1edca777165157eca80e61ff9b",
+      "bytes": 5100,
+      "source": "work-2/D1/output.dcd",
+      "kind": "figure_snapshots_only"
+    },
+    {
+      "path": "simulation/tasks/work-2/M0O100/output.dcd",
+      "object": "simulation/input_objects/185310b2278403c5a4e42be6a0374b89992081e73af0e8dc36990267ed17f50c.gz",
+      "sha256": "185310b2278403c5a4e42be6a0374b89992081e73af0e8dc36990267ed17f50c",
+      "bytes": 432300,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M0O100/output.dcd",
+      "kind": "figure_snapshots_only"
+    },
+    {
+      "path": "simulation/tasks/work-2/M10O90D1-S2/output.dcd",
+      "object": "simulation/input_objects/41a35b46f29e844ea32cfba28a9f807c016d43f9e925effaa656897b1167c911.gz",
+      "sha256": "41a35b46f29e844ea32cfba28a9f807c016d43f9e925effaa656897b1167c911",
+      "bytes": 583620,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M10O90D1-S2/output.dcd",
+      "kind": "figure_snapshots_only"
+    },
+    {
+      "path": "simulation/tasks/work-2/M25O75/output.dcd",
+      "object": "simulation/input_objects/84f12e29bd7ae9528742c396c7ddb2772764d615ceb36b8b4f3f95eed41eb923.gz",
+      "sha256": "84f12e29bd7ae9528742c396c7ddb2772764d615ceb36b8b4f3f95eed41eb923",
+      "bytes": 798600,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M25O75/output.dcd",
+      "kind": "figure_snapshots_only"
+    },
+    {
+      "path": "simulation/tasks/work-2/M30O70/output.dcd",
+      "object": "simulation/input_objects/220d39cda4d437115e52425f1289267f1b8e3df009f142faee99e1468bf99c49.gz",
+      "sha256": "220d39cda4d437115e52425f1289267f1b8e3df009f142faee99e1468bf99c49",
+      "bytes": 871860,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M30O70/output.dcd",
+      "kind": "figure_snapshots_only"
+    },
+    {
+      "path": "simulation/tasks/work-2/M50O0/output.dcd",
+      "object": "simulation/input_objects/4103c8349f1544805fac4eb1d458e8126a8115bd4dde02d175194d0504cf516d.gz",
+      "sha256": "4103c8349f1544805fac4eb1d458e8126a8115bd4dde02d175194d0504cf516d",
+      "bytes": 948900,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M50O0/output.dcd",
+      "kind": "figure_snapshots_only"
+    },
+    {
+      "path": "simulation/tasks/work-2/M50O0D1/output.dcd",
+      "object": "simulation/input_objects/6866d5f8298b59dc16d1c84f00680203ac60df9e0ea12ae8f529ea449cdb6882.gz",
+      "sha256": "6866d5f8298b59dc16d1c84f00680203ac60df9e0ea12ae8f529ea449cdb6882",
+      "bytes": 953700,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M50O0D1/output.dcd",
+      "kind": "figure_snapshots_only"
+    },
+    {
+      "path": "simulation/tasks/work-2/M5O95/output.dcd",
+      "object": "simulation/input_objects/0a706fc5ac4ab7f88844c0d20f25f178b9a80f979261c22c2a154d5f67a71640.gz",
+      "sha256": "0a706fc5ac4ab7f88844c0d20f25f178b9a80f979261c22c2a154d5f67a71640",
+      "bytes": 505560,
+      "source": "Supplementary_Simulation/hpc_med1_balanced_design_20260731/tasks/work-2/M5O95/output.dcd",
+      "kind": "figure_snapshots_only"
+    }
+  ]
+}

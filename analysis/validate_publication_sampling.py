@@ -15,6 +15,8 @@ import run_balanced_analysis as base
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--tables", type=Path, default=base.DEFAULT_OUTPUT / "tables")
+    parser.add_argument("--output", type=Path,
+                        default=Path(__file__).resolve().parents[1] / "generated/validation/publication_1000frame_validation.csv")
     args = parser.parse_args()
     tables = args.tables.expanduser().resolve()
     checks = []
@@ -76,7 +78,8 @@ def main() -> None:
     for name in ["balanced_analysis_validation", "mechanism_validation", "definition_audit_validation"]:
         table = read(name)
         check(name, table["passed"].eq(True).all(), f"{len(table)} checks")
-    pd.DataFrame(checks).to_csv(tables / "publication_1000frame_validation.csv", index=False)
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    pd.DataFrame(checks).to_csv(args.output, index=False)
     print(f"Passed {len(checks)} sampling and numerical consistency checks")
 
 

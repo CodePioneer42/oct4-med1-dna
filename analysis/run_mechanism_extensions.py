@@ -274,6 +274,7 @@ def analyze_extension_task(
     frames = list(
         range(base.PRODUCTION_START, base.PRODUCTION_END + 1, base.STRIDE)
     )
+    stored_frames = base.trajectory_frame_indices(task.path, len(universe.trajectory), frames)
     histograms = {
         "radial_histogram": np.zeros(
             (
@@ -293,7 +294,7 @@ def analyze_extension_task(
     n_physical_proteins = len(molecules.protein_nodes)
 
     for frame_index, frame in enumerate(frames):
-        universe.trajectory[frame - 1]
+        universe.trajectory[stored_frames[frame_index]]
         positions_a = universe.atoms.positions.astype(np.float64)
         atom_pairs = atom_pairs_at_primary_cutoff(positions_a, task.box_nm)
         first = atom_pairs[:, 0]

@@ -1,0 +1,8 @@
+check,value,required,passed
+1000 sampled production frames per available trajectory,"min=1000, max=1000",1000,True
+1000 cluster frames at every cutoff,"min=1000, max=1000",1000,True
+all and only designated balanced-design tasks analyzed,"observed=51, expected=51",equal task sets,True
+M15O85 includes all three completed repeats,"analyzed=work,work-1,work-2","analyzed=work,work-1,work-2",True
+M50O50 includes all three completed repeats,"analyzed=work,work-1,work-2","analyzed=work,work-1,work-2",True
+only the designated third repeats use explicit inclusion,"M15O85/work-1,M50O50/work-2","M15O85/work-1,M50O50/work-2",True
+trajectory box length read from balanced-design manifest,8 distinct values,>1 (not a forced 75-nm box),True

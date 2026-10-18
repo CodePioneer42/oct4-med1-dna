@@ -1,0 +1,22 @@
+{
+  "schema": "oct4-med1-selected-frames-v1",
+  "purpose": "figure_snapshots_only",
+  "source_frame_count": 5000,
+  "source_frames_one_based": [
+    2841,
+    3717
+  ],
+  "source_frame_interval_ns": 1.0,
+  "source_time_us": [
+    2.841,
+    3.717
+  ],
+  "dcd_header_times": "index only; use source_frames_one_based for physical times",
+  "atom_count": 36400,
+  "source_size_bytes": 2184120276,
+  "source_header_sha256": "9126dc9cdb9eb70f39eb5f26187c859bcbf185f2fabd571d0d294364dc83bdb7",
+  "coordinate_records_sha256": "98e65ff868a23d888d1c45108c9f0c7e0ef35dc8ed68ce0d1e8708f84d5c4228",
+  "output_sha256": "cf9c7d9c19a658b59e00196b1e7ea2b9cd3e8ced2fd472ca60a2c70bd4ad73b6",
+  "coordinate_records_verified_identical": true,
+  "complete_original_trajectory": false
+}

@@ -1,7 +1,9 @@
 """Numerical tests for sampling, protein networks, and split-chain definitions."""
 
 from pathlib import Path
+import json
 import sys
+import tempfile
 import unittest
 
 import numpy as np
@@ -10,9 +12,34 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "analysis"))
 import run_balanced_analysis as base
 import run_mechanism_extensions as mechanism
+from trajectory_sampling import FRAME_MAP_NAME, FRAME_MAP_SCHEMA, trajectory_frame_indices
 
 
 class AnalysisTests(unittest.TestCase):
+    def test_selected_trajectory_keeps_original_frame_ids(self):
+        with tempfile.TemporaryDirectory() as folder:
+            directory = Path(folder)
+            self.assertEqual(
+                trajectory_frame_indices(directory, 5000, [1001, 4997]), (1000, 4996)
+            )
+            with self.assertRaises(RuntimeError):
+                trajectory_frame_indices(directory, 1000, [1001, 4997])
+            sidecar = directory / FRAME_MAP_NAME
+            metadata = {
+                "schema": FRAME_MAP_SCHEMA, "source_frame_count": 5000,
+                "source_frames_one_based": list(base.SAMPLED_FRAMES),
+            }
+            sidecar.write_text(json.dumps(metadata))
+            self.assertEqual(
+                trajectory_frame_indices(directory, 1000, [1001, 4997]), (0, 999)
+            )
+            with self.assertRaises(RuntimeError):
+                trajectory_frame_indices(directory, 1000, [1002])
+            metadata["source_frames_one_based"][1] = 1001
+            sidecar.write_text(json.dumps(metadata))
+            with self.assertRaises(RuntimeError):
+                trajectory_frame_indices(directory, 1000, [1001])
+
     def test_exact_production_grid(self):
         frames = pd.DataFrame({"system": "test", "replicate": "work", "frame": base.SAMPLED_FRAMES})
         self.assertEqual(len(frames), 1000)

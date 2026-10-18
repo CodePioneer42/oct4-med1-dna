@@ -1,0 +1,16 @@
+check,value,required,passed
+all mechanism tasks have 1000 sampled frames,"min=1000, max=1000",1000,True
+Full/Split parent graph has fixed 100 nodes,[100],[100],True
+Full/Split free-parent fractions are bounded probabilities,"min=0.0700, max=0.5300",0 <= value <= 1,True
+direct DNA occupancy respects the 10-MED1-parent/90-OCT4 design,MED1 range=1-9; OCT4 range=20-40,integer counts within 0-10 and 0-90,True
+Full/Split block graph has fixed 130 nodes,[130],[130],True
+"Full/Split block external graph has fixed 8,325 eligible pairs",[8325.0],[8325],True
+continuity-aware block graph contains only retained covalent links,"{'M10O90': 30, 'M10O90-S2': 20, 'M10O90-S4': 0, 'M10O90D1': 30, 'M10O90D1-S2': 20, 'M10O90D1-S4': 0}","{'M10O90': 30, 'M10O90D1': 30, 'M10O90-S2': 20, 'M10O90D1-S2': 20, 'M10O90-S4': 0, 'M10O90D1-S4': 0}",True
+all-protein radial histograms equal OCT4 plus MED1,max absolute error=1.22e-12,0,True
+every radial trajectory has 1000 valid DNA-linked frames,[1000],[1000],True
+frame-normalized trajectory CDFs end at one,max absolute error=5.44e-15,<=1e-12,True
+absolute radial bead-count profiles reproduce linked-bead totals,max absolute error=0,<=1e-12,True
+radial group statistics use three trajectories,[3],[3],True
+"direct, second, and third-plus neighbors partition the DNA-linked component",maximum partition error=2.78e-16,<=1e-12,True
+DNA-linked physical fractions reproduce balanced component counts,max absolute error=0,<=1e-12,True
+unsplit parent-level DNA occupancy reproduces physical-chain counts,max absolute error=0,0,True

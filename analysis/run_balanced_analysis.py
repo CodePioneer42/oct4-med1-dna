@@ -36,11 +36,12 @@ from MDAnalysis.lib.nsgrid import FastNS
 from scipy.spatial import cKDTree
 
 from publication_style import COLORS, FONT, AXIS_LABEL_SIZE, TICK_LABEL_SIZE, LEGEND_SIZE
+from trajectory_sampling import FRAME_MAP_NAME, trajectory_frame_indices
 
 
 HERE = Path(__file__).resolve().parent
 PROJECT_ROOT = HERE.parent
-PACKAGE_ROOT = Path(os.environ.get("OCT4_MED1_PACKAGE_ROOT", PROJECT_ROOT / "data")).expanduser().resolve()
+PACKAGE_ROOT = Path(os.environ.get("OCT4_MED1_PACKAGE_ROOT", PROJECT_ROOT / "simulation")).expanduser().resolve()
 DEFAULT_DATA_ROOT = Path(os.environ.get("OCT4_MED1_DATA_ROOT", PACKAGE_ROOT / "tasks")).expanduser().resolve()
 DNA_ONLY_ROOT = Path(os.environ.get("OCT4_MED1_DNA_ONLY_ROOT", PACKAGE_ROOT / "dna_only")).expanduser().resolve()
 DEFAULT_OUTPUT = Path(os.environ.get("OCT4_MED1_OUTPUT", HERE / "outputs")).expanduser().resolve()
@@ -482,7 +483,7 @@ def dna_shape(coords_nm: np.ndarray, box_nm: float) -> tuple[float, float, float
 def task_signature(task: Task) -> dict[str, object]:
     dcd = task.path / "output.dcd"
     metadata = json.loads((task.path / "run_metadata.json").read_text())
-    return {
+    signature = {
         "analysis_version": ANALYSIS_VERSION,
         "system": task.system,
         "replicate": task.replicate,
@@ -494,6 +495,10 @@ def task_signature(task: Task) -> dict[str, object]:
         "frames": list(range(PRODUCTION_START, PRODUCTION_END + 1, STRIDE)),
         "cutoffs_nm": CUTOFFS_NM,
     }
+    frame_map = task.path / FRAME_MAP_NAME
+    if frame_map.exists():
+        signature["trajectory_frames_sha256"] = sha256(frame_map)
+    return signature
 
 
 def cache_paths(cache_dir: Path, task: Task) -> dict[str, Path]:
@@ -533,13 +538,12 @@ def analyze_task(task: Task, cache_dir: Path, recompute: bool = False) -> tuple[
     universe = mda.Universe(str(task.path / "start.pdb"), str(task.path / "output.dcd"), topology_format="PDB", format="DCD")
     if len(universe.atoms) != task.expected_atoms:
         raise RuntimeError(f"{task.replicate}/{task.system}: atom count mismatch")
-    if len(universe.trajectory) < PRODUCTION_END:
-        raise RuntimeError(f"{task.replicate}/{task.system}: only {len(universe.trajectory)} frames")
 
     frame_rows: list[dict[str, object]] = []
     cluster_rows: list[dict[str, object]] = []
     degree_counts: dict[int, np.ndarray] = {}
     frames = list(range(PRODUCTION_START, PRODUCTION_END + 1, STRIDE))
+    stored_frames = trajectory_frame_indices(task.path, len(universe.trajectory), frames)
     site_arrays = {
         "oct4_dna": np.zeros(OCT4_LENGTH, dtype=np.float64),
         "med1_dna": np.zeros(MED1_LENGTH, dtype=np.float64),
@@ -572,7 +576,7 @@ def analyze_task(task: Task, cache_dir: Path, recompute: bool = False) -> tuple[
     protein_total_residues = int(molecules.molecule_length[protein_nodes].sum())
     atom_type = molecules.molecule_type[molecules.atom_molecule]
     for frame_index, frame in enumerate(frames):
-        universe.trajectory[frame - 1]
+        universe.trajectory[stored_frames[frame_index]]
         atom_pairs14, distances_nm = atom_pairs_with_distances(universe.atoms.positions, task.box_nm)
         cutoff_pairs: dict[float, tuple[np.ndarray, np.ndarray]] = {}
         for cutoff in CUTOFFS_NM:
@@ -1284,8 +1288,9 @@ def analyze_dna_only_control(dna_only_root: Path) -> pd.DataFrame:
         if not (path / "output.dcd").exists():
             raise FileNotFoundError(path / "output.dcd")
         universe = mda.Universe(str(path / "start.pdb"), str(path / "output.dcd"), topology_format="PDB", format="DCD")
-        for frame in range(PRODUCTION_START, min(PRODUCTION_END, len(universe.trajectory)) + 1, STRIDE):
-            universe.trajectory[frame - 1]
+        stored_frames = trajectory_frame_indices(path, len(universe.trajectory), SAMPLED_FRAMES)
+        for frame, stored_frame in zip(SAMPLED_FRAMES, stored_frames):
+            universe.trajectory[stored_frame]
             rg, ree, asphericity = dna_shape(universe.atoms.positions.astype(float) / 10, 75.0)
             rows.append(
                 {
@@ -1467,7 +1472,8 @@ def build_spatial_snapshot(
         topology_format="PDB",
         format="DCD",
     )
-    universe.trajectory[frame - 1]
+    stored_frame = trajectory_frame_indices(task.path, len(universe.trajectory), [int(frame)])[0]
+    universe.trajectory[stored_frame]
     coordinates_nm = universe.atoms.positions.astype(np.float64) / 10.0
     wrapped_atoms = np.mod(coordinates_nm, task.box_nm)
     all_atom_pairs, all_distances = atom_pairs_with_distances(
